@@ -6,7 +6,7 @@ export default class PollingTime extends React.Component
     render()
     {
         return(
-            <table style={{position:"absolute", marginTop:"39%", marginLeft:"20%"}}>
+            <table style={{position:"absolute", marginTop:"39.5%", marginLeft:"20%", backgroundColor:"#f0f0f0"}}>
                 <tr>
                     <p style={{fontWeight:"400", margin:0, padding:0}}>Время опроса счетчиков</p>
                 </tr>
