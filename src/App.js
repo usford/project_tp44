@@ -4,6 +4,7 @@ import './App.css';
 
 import scheme from './scheme.svg';
 import PollingTime from './polling_time.js';
+import Line44 from './line44.js';
 
 class Main extends React.Component 
 {
@@ -19,6 +20,7 @@ class Main extends React.Component
     return (
       <div>
         <PollingTime/>
+        <Line44/>
 
         <button style={{position:"absolute", 
         boxShadow: "1.5px 1.5px", 
