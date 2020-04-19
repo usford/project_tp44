@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="47.712078mm"
+   height="161.54161mm"
+   viewBox="0 0 47.712078 161.54161"
+   version="1.1"
+   id="svg13927"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="ln0702404220632.svg">
+  <title
+     id="title14484">Линия от Рв до Р1</title>
+  <defs
+     id="defs13921" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-412.69258"
+     inkscape:cy="539.56119"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata13924">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Линия от Рв до Р1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-78.953485,-130.05063)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-971.78101,62.744227)"
+       id="ln0702404220632"
+       inkscape:label="#ln0702404220632 ">
+      <title
+         id="title2847">Линия от Рв до Р1</title>
+      <rect
+         ry="5.0275598e-16"
+         rx="5.0275598e-16"
+         y="759.02863"
+         x="3972.78"
+         height="104.40873"
+         width="177.32912"
+         id="rect2824-1"
+         style="opacity:1;vector-effect:none;fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000a0b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95686275" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2841"
+         d="M 4074.7028,254.38639 V 765.93395"
+         style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+    </g>
+  </g>
+</svg>

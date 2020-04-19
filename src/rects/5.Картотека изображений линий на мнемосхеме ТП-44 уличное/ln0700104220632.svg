@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="850mm"
+   height="500mm"
+   viewBox="0 0 850 500"
+   version="1.1"
+   id="svg2487"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="ln0700104220632.svg">
+  <title
+     id="title3133">Линия N</title>
+  <defs
+     id="defs2481" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="1971.4672"
+     inkscape:cy="927.42018"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g3054"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2484">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Линия N</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,203)">
+    <g
+       id="g3054"
+       style="stroke:#007bd8;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,-342.15711,-205.36052)">
+      <g
+         id="g10718"
+         inkscape:label="#ln0700104220632">
+        <title
+           id="title10720">Линия N</title>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path24986"
+           d="m 119.52014,256.57422 v 30.17904"
+           style="fill:none;stroke:#007bd8;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(3.7795276,0,0,3.7795276,1293.1922,776.16575)" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path24996"
+           d="m 223.80439,254.66763 0.0167,31.6276"
+           style="fill:none;stroke:#007bd8;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(3.7795276,0,0,3.7795276,1293.1922,776.16575)" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path25002"
+           d="m 301.80689,254.96494 -0.008,31.36033"
+           style="fill:none;stroke:#007bd8;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(3.7795276,0,0,3.7795276,1293.1922,776.16575)" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1116"
+           d="m 366.12006,252.6468 v 34.00308"
+           style="fill:none;stroke:#007bd8;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(3.7795276,0,0,3.7795276,1293.1922,776.16575)" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1122"
+           d="m 477.67124,251.17802 v 35.6342"
+           style="fill:none;stroke:#007bd8;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(3.7795276,0,0,3.7795276,1293.1922,776.16575)" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1126"
+           d="m 586.85582,252.36023 0.0334,34.39005"
+           style="fill:none;stroke:#007bd8;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(3.7795276,0,0,3.7795276,1293.1922,776.16575)" />
+        <path
+           style="fill:none;stroke:#007bd8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 1532.433,162.40725 V 368.46259 H 1339.6359 V 1859.7398 h 3141.1009"
+           id="ln0700104220632"
+           inkscape:connector-curvature="0">
+          <title
+             id="title2399">Линия N</title>
+        </path>
+        <path
+           style="fill:none;stroke:#007bd8;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 3989.453,147.84822 V 91.598225 h 259.7657 V 1858.7857"
+           id="path1138"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;stroke:#007bd8;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 4076.5624,862.69196 0.2679,997.63384"
+           id="path1140"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
