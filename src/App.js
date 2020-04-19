@@ -25,12 +25,8 @@ function replaceRect(id, state, type)
 
   var oldElement = doc.getElementById(id);
 
-
-
   newElement.setAttribute("transform", oldElement.getAttribute("transform"));
-  newElement.setAttribute("state", state);
-  newElement.setAttribute("type", type);
-  newElement.setAttribute("id", oldElement.getAttribute("id"));
+  newElement.setAttribute("id", newElement.getAttribute("id"));
 
 
   
@@ -112,12 +108,32 @@ class Main extends React.Component {
 
         //Смена линии
         doc.getElementById("g2218").addEventListener('click', (e) => {
-          doc.getElementById("path2841").style.stroke = "#780000";
+          var stroke = (doc.getElementById("path2841").style.stroke == "#780000" || doc.getElementById("path2841").style.stroke == "rgb(120, 0, 0)") ? "#00760b" : "#780000";
+          doc.getElementById("path2841").style.stroke = stroke;
         }); 
 
         //Смена устройства
         doc.getElementById("g2154").addEventListener('click', (e) => {
-          clickRect("0701904220632");
+          var rect = (doc.getElementById("0701904220632") == null) ? "0701904220631" : "0701904220632";
+          clickRect(rect);
+        }); 
+
+        //Линия А
+        doc.getElementById("g2149").addEventListener('click', (e) => {
+          var state = (doc.getElementById("tspan3836").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("tspan3836").innerHTML = state;
+        }); 
+
+        //Линия B
+        doc.getElementById("g2142").addEventListener('click', (e) => {
+          var state = (doc.getElementById("tspan3880").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("tspan3880").innerHTML = state;
+        }); 
+
+        //Линия C
+        doc.getElementById("g2135").addEventListener('click', (e) => {
+          var state = (doc.getElementById("tspan3906").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("tspan3906").innerHTML = state;
         }); 
         
         doc.doClickAction = (signal_id) => {
