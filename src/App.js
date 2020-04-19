@@ -16,6 +16,13 @@ class Main extends React.Component {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
         var doc = document.getElementById('svgObject').contentDocument;
+        var elem = document.getElementById("svgObject");
+
+        
+        if (!document.fullscreenElement) {
+          elem.requestFullscreen();
+        }
+        
         doc.doClickAction = (signal_id) => {
           console.log(signal_id);
           this.setState({fontSize: 27});

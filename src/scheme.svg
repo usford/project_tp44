@@ -9,7 +9,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="scheme.svg"
    viewBox="0 0 5767.5589 2184.567"
    height="578mm"
@@ -1092,21 +1092,2058 @@
          in2="result91"
          in="SourceGraphic" />
     </filter>
+    <filter
+       id="filter2443-2"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-0"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-9"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-48"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-9"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-4"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-15"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-3"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-0"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-3"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2538-4"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2443-0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-9"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-0"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-5"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-8"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-0"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-6"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-1"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-6"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-6"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-1"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-7"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-6"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-6"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-2"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-6"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-2"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-1"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-1"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-4"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-1-7"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-7-1"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-6-3"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-6-3"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-2-6"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-6-0"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-2-8"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-1-2"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-1-9"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-4-6"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-1-0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-7-8"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-6-5"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-6-8"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-2-5"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-6-7"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-2-3"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-1-1"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-1-0"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-4-0"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-1-2"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-7-6"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-6-52"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-6-4"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-2-2"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-6-8"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-2-6"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-1-9"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-1-4"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-4-3"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2538-4-5"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-9"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-1"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-1"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-0"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-7"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-1"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-3"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-98"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-5"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-19"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-2"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-0"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-10"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-9"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-7"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-19"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-6"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-08"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-1"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-5"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-9-0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-7-6"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-19-0"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-6-7"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-08-6"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-1-5"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-5-3"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-9-0-9"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-7-6-8"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-19-0-9"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-6-7-8"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-08-6-8"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-1-5-8"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-5-3-5"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-9-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-7-7"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-19-3"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-6-8"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-08-5"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-1-4"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-5-8"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-5-6-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-0-9-8"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-2-1-5"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-4-1-7"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-2-0-6"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-2-7-0"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-4-1-1"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-1"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-6"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-0"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-9"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-62"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-0"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-8"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-1-1"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-6-2"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-0-3"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-9-2"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-62-2"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-0-4"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-8-7"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-58"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-58-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4-7"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7-4"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6-9"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1-5"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4-3"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3-3"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-58-6-8"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4-7-0"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7-4-7"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6-9-9"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1-5-6"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4-3-7"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3-3-7"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-5"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-9"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-9"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-4"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-3"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-3"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-1"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-6"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-2"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-6"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-4"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-99"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-2"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-41"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-39"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-1"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-8"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-0"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-3"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-48"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-0"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-5"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-1"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-2"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-3"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-3"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-9"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-19"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-1"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8-4"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4-0"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1-0"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0-8"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9-0"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1-7"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6-6"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0-3"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1-1"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5-0"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8-4-8"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4-0-2"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1-0-4"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0-8-7"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9-0-1"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1-7-1"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6-6-2"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0-3-9"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1-1-5"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5-0-8"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8-4-9"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4-0-5"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1-0-3"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0-8-78"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9-0-17"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1-7-5"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6-6-1"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0-3-2"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1-1-3"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5-0-5"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8-4-96"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4-0-4"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1-0-49"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0-8-0"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9-0-9"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1-7-11"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6-6-6"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0-3-3"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1-1-7"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5-0-1"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8-4-96-3"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4-0-4-9"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1-0-49-1"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0-8-0-5"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9-0-9-7"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1-7-11-9"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6-6-6-5"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0-3-3-3"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1-1-7-5"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5-0-1-1"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2443-7-8-4-96-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-8-4-0-4-3"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-4-1-0-49-7"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-81-0-8-0-0"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-88-9-0-9-77"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-62-1-7-11-1"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-5-6-6-6-8"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-34-0-3-3-4"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-3-1-1-7-7"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-63-5-0-1-2"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter2538-4-58-2"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4-2"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7-9"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6-4"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1-4"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4-9"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3-6"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-58-2-6"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4-2-1"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7-9-7"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6-4-1"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1-4-6"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4-9-2"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3-6-8"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-58-2-6-5"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4-2-1-2"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7-9-7-5"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6-4-1-5"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1-4-6-2"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4-9-2-5"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3-6-8-8"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2538-4-58-2-6-9"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Inset">
+      <feMorphology
+         id="feMorphology2526-2-4-2-1-1"
+         radius="3.6"
+         operator="dilate"
+         in="SourceAlpha"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2528-3-7-9-7-1"
+         result="result0"
+         in="result1"
+         stdDeviation="3.6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2532-2-6-4-1-4"
+         surfaceScale="-5">
+        <feDistantLight
+           id="feDistantLight2530-6-1-4-6-0"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite2534-8-4-9-2-0"
+         result="result91"
+         operator="in"
+         in2="result0" />
+      <feComposite
+         id="feComposite2536-5-3-6-8-1"
+         in2="result91"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter2443-0-0-5-7"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       inkscape:menu="Bevels"
+       inkscape:label="Combined Lighting">
+      <feGaussianBlur
+         id="feGaussianBlur2425-5-9-9-96"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="6" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2429-97-5-5-3"
+         result="result5"
+         surfaceScale="4"
+         diffuseConstant="1"
+         lighting-color="#ffffff">
+        <feDistantLight
+           id="feDistantLight2427-8-2-0-40"
+           azimuth="235"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k3="0"
+         k2="0"
+         id="feComposite2431-7-2-6-0"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         in="result5"
+         in2="SourceGraphic"
+         k1="1.4" />
+      <feGaussianBlur
+         id="feGaussianBlur2433-6-7-1-2"
+         stdDeviation="6"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting2437-3-1-8-3"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="25">
+        <feDistantLight
+           id="feDistantLight2435-4-4-8-04"
+           elevation="45"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite2439-09-6-5-0"
+         result="result4"
+         in2="result1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite2441-0-9-6-8"
+         in="result4"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in" />
+    </filter>
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
      inkscape:current-layer="svg1388"
-     inkscape:window-maximized="0"
-     inkscape:window-y="23"
-     inkscape:window-x="0"
-     inkscape:cy="1270.7569"
-     inkscape:cx="1125.9392"
-     inkscape:zoom="0.76095916"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="773.66146"
+     inkscape:cx="872.58654"
+     inkscape:zoom="0.5"
      units="mm"
      showgrid="false"
      id="namedview1390"
-     inkscape:window-height="1315"
-     inkscape:window-width="2560"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -1115,6 +3152,38 @@
      borderopacity="1"
      bordercolor="#666666"
      pagecolor="#ffffff" />
+  <rect
+     style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:59.00894928;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2101-5-4-9"
+     width="1023.7687"
+     height="683.9798"
+     x="236.2346"
+     y="394.42249"
+     rx="2.2763614e-15" />
+  <rect
+     style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:52.20295334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2101-5"
+     width="771.04462"
+     height="710.75513"
+     x="322.83301"
+     y="1104.4366"
+     rx="1.7144267e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118"
+     width="735.98535"
+     height="686.0871"
+     x="340.21457"
+     y="1113.629"
+     rx="1.7678677e-15" />
+  <rect
+     style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:19.64700508;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2101"
+     width="345.00003"
+     height="225.00021"
+     x="1489.0515"
+     y="1928.1455"
+     rx="7.6711158e-16" />
   <g
      style="fill:#00760b;fill-opacity:0.95686275"
      transform="translate(6.078533,-0.0427223)"
@@ -2712,8 +4781,7 @@
          height="61.871841"
          width="24.306795"
          id="rect3845" /></flowRegion><flowPara
-       id="flowPara3847" /></flowRoot>
-  <text
+       id="flowPara3847" /></flowRoot>  <text
      transform="matrix(0,-1.0004656,0.99953463,0,0,0)"
      id="text4769-3-2-1-4-9-7-21"
      y="1744.3508"
@@ -2915,8 +4983,7 @@
          height="50"
          width="214.0625"
          id="rect4077" /></flowRegion><flowPara
-       id="flowPara4079" /></flowRoot>
-  <text
+       id="flowPara4079" /></flowRoot>  <text
      transform="scale(0.95579249,1.0462522)"
      id="text4769-3-2-1-4-9-8-6-0-5-1"
      y="709.69843"
@@ -3219,8 +5286,7 @@
          height="62.5"
          width="78.125"
          id="rect4335" /></flowRegion><flowPara
-       id="flowPara4337" /></flowRoot>
-  <flowRoot
+       id="flowPara4337" /></flowRoot>  <flowRoot
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot1316"
      xml:space="preserve"><flowRegion
@@ -3230,8 +5296,7 @@
          height="104.96116"
          width="14.363106"
          id="rect1320" /></flowRegion><flowPara
-       id="flowPara1322" /></flowRoot>
-  <ellipse
+       id="flowPara1322" /></flowRoot>  <ellipse
      ry="4.2122569"
      rx="4.6265774"
      cy="300.30698"
@@ -3249,8 +5314,7 @@
          height="48.437496"
          width="42.1875"
          id="rect1946-2-1-4-0-0" /></flowRegion><flowPara
-       id="flowPara1948-1-5-2-1-4">101000</flowPara></flowRoot>
-  <path
+       id="flowPara1948-1-5-2-1-4">101000</flowPara></flowRoot>  <path
      inkscape:connector-curvature="0"
      id="path3797-9"
      d="M 2439.2292,224.31357 V 163.68469"
@@ -3982,15 +6046,6 @@
      height="204.31876"
      width="306.34821" />
   <image
-     style="stroke-width:0.4098309"
-     y="1928.1455"
-     x="1489.0515"
-     id="image2027"
-     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAABqCAYAAACcTS5BAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD d0lEQVR42u2cW47CMAxFWSw/7Iq9sQF2MKNqhDRIediO3TrJsXQ1Q6BNmlOnSSn39n6/f9AeutEJ wP5783b7Eh22OOzWawRstBrs1hBfKq+dKNJ99vZd2lbbRkv5Ftfs2utWea0DpaOIpU6P8l47tsjs FtRSlkn+ZoK92mQ1BLZkuLYM41fBXmXuEg67VK79/+phfBvYkgmLxwRNc73s7Tt6grYkbE3Wpzw4 lorABjYCNgI2Wgn28/lEE+sIFezH44Em1Ov1ssEm5gtgAxvYwG7APm5UlMo+qkXrM63tWtt6lXvV 2zuu0jeC0m019Q7Dbh24pJGl15aD/r+tR7lXvdKTZOQEk+4rLLNHYGs6wQrPCttjPx7HCeyEsKXH Xcpc7z5bAnarg3r1emWZZ2ZHbTs9bO0+Ik6wUWCa97eFrd2npQ0e9QI7KDs0106vE2z7Yby2XNCs TXtZ2prYtMokn5csgaT1evXV5etsgtulBLAJYBPAJhLAPjZCc0oFm5g/eLqUp0sRsBGwEbDRSj/G 55eRwEbARsvB7nmP1QxytF5rPbuL3j6l3mpner1ZvWIuga0x2NF6qVjLpfVGGfNYvN5SwJZkqrZT pSOB1hTHkrma0cLL683aBx7GPeqllxX2WfZV0no92ya1+dL6rGlHrTTD+JleZZp2nNmG0cvC6cO4 xJdMO4x7T9AszonbT9C2X6ostswENrARX4QgYCN80BA+aAgfNIIfCRDAJs6AvZMPWqltUi+zkTaM th8fNIPzwoiXmbUNHu3HGivIQCeizcBOBFtqlWEddYD9c40P2qgJzkgbrNvig+YEW/u+NTvxQRPu w8sH7SrYo+3HB+3EYdxzNp4Kdm2ZMrsPWtTx9rb1aD930LiDBmxgAxvYBLCJFWDjJ4YPGjFJ8HQp T5ciYCNgH7rf7yhYqWATMXEseVPCZpnjq8/9jbSwuR76aRrYGiMZ/pYdFqaALfnheum7Wkz0vhNl mWEcx8RFhnFpZgObzO7+r7GvlLgaScznpK5QmnIye8A7zGK8F11uGb3I7E4Han1Ko2Fr/OPIbIMF ZKbM1rgqMhuvWFprrCMzDOMjzoRbzsZHfMq1tpPRE7QtMzu7u2CGZeAyma25w7abfeV0mc097k3u jaMNhnHcBP2VEjZugnFKBxtt8gwa4lFiBGwEbARsFKNfoaiiXYYqZuIAAAAASUVORK5CYII= "
-     preserveAspectRatio="none"
-     height="225.00002"
-     width="345" />
-  <image
      style="stroke-width:0.46808758"
      y="1927.7262"
      x="1990.1178"
@@ -4037,8 +6092,7 @@
          height="211"
          width="541"
          id="rect5807" /></flowRegion><flowPara
-       id="flowPara5809" /></flowRoot>
-  <flowRoot
+       id="flowPara5809" /></flowRoot>  <flowRoot
      style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot5811"
      xml:space="preserve"><flowRegion
@@ -4048,11 +6102,10 @@
          height="123"
          width="263"
          id="rect5815" /></flowRegion><flowPara
-       id="flowPara5817" /></flowRoot>
-  <image
-     style="stroke-width:0.588927"
-     y="1105.8199"
-     x="321.58127"
+       id="flowPara5817" /></flowRoot>  <image
+     style="stroke-width:0.58892697"
+     y="132.76137"
+     x="4611.5146"
      id="image2477"
      xlink:href="data:image/png;base64,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 "
      preserveAspectRatio="none"
@@ -4065,11 +6118,11 @@
      preserveAspectRatio="none"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAEgCAIAAAACNSInAAAAAXNSR0IArs4c6QAAAARnQU1BAACx jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAB3CSURBVHhe7Z1hkiOpkoTnsPunb7FH2bvNBd4N 3kalU9FRAQRZITKVIP+sTe04FFKBp5verM3OP/8hhJAtYJ0RQjaBdUYI2QTWGSFkE1hnhJBN6NbZ /xFCyMMo9dQhqrP/EkLIY0AplYZqMaizMiCEkHfDOiOEbALrjBCyCawzQsgmsM4IIZvAOiOEbALr jBCyCawzQsgmsM4IIZuwRp3985Pinib3U4TsBJ4CS88XMNWkuaBp3s9KdVbrIVgslDEhn039ODjH DR2YFcr4oFgPeMp2rrPzKwn5EOqHwjlu6MCsUMYHxXrAs7Z2nVkN1IFQMCuU8UHtCDBryvSBDu3U 66YDPijWQbEOakeAaSkTB9bpaeCGoLlMHadrMdTAOk6raGpQO0JtwrGo74SlNr9+8qCMD2pHgAmK dRA7TqtoagWmo55yjhtaMAWK1THfxUp1phS3dfTqqMiZDvVrMdG0qKkC6LAWTitqquhpFYF26JSK pqmip1VcZALrWK2oWYuhaVFTRU/XYqJZU085xw0tmALF6pjvYodvZ4qdVZEzHer3hGC1Eq90pkVN FUCHtXBaUVNFbQrWdNQ+HKV2BDWtqE3BmlZDWGLz64erH4cJrGO1omYthqZqpekAHTphiU07a02n HfWUc+wQWrC+ip75RnaoM6tBc+pXpkN9Jyx21moIS8+0qKkC6FCFagWmoqYK1Ra3wOJ8O1Stommq UG1pLphrAutYrahZi4mm1bWwWFM1hMUuUGA66innuKEC39Iz3wjrrG061HdCaM7WpjA0LWqqADpU 0TMVNVWoFqyvItCCHapW0TRVqBasr+IiE1jHagt8oEM79bppdS1OmoI1rVZRU085xw1rmgua5v2s VGdKcVu+CjcLRyjjg9oRYFqsr1rFRFOB41DfrumZChyH+naN1QCO4IYCHEUdO6vCYmebGljHaRVN DawDrcAExWqhC1TUpoJZoYy/aTpq9jSwjtMqhmZNPeUcN6xpLmia97NGnV3KQ27C4j6SG/4K97Nu eCdvfOsE8aeNZ8m7YJ0xmuQvCAMoVovhAvIWWGeEkE1gnRFCNoF1RgjZBNYZIWQTWGeEkE1gnRFC NoF1RgjZBNYZIWQTWGeEkE1gnRFCNmF+nYlPyJASl4oyTUhIictPxJ9fZ+ITEhDEjvkhQ+LyKYMW yTorA0JaBCFhfsiQdPmwzsh8gpAwP2RIunxYZ2Q+QUiYHzIkXT7z6wz/v6IsZYJ8DEFIgimXFjck n0O+fMrfFfkdTQqtJp9DEJJgyqYFWsCQfBT58il/V+R3NCm0mnwOQUiCKZsWaAFD8lHky6f8XZHf 0aTwvAZuCJrL1HG6FkMNrOO0iqYGcIQyPiiWQX0nLLX59ZMHZXxQOwJMUKyD2HFaRVMDOD2CkART ujMEwJRQxgfWgQbWgQbW6WlgHadVNDWAYykT3xS39VOqA9EzgXWgARxHmTuwjhWqgXWggToqlNo5 Q758yt8V+R3NLzDUKgLt0CkVTVNFT6u42rSoWYuhaVFTRU/XYqLZIwhJMKXbQgA3ZTWEYH1BtfXv NC3WVK2iqS3WdxpCsL6AoTI0VQeiNgXrC6rhg9o5Q758yt8V+R3NL9DUEII1HbUPR6kdQU0ralOw ptUQltj8+uHRj1vUrMXQVK00HaBDJyyxaWd7K3sEIQmmyr4HOsQUgCO4oaM5Ncu0s72VFmuqhrBg gVDGB8Vq/aDVjuMn/CxMpWkK8AU3VJomqKfU+drrN+TLp/xdkd/R/AK1trgFFufboWoVTVOFaktz wVyziS6oxUTT6lpYrKkawmJnzxCEJJjCWwh2CG1R/4ywWFO1Cos1VUNY7GwPu0C1Cgd8S+CfEU4r TVOAL9ghtKJmIFQDOOfJl0/5uyK3o/v0dggtWF9FoAU7VK2iaapQLVhfxdWmAz7QoZ163bS6FidN oTa/1v3UTYKQBFPYVrDDQJ8R002hNr/W/dSKNVWraGqL81WfFE4r1lQdiKYZCNUAznly5SN03ymx Y/nsLXTWrrQawBHcUICjqGNnVVjsbFMD6zitoqkBHKGMD4rVQheoqE0Fs0IZf9N01OxpYB2nVTQ1 gNMjCMkwP2XQGQLrQAPrQAPr9DSwjtMqmhrAsZSJb4rb+inVgeiZwDrQCkxLmTiwjhWqgXWggToQ ip36FYnyAd13SuzY/OhN8x7e+NZD4s8Wzz6fICTDRG7G6lf5FhLlA7oHnd6RBCDcoFgthgseThCS T8vP6lf5FtLlwzoj8wlCwvyQIenyYZ2R+QQhYX7IkHT5sM4y4H9BWHq+gKmPIggJ80OGpMuHdZan bivnuOHnEISE+SFD0uXDOstTt5Vz3PBzCELC/JAh6fL59DqzjVNrAKemnnWOG34OQUgS+cExWmrT rqy1Ys1aA+v0NKgdAL+JLlABMATWsbqmnsJ6oYwPinVQrINitcwyOKgdAaZQxgfFepl0+XQ/QXrH tbDXYLXSNEE95Rw3/ByCkCTyY49RtYqhabGmahUTzR5YAIr1y22tFuxQtYqeVtE0VeTM10mXT/ft 0zuuBe7A0vRhOuop57jh5xCEJJEfe4yqVTRNCOGY/0txDbFpZ61psabVTbBAKOMD66iGsLgFwA5V q+hpFU0TwmJnrYawYMGLpMun+/bpHdfC3oFqFU476innuOHnEIQkkR97jKpV1KYFCxRrqlZhgWlR EwsUa1rdBAtAsTo7qAi0YIeqVfS0iqapwmJN1Srmki6f7kdJ77gW9j5Uq3DaUU85xw0/hyAkifzY Y1StojYFa1qsqVpFbQq1+bVuZPbQBSp6WkWgBTtUraKnVTRNFTnzddLl03379I5rYe+g1gpMRz3l HDf8HIKQJPJjj1E1hOJmnVasWWtgnZ4G1nFahcP6tQbWibWAoVLc0xuqaGpQOwJMoYwPivUy6fLp foL0joQEIZmVn7nPz7rcdg63vZGQLh/WGZlPEJJZ+bnz6Xoyt53DbW8kpMuHdUbmE4SE+SFD0uXD OiPzCULC/JAh6fJhnZH5BCFhfsiQdPmwzsh8gpAwP2RIunxYZ2Q+QUiYHzIkXT6sMzKfICTMDxmS Lh/WGZlPEBLmhwxJlw/rjMwnCAnzQ4aky4d1RuYThIT5IUPS5cM6I/MJQsL8kCHp8mGd3YSc21t4 y2UF73vdR8K/hQOKRdakF5JheFhnNyHn9ud2/v3337dcVhCSi/LjKoyNtjTp8mGd3YScm/SLHN2d fGydkaVJlw/r7Cbk3FhnwkX56dWZ+KCMfzpFfVMvAGV8gCF8oedAAAwVdezUsfALHUII8C3OxDKh jI0jFKu/rAyqoQBHKOOfO19Huny6ny+9I2ki58Y6Ey7KT/NJsyZ07VghnPmRnKPEC4LZV36kJ3Qo 9BxL7VxBuny6Hy69I2ki56Z1JplQ4Ag9LRwLC8U6B+usqG99chmof0Qdi/o6pULBLGg6RX3rY8lf 7BSodXN2KOTVoj5QfUwW4FxKuny6Hy6949WUQz0o1jXM3V/OzdYZhKC6FqC5+CSss6K+9cllQLUI xfqCderXJvWCWjdnX/mRntChYp16Tb3+CtLl0/1w6R0v5c6Tnbu/nNuZOrNToLn4JB9bZxhas+dY IcQLIOo18qqmOhgKVgtupRUCdO1YIfz2R3pCh8J552rS5dP9cOkdL+W2k60v8kXk3IZ1Zn3Fms0F AZ9TZ8JxfoViGbOMO05RB5gVdAghQJ9xIACGinVUHwu/0CGE0DOVYp3YpHYggBsKcIQyPijWlaTL p/vh0jteij1N1bV5xoFQ4Chwaj+NnNvwn53ZoeLWFHWOj6qzj0KSUNRsrtv5POny6X709I6XYs9a dW3mHCWYSiPnxv+xKbw3P9sgSShqNtftfJ50+XQ/enrHS7FnrdoKaAgFzrHkxxo4gtVCMJVGzo3/ pwDhvfkhS5Aun+6zmt7xUuR5LspoiPoVBLMiFDigWN8U9zXk3E7WmXBGn4F1RlYkXT7dZzW946XI 81xU1Uqq9RWoo2YgBKtB7SSQcxv+s7OiDjBsmlbEsM7IiqTLp/ugpne8DnmGizrQofWhcw6wGtRO Ajk3rbPbYJ2RFUmXT/dBTe9Imsi5sc4E5ocMSZcP6+wm5NzewlsuK3jfd30kshC9kAzDwzq7CTk3 +XZ2M/x2RlYkXT6ss5uQc5N+kaO7E9YZWZF0+bDObkLOjXUmMD9kSLp8WGc3IefGOhNWz498/kex 9GH26P1ew9+XdXYTcm5aZ/8Y4AhWK2oGK2WoFOsb1tl0cI8P4V33ezW9kAzDs16dlQf3oFizKbsf FOtl8BjI0QmyLYSg2ppKPeuW2WG9A+tsOvYe3w7rzLFYnckTW9RPPZcr3sU+BrZ3VFtTcbP1GuvU s6yz6dh7fDusMwfrrMEV72IfA9s7qq2p2Nl4gVAvYJ1Nx97j22GdOXaos9o840AocIAduqk09jE4 3rAARyjjb9RUodpizXoB62w67h4hQPOCLoV15ug+q+kdL0USU5TRtZlzFBkqxXqZ3mOg2poChm7W rRGsU8+yzqbTu0ehPv+rYZ05uo9resdLkcQUZbQV0BAKnGPJjzVwBKuFYCpN7zFQbU0Bw3q2uQy4 KYF1Np3ePQr1+V8N68zRfVbTO16KJKYooyHqVxDMilDgADt0U2l6j4FqawoYNmfPaMA6m07vHgV3 F0CHEII1gRsCmDGsM0f3WU3veClyzUUZfdz+X62vQB01AwHs0E2lcY+BAkco42/UdAJg2DStYJ1N p3ePQH0IATrnDGGdObrPanrH65A7LupAh9aHzjmKDJVivYx9DG6DdTYde48SDwigwyM4f6mnrKNY p55twjpzdB/X9I6kiX0MboN1Nh17j650dNirqvrVYp16tgnrzME6uwk5t7fwlssK3vddH2kW8vl/ VWfQ8qqmOhgKPWcI68zBOrsJPAY3w29n08E9yq8guNJxfQR0CCFYE+gQQoC2ThPWmYN1dhP2MbgN 1tl03nKPPVhnDtbZTbzlMWCdTect99iDdeZgnd3EWx4D1tl03nKPPVhnDtbZTdjH4Oufl3wDR7Ba UTNYKUOlWN+wzqZj7/HtsM4c69VZeXAPinUB5Q0OivUa9jGQPSEE1dZU6lm3zA7rHVhn07H3+HZY Z47F6kye2KJ+6rm4nae8kX0MbO+otqbiZus11qlnWWfTkc8vp/oclj7MHr2QDMPDOmtwxc5ybi/W WbxAqBe8K+5BSN6bn9f5OtaHUT7ZRqTLZ4c6q80zDoQCB7jhFOTcbJ0pcIQy/kZNFaot1qwXsM7I iqTLp/vcpne8FHlii/rZShACdM5R3HAKcm6/+naGoZt1awTr1LOsM7Ii6fLpPrfpHS9FntiijLYC GkKBcyz5sQaOYLXghlOQc3u9zqwAduimBNYZWZF0+XSf2/SOlyJPbFFGQ9SvIJgVocABbjgFObcp dSac0YB1RlYkXT7d5za946XIE1tU1Uqq9RWoo2YgQDzMIef24j87gwAYNk0rWGdkRdLl031Q0zte hzylRR3o0PrQOccijlKs15Bz0zq7DdYZWZF0+XSf1fSOpImcG+tMYH7IkHT5sM5uQs6NdSYwP2RI unxYZzch58Y6E5gfMiRdPqyzm5BzY50JzA8Zki4f1tlNyLlJudzPWy4rCAnzQ4aky4d1dhNyaO+i fIIbCULC/JAh6fJhnZH5BCFhfsiQdPmwzsh8gpAwP2RIunxYZ2Q+QUiYHzIkXT6sMzKfICTMDxmS Lh/WGZlPEBLmhwxJlw/rjMwnCAnzQ4akyydTZ4QMCeqMkCE31RkhhLwF1hkhZBNYZ4SQTWCdEUI2 gXVGCNmE+XUmPiE5mB9yErSNQ/z5dSY+IUNcVJgccpK4fMqgRbLOyoCQPi4qTA45Sbp8lq8z+TAb 8+fPn/J7LoiLytOSE3Mc/wR6N1imX2bphPRIl88OdVb+/65uhxw16+xdTMlVcINX7780vagMI7RJ nZXBXqweVheVpyUnZkqughu8ev+l6UVlGCHW2XNZPawuKk9LTsyUXAU3ePX+S9OLyjBCrLPnsnpY XVSelpyYKbkKbvDq/ZemF5VhhFhnz2X1sLqoPC05MVNyFdzg1fsvTS8qwwh9dJ39YyjWNeT2Xz2s LipPS07MMFdnYhPcYLD/P//7j/tTJipWT0iPXlSGEfrcOrNZHObyRXL7rx5WF5WnJSdmmKuvMruy zsqgGlpWT0iPXlSGEereR3rHmwliEWOzOMzlK2DzxFusHlYXlaclJybOldymUqwWwQ0G+7POelEZ Rqh7GekdbyaIRYwNouraPONAKHAUOLU/ZPWwuqg8LTkxca6Oey4Uq0Vwg8H+rLNeVIYR6l5Geseb CWIRY4OoujZzjhJMDVk9rC4qT0tOTJAruUe9SqtrghuM9j/6y/4pExWrJ6RHLyrDCEUnldvxZoJY xNgUqrYCGkKBcyz5sQaOYLUQTA1ZPawuKk9LTkyQK7lHvUqra4IbjPYPK8yyekJ69KIyjFB0E7kd byaIRYxNoWqI+hUEsyIUOKBY3xT3HKuH1UXlacmJCXJV7tJQJiqCG4z2Z51lyye6idyONxPEIsam UPURzr9aX4E6agZCsBrUTsDqYXVReVpyYnq5kht0l1g7SnCDQW5ZZ72oDCPUPbX0jjcTxCKgTqQT AnTOAVaD2glYPawuKk9LTkwvV3KD7hJrRwluMMgt66wXlWGEuqeW3vFmgliszuphdVF5WnJipuQq uMGr91+aXlSGEWKdPZfVw+qi8rTkxEzJVXCDV++/NL2oDCPEOnsuq4fVReVpyYmZkqvgBq/ef2l6 URlGiHX2XFYPq4vK05ITMyVXwQ1evf/S9KIyjNAOdSYfaVdYZ+9iVq6COisrXoN1Zlm+zuQ696b8 ngviovK05MSU059B2fEnZW4GZceNSJfP8nVGHouLCpNDTpIuH9YZuQoXFSaHnCRdPpk6I+QkdZ3B JyTmpjoj5CQuQkwUeRHWGXkbrDMyF9YZeRusMzIX1hl5G6wzMhfWGXkbrDMyl/l1Jj4hJ6nrDD4h MSU0PxF/fp2JT8gQFyEmh5wkLp8yaJGsszIgpI+LCpNDTpIun+XrTD7Mxiz9b+S5qDwtOTHH8U+g d4Nl+mX472xadqizfzdFjpp19i6m5Cq4wav3X5peVIYR2qTOymAvVg+ri8rTkhMzJVfBDV69/9L0 ojKMEOvsuaweVheVpyUnZkqughu8ev+l6UVlGCHW2XNZPawuKk9LTsyUXAU3ePX+S9OLyjBCrLPn snpYXVSelpyYKbkKbvDq/ZemF5VhhD66zvBfSATFmk3Z/aBYp1k9rC4qT0tOzDBXZ+40uMFgf/x3 Nu2fMlGxekJ69KIyjNDn1pnN4jCXaV55l9XD6qLytOTEDHMltzm80OAGg/1dhQWNtnpCevSiMoxQ 9z7SO95MEIsYm8VhLtO88i6rh9VF5WnJiYlzJVepFKtFcIPB/qyzXlSGEepeRnrHmwliEWODqLo2 zzgQChxgh25qyOphdVF5WnJi4lwd91woVovgBoP9WWe9qAwj1L2M9I43E8QixgZRdW3mHEWGSrFO s3pYXVSelpyYIFf2Nq2uCW4w2v/oL/unTFSsnpAevagMIxSdVG7HmwliEWNTqNoKaAgFzrHkxxo4 gtVCMDVk9bC6qDwtOTFBruQe9SqtrgluMNo/rDDL6gnp0YvKMELRTeR2vJkgFjE2haoh6lcQzIpQ 4AA7dFNDVg+ri8rTkhMT5Oq45B+UiYrgBqP9WWfZ8oluIrfjzQSxiLEpVH2E86/WV6COmoEAduim hqweVheVpyUnppcruUR3j7WjBDcY5JZ11ovKMELdU0vveDNBLALqRDohQOccRYZKsU6zelhdVJ6W nJheruqrrB0luMEgt6yzXlSGEeqeWnrHmwlisTqrh9VF5WnJiZmSq+AGr95/aXpRGUaIdfZcVg+r i8rTkhMzJVfBDV69/9L0ojKMEOvsuaweVheVpyUnZkqughu8ev+l6UVlGCHW2XNZPawuKk9LTsyU XAU3ePX+S9OLyjBCO9SZfKRdYZ29i1m5CuqsrHgN1pll+TqT69yb8nsuiIvK05ITU05/BmXHn5S5 GZQdNyJdPsvXGXksLipMDjlJunxYZ+QqXFSYHHKSdPlk6oyQk9R1Bp+QmJvqjJCTuAgxUeRFWGfk bbDOyFxYZ+RtsM7IXFhn5G2wzshcWGfkbbDOyFzm15n4hJykrjP4hMSU0PxE/Pl1Jj4hQ1yEmBxy krh8yqBFss7KgJA+LipMDjlJunyWrzP5MBuz9L+R56LytOTEHMc/gd4NlumX4b+zadmhzv7dFDlq 1tm7mJKr4Aav3n9pelEZRmiTOiuDvVg9rC4qT0tOzJRcBTd49f5L04vKMEKss+eyelhdVJ6WnJgp uQpu8Or9l6YXlWGEWGfPZfWwuqg8LTkxU3IV3ODV+y9NLyrDCLHOnsvqYXVReVpyYqbkKrjBq/df ml5UhhH66DrDfyERFOsCyhscFOscq4fVReVpyYkZ5urMhQY3GOyP/86m/VMmKlZPSI9eVIYR+tw6 s1kc5jKN2/lXb7R6WF1UnpacmGGu5CqHtxncYLC/q7Cg0VZPSI9eVIYR6t5HesebCWIRY7M4zGWa V3ZePawuKk9LTkycq68m+6ZYLYIbDPZnnfWiMoxQ9zLSO95MEIsYG0TVtXnGgVDgADf8FauH1UXl acmJiXOFiwbFahHcYLA/66wXlWGEupeR3vFmgljE2CCqrs2co7jhr1g9rC4qT0tOTJAruVO9Vqtr ghuM9j/6y/4pExWrJ6RHLyrDCEUnldvxZoJYxNgUqrYCGkKBcyz5sQaOYLXghr9i9bC6qDwtOTFB rr5uvcpAk+AGo/3DCrOsnpAevagMIxTdRG7HmwliEWNTqBqifgXBrAgFDnDDX7F6WF1UnpacmCBX uGVLmagIbjDan3WWLZ/oJnI73kwQixibQtVHOP9qfQXqqBkIEA9jVg+ri8rTkhPTy5XcYH2nzlGC GwxyyzrrRWUYoe6ppXe8mSAWAXUinRCgc45FHKVY51g9rC4qT0tOTC9X9T3WjhLcYJBb1lkvKsMI dU8tvePNBLFYndXD6qLytOTETMlVcINX7780vagMI8Q6ey6rh9VF5WnJiZmSq+AGr95/aXpRGUaI dfZcVg+ri8rTkhMzJVfBDV69/9L0ojKMEOvsuaweVheVpyUnZkqughu8ev+l6UVlGKEd6kw+0q6w zt7FrFwFdVZWvAbrzLJ8ncl17k35PRfEReVpyYkppz+DsuNPytwMyo4bkS6f5euMPBYXFSaHnCRd PqwzchUuKkwOOUm6fDJ1RkgOSVRRhITcVGeC+IQMYVTIK6BtLJfUGSGE3A/rjBCyCawzQsgmsM4I IZvAOiOEbALrjBCyCawzQsgmsM5Im//ZnfJ7ko1gnZE28sDL/W7Jnz9/WGdbwjojbVBn/26H5JZ1 tiusM9JG66yMd4F1tjGsM9LG1Rn+W0Srvwqss41hnZE2ts60C5YGvwXrbGNYZ6SN+3a2DayzjWGd kTb8dkaWg3VG2qS/nUlrgDJ+GKyzjWGdkTa5b2d25dMaDZ+HdbYxrDPSJv3tTHnmFzTW2cawzkib 3Lczi/6UCKDDWijqQCiYtcDE7BmwmHW2Mawz0uaVb2dH2zSSA9O+glpbB6jT+8GTsM42hnVG2lzx 7UzQIaaAHUIfSwrWt0I45gvF6oM1rLONYZ2RNq98OwOoD1s01ql90JtVp54CVgewzjaGdUbaJL6d uWUY1o2jTi0Et0ZwTj0FrG6CBayzjWGdkTa5b2dSGUqxKhOvQB1FfUUdJ4RjvlCsEayzjWGdkTaJ b2dprt4f4F1YZxvDOiNtct/OctxTZ4B1tjGsM9Lmzm9n98BvZ9vDOiNt3LczdMHqrwLrbGNYZ6SN q7NtYJ1tDOuMtEGdyS3vB+tsV+RyWWekgTzw8tjvCutsS1hnpI088HtTfk+yEawzQsgmsM4IIZvA OiOEbALrjBCyCawzQsgmsM4IIZvAOiOEbALrjBCyCawzQsgmsM4IIZvAOiOEbALrjBCyCawzQsgm sM4IIZvwUp0RQsijSNaZID9JCCGPotRTi6jOCCFkIVhnhJBNYJ0RQjaBdUYI2QTWGSFkE1hnhJBN YJ0RQrbgP//5f67m1W1xuKeTAAAAAElFTkSuQmCC "
      id="image672"
-     x="236.2346"
-     y="394.42249" />
+     x="4506.7725"
+     y="904.22839" />
   <rect
-     transform="matrix(0.17649985,0,0,0.05862308,327.76186,1255.2158)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572;filter:url(#filter2443)"
+     transform="matrix(0.16153719,0,0,0.0535469,348.08817,1261.7727)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443)"
      id="rect7165"
      width="771.04462"
      height="710.75531"
@@ -4079,37 +6132,18 @@
      ry="1.7546879e-15" />
   <text
      id="text2447"
-     y="1346.9843"
-     x="413.95129"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif"
-       y="1346.9843"
-       x="413.95129"
+     y="1299.1653"
+     x="438.28253"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.73006463"
+       y="1299.1653"
+       x="438.28253"
        id="tspan2445"
        sodipodi:role="line">Ручной</tspan></text>
   <rect
-     ry="1.7546879e-15"
-     rx="8.0620008e-16"
-     y="1107.9404"
-     x="313.09915"
-     height="710.75531"
-     width="771.04462"
-     id="rect7165-8"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572;filter:url(#filter2443-8)"
-     transform="matrix(0.28074608,0,0,0.05862308,446.40442,1255.2158)" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none"
-     x="545.40295"
-     y="1347.6912"
-     id="text2447-6"><tspan
-       y="1347.6912"
-       x="545.40295"
-       id="tspan2522"
-       sodipodi:role="line">Автоматический</tspan></text>
-  <rect
-     transform="matrix(0.98786066,0,0,1.164177,9.7001731,-221.83646)"
+     transform="matrix(0.94635959,0,0,0.73889175,54.223782,351.46445)"
      y="1324.644"
      x="869.95471"
      height="36.795666"
@@ -4124,12 +6158,1276 @@
      xml:space="preserve" />
   <text
      id="text2546"
-     y="1353.5549"
-     x="887.03845"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;"
+     y="1351.6964"
+     x="879.60468"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
-       y="1353.5549"
-       x="887.03845"
+       y="1351.6964"
+       x="879.60468"
        id="tspan2544"
        sodipodi:role="line">РУЧНОЙ</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.96375465px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.01591551"
+     x="741.13788"
+     y="1371.6453"
+     id="text2447-6-0"
+     transform="scale(1.0159155,0.98433386)"><tspan
+       sodipodi:role="line"
+       id="tspan1554"
+       x="741.13788"
+       y="1371.6453"
+       style="stroke-width:1.01591551">Состояние</tspan><tspan
+       sodipodi:role="line"
+       id="tspan1556"
+       x="741.13788"
+       y="1395.35"
+       style="stroke-width:1.01591551" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="739.21021"
+     y="1446.5559"
+     id="text2447-6-0-3"><tspan
+       sodipodi:role="line"
+       id="tspan1554-1"
+       x="739.21021"
+       y="1446.5559">Состояние</tspan><tspan
+       sodipodi:role="line"
+       id="tspan1556-1"
+       x="739.21021"
+       y="1469.8893" /></text>
+  <rect
+     transform="matrix(0.96257265,0,0,0.73582506,24.201369,450.88226)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4)" />
+  <text
+     id="text2546-3"
+     y="1447.0717"
+     x="861.06726"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan1633"
+       x="861.06726"
+       y="1447.0717">ВКЛЮЧЕНО</tspan></text>
+  <rect
+     transform="matrix(0.18636524,0,0,0.05215815,341.24572,1359.8454)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0)"
+     id="rect7165-6"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4"
+     y="1393.473"
+     x="434.10931"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan1698"
+       x="434.10931"
+       y="1393.473">Включить</tspan></text>
+  <text
+     id="text2447-4-6"
+     y="1361.4531"
+     x="399.04251"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan1737"
+       x="399.04251"
+       y="1361.4531">Ручной режим</tspan></text>
+  <rect
+     transform="matrix(0.25858675,0,0,0.05273758,456.47647,1262.3081)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-6)"
+     id="rect7165-60"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33329964px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none"
+     x="548.06836"
+     y="1347.4279"
+     id="text2447-6"><tspan
+       y="1347.4279"
+       x="548.06836"
+       id="tspan2522"
+       sodipodi:role="line">Автоматический</tspan></text>
+  <rect
+     transform="matrix(0.18636524,0,0,0.05215815,494.01211,1359.5151)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0)"
+     id="rect7165-6-0"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9"
+     y="1393.1544"
+     x="592.41925"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan1698-4"
+       x="592.41925"
+       y="1393.1544">Включить</tspan></text>
+  <text
+     id="text2447-4-6-1"
+     y="1499.9446"
+     x="385.01559"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.26018524px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.78507328"
+     xml:space="preserve"
+     transform="scale(0.99566549,1.0043534)"><tspan
+       sodipodi:role="line"
+       id="tspan1853"
+       x="385.01559"
+       y="1499.9446"
+       style="stroke-width:1.78507328">Автоматический режим</tspan></text>
+  <text
+     id="text2447-4-6-6"
+     y="1267.8616"
+     x="396.98248"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan1873"
+       x="396.98248"
+       y="1267.8616">Выбор режимов управления</tspan></text>
+  <text
+     id="text2447-4-6-1-7"
+     y="1479.73"
+     x="581.77167"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan1893"
+       x="581.77167"
+       y="1479.73">Текущее расписание</tspan></text>
+  <text
+     id="text2447-4-6-1-3"
+     y="1546.4346"
+     x="390.18457"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.02369881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76315522"
+     xml:space="preserve"
+     transform="scale(0.98344021,1.0168386)"><tspan
+       sodipodi:role="line"
+       id="tspan1913"
+       x="390.18457"
+       y="1546.4346"
+       style="stroke-width:1.76315522">Время включения 1</tspan></text>
+  <text
+     id="text2447-4-6-1-3-2"
+     y="1585.4827"
+     x="388.71634"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.06799316px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76726043"
+     xml:space="preserve"
+     transform="scale(0.98573001,1.0144766)"><tspan
+       sodipodi:role="line"
+       id="tspan1933"
+       x="388.71634"
+       y="1585.4827"
+       style="stroke-width:1.76726043">Время выключения 1</tspan></text>
+  <text
+     id="text2447-4-6-1-3-4"
+     y="1629.3351"
+     x="387.91653"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.09758186px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77000272"
+     xml:space="preserve"
+     transform="scale(0.98725956,1.0129049)"><tspan
+       sodipodi:role="line"
+       id="tspan1943"
+       x="387.91653"
+       y="1629.3351"
+       style="stroke-width:1.77000272">Время включения 2</tspan></text>
+  <text
+     id="text2447-4-6-1-3-3"
+     y="1671.4"
+     x="387.38657"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.13794136px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77374351"
+     xml:space="preserve"
+     transform="scale(0.98934605,1.0107687)"><tspan
+       sodipodi:role="line"
+       id="tspan1953"
+       x="387.38657"
+       y="1671.4"
+       style="stroke-width:1.77374351">Время выключения 1</tspan></text>
+  <rect
+     transform="matrix(0.18636524,0,0,0.05215815,585.80124,1684.243)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5)"
+     id="rect7165-6-0-3"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2"
+     y="1704.6675"
+     x="696.24225"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2006"
+       x="696.24225"
+       y="1704.6675">Закрыть</tspan></text>
+  <rect
+     transform="matrix(0.18664519,0,0,0.04208495,816.48065,1502.8582)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1)"
+     id="rect7165-6-0-3-2"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-3"
+     y="1516.3046"
+     x="927.53613"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2071"
+       x="927.53613"
+       y="1516.3046">Установить</tspan></text>
+  <rect
+     transform="matrix(0.18664519,0,0,0.04208495,816.85566,1538.7333)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-7)"
+     id="rect7165-6-0-3-2-2"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-3-1"
+     y="1550.9233"
+     x="927.92474"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2071-0"
+       x="927.92474"
+       y="1550.9233">Установить</tspan></text>
+  <rect
+     transform="matrix(0.18664519,0,0,0.04208495,817.10566,1583.9833)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-0)"
+     id="rect7165-6-0-3-2-0"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-3-2"
+     y="1594.5889"
+     x="928.18384"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2071-3"
+       x="928.18384"
+       y="1594.5889">Установить</tspan></text>
+  <rect
+     transform="matrix(0.18664519,0,0,0.04208495,816.85566,1619.7333)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-2)"
+     id="rect7165-6-0-3-2-8"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-3-0"
+     y="1629.087"
+     x="927.9248"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2071-4"
+       x="927.9248"
+       y="1629.087">Установить</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,284.24968,626.32206)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5)" />
+  <text
+     id="text2447-4-9-2-3-2-9"
+     y="1515.9309"
+     x="638.19122"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2248"
+       x="638.19122"
+       y="1515.9309">21</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,283.86796,663.23377)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-4"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6)" />
+  <text
+     id="text2447-4-9-2-3-2-9-2"
+     y="1551.55"
+     x="637.79565"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463;"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2292">3</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,284.2215,707.42795)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-3)" />
+  <text
+     id="text2447-4-9-2-3-2-9-1"
+     y="1594.1968"
+     x="638.16205"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2248-4"
+       x="638.16205"
+       y="1594.1968">21</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,393.4695,626.11067)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-3"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9)" />
+  <text
+     id="text2447-4-9-2-3-2-9-3"
+     y="1515.7269"
+     x="751.37439"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463;"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2360">15</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,392.76239,662.17311)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-3-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0)" />
+  <text
+     id="text2447-4-9-2-3-2-9-3-9"
+     y="1550.5265"
+     x="750.6416"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463;"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2404">10</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,392.76239,743.49039)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-3-7-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-9)" />
+  <text
+     id="text2447-4-9-2-3-2-9-3-9-7"
+     y="1628.9963"
+     x="750.6416"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       y="1628.9963"
+       x="750.6416"
+       sodipodi:role="line"
+       id="tspan2404-5">10</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,392.7624,707.42795)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-3-8"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-6)" />
+  <text
+     id="text2447-4-9-2-3-2-9-3-5"
+     y="1594.1968"
+     x="750.6416"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       y="1594.1968"
+       x="750.6416"
+       sodipodi:role="line"
+       id="tspan2360-6">15</tspan></text>
+  <rect
+     transform="matrix(0.38060279,0,0,0.69812902,284.2215,743.4904)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-7-4-1"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-6)" />
+  <text
+     id="text2447-4-9-2-3-2-9-2-0"
+     y="1628.9963"
+     x="638.16205"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       y="1628.9963"
+       x="638.16205"
+       sodipodi:role="line"
+       id="tspan2292-6">3</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4"
+     y="1516.3234"
+     x="712.98718"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2550"
+       x="712.98718"
+       y="1516.3234">ч</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-0-6"
+     y="1515.9014"
+     x="829.0257"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2604"
+       x="829.0257"
+       y="1515.9014">мин</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-0-6-7"
+     y="1550.3501"
+     x="827.89172"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2604-9"
+       x="827.89172"
+       y="1550.3501">мин</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-0-6-3"
+     y="1596.7498"
+     x="828.25812"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2604-6"
+       x="828.25812"
+       y="1596.7498">мин</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-0-6-4"
+     y="1628.4788"
+     x="828.25812"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2604-0"
+       x="828.25812"
+       y="1628.4788">мин</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-9"
+     y="1551.3737"
+     x="713.14911"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2550-4"
+       x="713.14911"
+       y="1551.3737">ч</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-4"
+     y="1597.0908"
+     x="713.5155"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2550-6"
+       x="713.5155"
+       y="1597.0908">ч</tspan></text>
+  <text
+     id="text2447-4-6-1-7-4-7"
+     y="1629.1611"
+     x="713.14905"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+     xml:space="preserve"
+     transform="scale(0.96498318,1.0362875)"><tspan
+       sodipodi:role="line"
+       id="tspan2550-9"
+       x="713.14905"
+       y="1629.1611">ч</tspan></text>
+  <rect
+     transform="matrix(0.18581149,0,0,0.70380496,468.72533,310.70241)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-1)" />
+  <rect
+     transform="matrix(0.18581149,0,0,0.70380496,667.86499,310.54264)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-7-1"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-1-1)" />
+  <text
+     id="text2546-2"
+     y="1264.0924"
+     x="637.72052"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan2798"
+       x="637.72052"
+       y="1264.0924">Х</tspan></text>
+  <text
+     id="text2546-2-0"
+     y="1266.9442"
+     x="550.17255"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan2818"
+       x="550.17255"
+       y="1266.9442">ВКЛ.</tspan></text>
+  <text
+     id="text2546-2-0-1"
+     y="1267.2856"
+     x="734.23438"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan2838"
+       x="734.23438"
+       y="1267.2856">ВЫКЛ.</tspan></text>
+  <text
+     id="text2546-2-0-1-2"
+     y="1261.4069"
+     x="433.36868"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.14733887px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0257504"
+     xml:space="preserve"
+     transform="scale(1.0257504,0.97489608)"><tspan
+       sodipodi:role="line"
+       id="tspan2858"
+       x="433.36868"
+       y="1261.4069"
+       style="stroke-width:1.0257504">Разрешение на дистанционное управление</tspan></text>
+  <text
+     id="text2546-2-0-1-2-8"
+     y="1223.7316"
+     x="405.40588"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.18007278px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02750385"
+     xml:space="preserve"
+     transform="scale(1.0275038,0.97323236)"><tspan
+       sodipodi:role="line"
+       id="tspan2878"
+       x="405.40588"
+       y="1223.7316"
+       style="stroke-width:1.02750385">Дистанционное управление на ТП</tspan></text>
+  <rect
+     transform="matrix(0.96257265,0,0,0.73582506,9.5575812,198.59539)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58)" />
+  <text
+     id="text2546-3-9"
+     y="1194.7848"
+     x="846.42346"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       sodipodi:role="line"
+       id="tspan1633-7"
+       x="846.42346"
+       y="1194.7848">ВКЛЮЧЕНО</tspan></text>
+  <text
+     id="text2546-2-0-1-2-8-8"
+     y="1226.9611"
+     x="575.91687"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.16484642px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06755304"
+     xml:space="preserve"
+     transform="scale(1.067553,0.93672167)"><tspan
+       sodipodi:role="line"
+       id="tspan2940"
+       x="575.91687"
+       y="1226.9611"
+       style="stroke-width:1.06755304">Линия А ТП-44</tspan></text>
+  <rect
+     transform="matrix(1.9289871,0,0,1.0538478,-169.93283,567.83018)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73-8"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-6)" />
+  <rect
+     transform="matrix(1.9289871,0,0,1.0538478,-169.49538,653.2052)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73-8-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-6-8)" />
+  <text
+     id="text2447-4-6-1-3-3-3"
+     y="1971.447"
+     x="1530.1659"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77374351"
+     xml:space="preserve"
+     transform="scale(0.98934603,1.0107687)"><tspan
+       sodipodi:role="line"
+       id="tspan3032"
+       x="1530.1659"
+       y="1971.447">10.01.2020 20:15:10</tspan></text>
+  <text
+     id="text2447-4-6-1-3-3-3-4"
+     y="2148.4653"
+     x="1367.6113"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.76176262px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.97500622"
+     xml:space="preserve"
+     transform="scale(1.1016049,0.90776645)"><tspan
+       sodipodi:role="line"
+       id="tspan3068"
+       x="1367.6113"
+       y="2148.4653"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.76176262px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.97500622">Время опроса</tspan></text>
+  <text
+     id="text2447-4-6-1-3-3-3-4-3"
+     y="2242.7129"
+     x="1371.7346"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.76133156px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.97500622"
+     xml:space="preserve"
+     transform="scale(1.1016049,0.90776647)"><tspan
+       sodipodi:role="line"
+       id="tspan3088"
+       x="1371.7346"
+       y="2242.7129">Установка времени</tspan></text>
+  <text
+     id="text2447-4-6-1-3-3-3-1"
+     y="2056.2224"
+     x="1529.572"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77374351"
+     xml:space="preserve"
+     transform="scale(0.98934603,1.0107687)"><tspan
+       sodipodi:role="line"
+       id="tspan3108"
+       x="1529.572"
+       y="2056.2224">10.01.2020 15:30:20</tspan></text>
+  <rect
+     transform="matrix(0.32088945,0,0,0.060963,1428.3585,2030.0926)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-5)"
+     id="rect7165-6-0-3-29"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-34"
+     y="2254.3625"
+     x="1473.3501"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.37452316px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.90123451"
+     xml:space="preserve"
+     transform="scale(1.0604571,0.94298958)"><tspan
+       sodipodi:role="line"
+       id="tspan3161"
+       x="1473.3501"
+       y="2254.3625"
+       style="stroke-width:1.90123451">Пуск опроса</tspan></text>
+  <rect
+     transform="matrix(0.24026844,0,0,0.0819552,581.53761,874.12478)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-4)"
+     id="rect7165-6-0-3-1"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0"
+     y="952.12823"
+     x="731.9248"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.27202988px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70446169"
+     xml:space="preserve"
+     transform="scale(0.95070256,1.0518537)"><tspan
+       sodipodi:role="line"
+       id="tspan2006-1"
+       x="731.9248"
+       y="952.12823"
+       style="stroke-width:1.70446169">Закрыть</tspan></text>
+  <rect
+     transform="matrix(0.24012776,0,0,0.06690419,321.50808,814.74125)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7)"
+     id="rect7165-2"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5"
+     y="862.63379"
+     x="468.15024"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.83565903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3328"
+       x="468.15024"
+       y="862.63379"
+       style="stroke-width:1.67615294">Линия С</tspan></text>
+  <rect
+     transform="matrix(0.24012776,0,0,0.06690419,321.17483,738.28614)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8)"
+     id="rect7165-2-9"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1"
+     y="791.15497"
+     x="467.79379"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.83600108px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294;"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3413">Линия B</tspan></text>
+  <rect
+     transform="matrix(0.24012776,0,0,0.06690419,321.74159,662.66482)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-0)"
+     id="rect7165-2-0"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-6"
+     y="720.45557"
+     x="468.40002"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.83600108px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294;"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3411">Линия A</tspan></text>
+  <rect
+     transform="matrix(0.0778683,0,0,0.0663521,872.16205,739.74353)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4)"
+     id="rect7165-2-9-8"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1-5"
+     y="791.76227"
+     x="981.03937"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3478"
+       x="981.03937"
+       y="791.76227">A</tspan></text>
+  <rect
+     transform="matrix(0.0778683,0,0,0.0663521,872.09953,814.9727)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-8)"
+     id="rect7165-2-9-8-0"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1-5-0"
+     y="862.09497"
+     x="980.97253"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3478-5"
+       x="980.97253"
+       y="862.09497">A</tspan></text>
+  <rect
+     transform="matrix(0.0778683,0,0,0.0663521,871.09953,663.9727)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-9)"
+     id="rect7165-2-9-8-4"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1-5-5"
+     y="720.92316"
+     x="979.90289"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3478-6"
+       x="979.90289"
+       y="720.92316">A</tspan></text>
+  <rect
+     transform="matrix(0.0778683,0,0,0.0663521,951.59953,663.4727)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96)"
+     id="rect7165-2-9-8-41"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1-5-55"
+     y="720.45575"
+     x="1066.0072"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3593"
+       x="1066.0072"
+       y="720.45575">Р</tspan></text>
+  <rect
+     transform="matrix(0.0778683,0,0,0.0663521,951.59953,739.4727)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96-3)"
+     id="rect7165-2-9-8-41-0"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1-5-55-2"
+     y="791.50916"
+     x="1066.0072"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3593-7"
+       x="1066.0072"
+       y="791.50916">Р</tspan></text>
+  <rect
+     transform="matrix(0.0778683,0,0,0.0663521,951.09953,815.4727)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96-6)"
+     id="rect7165-2-9-8-41-9"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-0-5-1-5-55-1"
+     y="862.56244"
+     x="1065.4724"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3593-2"
+       x="1065.4724"
+       y="862.56244">Р</tspan></text>
+  <rect
+     transform="matrix(0.72327013,0,0,1.1027388,288.28518,-835.383)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2)" />
+  <text
+     id="text2546-3-9-5"
+     y="639.9245"
+     x="940.35413"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68283272px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795"
+     xml:space="preserve"
+     transform="scale(0.97658796,1.0239733)"><tspan
+       sodipodi:role="line"
+       id="tspan3734"
+       x="940.35413"
+       y="639.9245"
+       style="stroke-width:0.97658795">Неисп.</tspan></text>
+  <text
+     id="text2447-4-9-2-0-5-6-6"
+     y="570.65247"
+     x="404.0766"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       y="570.65247"
+       x="404.0766"
+       sodipodi:role="line"
+       id="tspan3411-0">Линия A</tspan></text>
+  <text
+     id="text2447-4-9-2-0-5-1-0"
+     y="605.4425"
+     x="403.85764"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       y="605.4425"
+       x="403.85764"
+       sodipodi:role="line"
+       id="tspan3413-2">Линия B</tspan></text>
+  <text
+     id="text2447-4-9-2-0-5-5"
+     y="641.45544"
+     x="404.75769"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.83565903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
+     xml:space="preserve"
+     transform="scale(0.93491269,1.0696186)"><tspan
+       sodipodi:role="line"
+       id="tspan3328-7"
+       x="404.75769"
+       y="641.45544"
+       style="stroke-width:1.67615294">Линия С</tspan></text>
+  <rect
+     transform="matrix(0.59287229,0,0,0.89796784,24.159213,-611.12303)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73-7-7"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2-6)" />
+  <text
+     id="text2546-3-9-5-7"
+     y="590.74341"
+     x="556.60303"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266487px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795"
+     xml:space="preserve"
+     transform="scale(0.97658796,1.0239733)"><tspan
+       sodipodi:role="line"
+       id="tspan3836"
+       x="556.60303"
+       y="590.74341">ВКЛ.</tspan></text>
+  <rect
+     transform="matrix(0.59287229,0,0,0.89796784,24.091693,-571.44148)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73-7-7-0"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2-6-5)" />
+  <text
+     id="text2546-3-9-5-7-0"
+     y="629.49591"
+     x="556.53387"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266551px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795;"
+     xml:space="preserve"
+     transform="scale(0.97658796,1.0239733)"><tspan
+       sodipodi:role="line"
+       id="tspan3880">ВЫКЛ.</tspan></text>
+  <rect
+     transform="matrix(0.59287229,0,0,0.89796784,25.091693,-531.94148)"
+     y="1324.644"
+     x="869.95471"
+     height="36.795666"
+     width="159.00984"
+     id="rect2524-4-73-7-7-9"
+     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2-6-9)" />
+  <text
+     id="text2546-3-9-5-7-5"
+     y="668.07111"
+     x="557.55786"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266551px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795;"
+     xml:space="preserve"
+     transform="scale(0.97658796,1.0239733)"><tspan
+       sodipodi:role="line"
+       id="tspan3906">ВЫКЛ.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.16016006px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02269506"
+     x="808.76892"
+     y="608.3443"
+     id="text2447-6-0-8"
+     transform="scale(1.0226951,0.97780858)"><tspan
+       sodipodi:role="line"
+       id="tspan3929"
+       x="808.76892"
+       y="608.3443"
+       style="stroke-width:1.02269506">Состояние контроллера</tspan><tspan
+       sodipodi:role="line"
+       id="tspan3931"
+       x="808.76892"
+       y="638.54449"
+       style="stroke-width:1.02269506" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97824323"
+     x="794.16382"
+     y="504.09311"
+     id="text2447-6-0-8-9"
+     transform="scale(0.97824329,1.0222406)"><tspan
+       sodipodi:role="line"
+       id="tspan3958"
+       x="794.16382"
+       y="504.09311">Изменение режима схемы</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97824323"
+     x="810.8858"
+     y="534.35034"
+     id="text2447-6-0-8-9-5"
+     transform="scale(0.97824329,1.0222406)"><tspan
+       sodipodi:role="line"
+       id="tspan3978"
+       x="810.8858"
+       y="534.35034">при неисп. контроллера</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.8801384px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98607427"
+     x="303.5434"
+     y="508.33939"
+     id="text2447-6-0-8-9-9"
+     transform="scale(0.98607435,1.0141223)"><tspan
+       sodipodi:role="line"
+       id="tspan4004"
+       x="303.5434"
+       y="508.33939"
+       style="stroke-width:0.98607427">Дистанцинное управление</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97824323"
+     x="458.15097"
+     y="533.5813"
+     id="text2447-6-0-8-9-5-6"
+     transform="scale(0.97824329,1.0222406)"><tspan
+       sodipodi:role="line"
+       id="tspan4006"
+       x="458.15097"
+       y="533.5813">на ТП</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.76060867px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98169452"
+     x="349.15143"
+     y="445.36154"
+     id="text2447-6-0-8-9-9-2"
+     transform="scale(0.98169459,1.0186467)"><tspan
+       sodipodi:role="line"
+       id="tspan4026"
+       x="349.15143"
+       y="445.36154"
+       style="stroke-width:0.98169452">Выбор линии для дистанцинного управления ТП-44</tspan></text>
+  <rect
+     transform="matrix(0.39827651,0,0,0.28617066,-70.607782,1625.502)"
+     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-7)"
+     id="rect7165-6-0-3-7"
+     width="771.04462"
+     height="710.75531"
+     x="313.09915"
+     y="1107.9404"
+     rx="8.0620008e-16"
+     ry="1.7546879e-15" />
+  <text
+     id="text2447-4-9-2-33"
+     y="2100.1335"
+     x="115.867"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40.49293137px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.87648356"
+     xml:space="preserve"
+     transform="scale(1.0466517,0.95542767)"><tspan
+       sodipodi:role="line"
+       id="tspan2057"
+       x="115.867"
+       y="2100.1335"
+       style="stroke-width:1.87648356">Выход</tspan></text>
+  <text
+     id="text2447-4-9-2-33-4"
+     y="2150.8748"
+     x="166.61247"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40.49333572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.87648356"
+     xml:space="preserve"
+     transform="scale(1.0466517,0.95542767)"><tspan
+       sodipodi:role="line"
+       id="tspan2089"
+       x="166.61247"
+       y="2150.8748">на</tspan></text>
+  <text
+     id="text2447-4-9-2-33-9"
+     y="2265.8501"
+     x="83.746872"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.70409775px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.93259096"
+     xml:space="preserve"
+     transform="scale(1.0779469,0.92768948)"><tspan
+       sodipodi:role="line"
+       id="tspan2099"
+       x="83.746872"
+       y="2265.8501"
+       style="stroke-width:1.93259096">сит. план</tspan></text>
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-9"
+     width="674.58093"
+     height="122.43611"
+     x="368.92914"
+     y="1162.4031"
+     rx="1.6203716e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-9-8"
+     width="674.742"
+     height="74.538521"
+     x="369.05289"
+     y="1306.1475"
+     rx="1.6207584e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-9-8-4"
+     width="674.742"
+     height="74.538521"
+     x="368.629"
+     y="1401.7976"
+     rx="1.6207584e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-9-8-4-3"
+     width="674.02692"
+     height="219.48744"
+     x="369.38623"
+     y="1497.8241"
+     rx="1.6190407e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5"
+     width="456.53458"
+     height="233.62859"
+     x="278.57364"
+     y="482.09741"
+     rx="1.0966152e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9"
+     width="456.53458"
+     height="233.62859"
+     x="756.73273"
+     y="481.75262"
+     rx="1.0966152e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9-1"
+     width="461.02063"
+     height="59.309898"
+     x="752.32898"
+     y="731.15356"
+     rx="1.1073909e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9-1-7"
+     width="461.02063"
+     height="59.309898"
+     x="752.48969"
+     y="806.91199"
+     rx="1.1073909e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9-1-2"
+     width="461.02063"
+     height="59.309898"
+     x="751.48969"
+     y="882.91199"
+     rx="1.1073909e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9-1-3"
+     width="461.02063"
+     height="59.309898"
+     x="278.48969"
+     y="730.91199"
+     rx="1.1073909e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9-1-0"
+     width="461.02063"
+     height="59.309898"
+     x="277.48969"
+     y="806.91199"
+     rx="1.1073909e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-9-1-75"
+     width="461.02063"
+     height="59.309898"
+     x="276.48969"
+     y="882.91199"
+     rx="1.1073909e-15" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2118-4-5-1"
+     width="994.59296"
+     height="657.52588"
+     x="253.20352"
+     y="407.38455"
+     rx="2.3890541e-15" />
 </svg>
