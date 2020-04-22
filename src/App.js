@@ -10,8 +10,10 @@ import Fullscreen from "react-full-screen";
 
 import {changeRect} from './changeRect.js';
 
+import changeAllElements  from './default_settings.js';
+
 //Замена ячеек на схеме
-function replaceRect(id, state, type)
+function replaceRect(id)
 {
   var doc = document.getElementById('svgObject').contentDocument;
 
@@ -21,11 +23,13 @@ function replaceRect(id, state, type)
 
   if (!selection) return;
 
+  console.log("LOL");
+
   var newElement = selection;
 
   var oldElement = doc.getElementById(id);
 
-  newElement.setAttribute("transform", oldElement.getAttribute("transform"));
+  //newElement.setAttribute("transform", oldElement.getAttribute("transform"));
   newElement.setAttribute("id", newElement.getAttribute("id"));
 
 
@@ -98,8 +102,9 @@ class Main extends React.Component {
               elem.style.cursor = "pointer";
           }
 
-          console.log(elem.getAttribute('id'));
+          //console.log(elem.getAttribute('id'));
         }
+        changeAllElements(doc);
 
         //Fullscreen
         doc.getElementById("g2045").addEventListener('click', (e) => {
@@ -114,7 +119,8 @@ class Main extends React.Component {
 
         //Смена устройства
         doc.getElementById("g2154").addEventListener('click', (e) => {
-          var rect = (doc.getElementById("0701904220632") == null) ? "0701904220631" : "0701904220632";
+          var rect = (doc.getElementById("0700404220633") == null) ? "0700404220631" : "0700404220633";
+          console.log(rect);
           clickRect(rect);
         }); 
 

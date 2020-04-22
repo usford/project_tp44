@@ -3337,9 +3337,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="1054.4305"
-     inkscape:cx="1795.4795"
-     inkscape:zoom="0.70710678"
+     inkscape:cy="1110.4171"
+     inkscape:cx="1558.9678"
+     inkscape:zoom="1"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -4387,26 +4387,36 @@
        id="path24767"
        inkscape:connector-curvature="0" />
   </g>
-  <rect
-     y="681.05127"
-     x="1488.6719"
-     height="59.765625"
-     width="115.625"
-     id="0701704220632"
-     style="fill:#00760b;fill-opacity:0.95726496;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+  <g
+     id="0701704220632">
     <title
-       id="title2385">KU1 выключен</title>
-  </rect>
-  <rect
-     y="877.73096"
-     x="1490.2344"
-     height="59.765625"
-     width="115.625"
-     id="0701804220632"
-     style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+       id="title2117">KU1 выключен</title>
+    <rect
+       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect22"
+       width="115.625"
+       height="59.765625"
+       x="1488.6719"
+       y="681.05127">
+      <title
+         id="title2385">KU1 выключен</title>
+    </rect>
+  </g>
+  <g
+     id="0701804220632">
     <title
-       id="title2387">kU2 выключен</title>
-  </rect>
+       id="title2110">KU2 выключен</title>
+    <rect
+       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect11"
+       width="115.625"
+       height="59.765625"
+       x="1490.2344"
+       y="877.73096">
+      <title
+         id="title2387">kU2 выключен</title>
+    </rect>
+  </g>
   <g
      id="0701904220632">
     <title
