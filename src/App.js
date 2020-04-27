@@ -33,7 +33,7 @@ function connectWs()
     for (var item of message.elements)
     {
       setTimeout(clickRect, count * 100, item);
-      count += 1;
+      count += 2;
     }
   }
 
@@ -62,8 +62,8 @@ function replaceRect(id, oldID)
   
 
   var oldElement = doc.getElementById(oldID);
-  console.log(`oldID: ${oldID}`);
-  console.log(`id: ${id}`)
+  //console.log(`oldID: ${oldID}`);
+  //console.log(`id: ${id}`)
 
   if (oldElement == null)
   {
@@ -89,10 +89,7 @@ export function clickRect(id)
   var oldElement = doc.getElementById(id);
 
   
-  var svgUrl = changeRect(id);
-
-  if (svgUrl === undefined) return 0;
-
+  var svgUrl = changeRect(id, doc);
   
 
   var newElement = document.createElement('div');
@@ -107,7 +104,7 @@ export function clickRect(id)
 
   parent.appendChild(newElement);
 
-  if (svgUrl.url != undefined)
+  if (svgUrl.url != 0)
   {
     setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
   }else
@@ -172,7 +169,7 @@ class Main extends React.Component {
         doc.getElementById("g2154").addEventListener('click', (e) => {
           //var rect = (doc.getElementById("0700404220633") == null) ? "0700404220631" : "0700404220633";
           //console.log(rect);
-          clickRect("0700704220631");
+          clickRect("0702204220631");
         }); 
 
         //Линия А
