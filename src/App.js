@@ -29,8 +29,12 @@ function connectWs()
 
     console.log(message);
 
-    var doc = document.getElementById('svgObject').contentDocument;
-    changeElements(doc, message);
+    var count = 1;
+    for (var item of message.elements)
+    {
+      setTimeout(clickRect, count * 100, item);
+      count += 1;
+    }
   }
 
   ws.onclose = () => 
@@ -45,13 +49,17 @@ function replaceRect(id, oldID)
   var doc = document.getElementById('svgObject').contentDocument;
 
   var doc2 = document.getElementById('svgObject2').contentDocument;
+  
 
   var selection = doc2.querySelector('g');
+  
 
   if (!selection) return;
 
 
   var newElement = selection;
+
+  
 
   var oldElement = doc.getElementById(oldID);
   console.log(`oldID: ${oldID}`);
@@ -59,7 +67,7 @@ function replaceRect(id, oldID)
 
   if (oldElement == null)
   {
-    document.getElementById("divSVGNew").remove();
+    document.getElementById("div" + id).remove();
     return;
   };
 
@@ -71,7 +79,7 @@ function replaceRect(id, oldID)
   var parentDiv = oldElement.parentNode;
 
   parentDiv.replaceChild(newElement, oldElement);
-  document.getElementById("divSVGNew").remove();
+  document.getElementById("div" + id).remove();
 }
 
 //Обработка входящего запроса на изменение устройства
@@ -81,14 +89,14 @@ export function clickRect(id)
   var oldElement = doc.getElementById(id);
 
   
-  var svgUrl = changeRect(id, "websocket");
+  var svgUrl = changeRect(id);
 
   if (svgUrl === undefined) return 0;
 
   
 
   var newElement = document.createElement('div');
-  newElement.setAttribute("id", "divSVGNew");
+  newElement.setAttribute("id", "div"+ id);
   newElement.setAttribute("style", 'opacity:0');
 
   newElement.innerHTML = `<object id="svgObject2" data=${svgUrl.url} type="image/svg+xml" width="1" height="1"> \
@@ -98,7 +106,15 @@ export function clickRect(id)
   var parent = document.getElementById("divSVG").parentNode;
 
   parent.appendChild(newElement);
-  setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
+
+  if (svgUrl.url != undefined)
+  {
+    setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
+  }else
+  {
+    setTimeout(() => {document.getElementById("div" + id).remove();}, 100)
+  }
+  
 
   
 }
@@ -107,6 +123,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {fontSize: 17, isFull: false};
+    connectWs();
   }
 
   goFull = () => {
@@ -138,7 +155,6 @@ class Main extends React.Component {
           //console.log(elem.getAttribute('id'));
         }
 
-        connectWs();
         //changeAllElements(doc);
 
         //Fullscreen
