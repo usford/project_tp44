@@ -10,10 +10,37 @@ import Fullscreen from "react-full-screen";
 
 import {changeRect} from './changeRect.js';
 
-import changeAllElements  from './default_settings.js';
+import {changeAllElements, changeElements}  from './default_settings.js';
+
+
+//Подключение по вебсокету
+function connectWs()
+{
+  const ws = new WebSocket('ws://localhost:8888');
+
+  ws.onopen = () => 
+  {
+    console.log('connected WS');
+  }
+
+  ws.onmessage = evt => 
+  {
+    const message = JSON.parse(evt.data);
+
+    console.log(message);
+
+    var doc = document.getElementById('svgObject').contentDocument;
+    changeElements(doc, message);
+  }
+
+  ws.onclose = () => 
+  {
+    console.log('disconnected');
+  }
+}
 
 //Замена ячеек на схеме
-function replaceRect(id)
+function replaceRect(id, oldID)
 {
   var doc = document.getElementById('svgObject').contentDocument;
 
@@ -23,18 +50,24 @@ function replaceRect(id)
 
   if (!selection) return;
 
-  console.log("LOL");
 
   var newElement = selection;
 
-  var oldElement = doc.getElementById(id);
+  var oldElement = doc.getElementById(oldID);
+  console.log(`oldID: ${oldID}`);
+  console.log(`id: ${id}`)
+
+  if (oldElement == null)
+  {
+    document.getElementById("divSVGNew").remove();
+    return;
+  };
+
 
   //newElement.setAttribute("transform", oldElement.getAttribute("transform"));
   newElement.setAttribute("id", newElement.getAttribute("id"));
 
 
-  
-  
   var parentDiv = oldElement.parentNode;
 
   parentDiv.replaceChild(newElement, oldElement);
@@ -48,7 +81,7 @@ export function clickRect(id)
   var oldElement = doc.getElementById(id);
 
   
-  var svgUrl = changeRect(id);
+  var svgUrl = changeRect(id, "websocket");
 
   if (svgUrl === undefined) return 0;
 
@@ -58,14 +91,14 @@ export function clickRect(id)
   newElement.setAttribute("id", "divSVGNew");
   newElement.setAttribute("style", 'opacity:0');
 
-  newElement.innerHTML = `<object id="svgObject2" data=${svgUrl} type="image/svg+xml" width="1" height="1"> \
+  newElement.innerHTML = `<object id="svgObject2" data=${svgUrl.url} type="image/svg+xml" width="1" height="1"> \
   Your browser doesnt support SVG \
   </object>`;
 
   var parent = document.getElementById("divSVG").parentNode;
 
   parent.appendChild(newElement);
-  setTimeout(() => {replaceRect(id);}, 100);
+  setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
 
   
 }
@@ -104,7 +137,9 @@ class Main extends React.Component {
 
           //console.log(elem.getAttribute('id'));
         }
-        changeAllElements(doc);
+
+        connectWs();
+        //changeAllElements(doc);
 
         //Fullscreen
         doc.getElementById("g2045").addEventListener('click', (e) => {
@@ -119,9 +154,9 @@ class Main extends React.Component {
 
         //Смена устройства
         doc.getElementById("g2154").addEventListener('click', (e) => {
-          var rect = (doc.getElementById("0700404220633") == null) ? "0700404220631" : "0700404220633";
-          console.log(rect);
-          clickRect(rect);
+          //var rect = (doc.getElementById("0700404220633") == null) ? "0700404220631" : "0700404220633";
+          //console.log(rect);
+          clickRect("0700704220631");
         }); 
 
         //Линия А

@@ -88,3 +88,16 @@ export default function changeAllElements(doc)
         count++;
     }
 }
+
+export function changeElements(doc, list)
+{
+    var docG = doc.querySelectorAll("g");
+    var count = 1;
+
+    for (var item of list.elements)
+    {
+        setTimeout(clickRect, count * 100, item);
+        count++;
+        console.log(count);
+    }
+}
