@@ -8,13 +8,13 @@ import Line44 from './line44.js';
 
 import Fullscreen from "react-full-screen";
 
-import {changeRect} from './changeRect.js';
+import {changeRect, changeLine} from './changeRect.js';
 
 import {changeAllElements, changeElements}  from './default_settings.js';
 
 
 //Подключение по вебсокету
-function connectWs()
+function connectWs(doc)
 {
   const ws = new WebSocket('ws://localhost:8888');
 
@@ -30,10 +30,19 @@ function connectWs()
     console.log(message);
 
     var count = 1;
-    for (var item of message.elements)
+    try
     {
-      setTimeout(clickRect, count * 100, item);
-      count += 2;
+      for (var item of message.elements)
+      {
+        setTimeout(clickRect, count * 100, item);
+        count += 2;
+      }
+    }catch(e)
+    {
+      for (var item of message.lines)
+      {
+        changeLine(item.name, item.color, doc);
+      }
     }
   }
 
@@ -120,7 +129,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {fontSize: 17, isFull: false};
-    connectWs();
+    
   }
 
   goFull = () => {
@@ -131,6 +140,7 @@ class Main extends React.Component {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
         var doc = document.getElementById('svgObject').contentDocument;
+        connectWs(doc);
         // var elem = document.getElementById("svgObject");
 
         
