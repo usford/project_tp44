@@ -50,6 +50,8 @@ function connectWs(doc)
   {
     console.log('disconnected');
   }
+
+  return ws;
 }
 
 //Замена ячеек на схеме
@@ -140,7 +142,7 @@ class Main extends React.Component {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
         var doc = document.getElementById('svgObject').contentDocument;
-        connectWs(doc);
+        var ws = connectWs(doc);
         // var elem = document.getElementById("svgObject");
 
         
@@ -164,6 +166,9 @@ class Main extends React.Component {
 
         //changeAllElements(doc);
 
+        //Скрытие элемент
+        doc.getElementById("g2246").style.opacity = 0;
+
         //Fullscreen
         doc.getElementById("g2045").addEventListener('click', (e) => {
           this.goFull();
@@ -186,19 +191,37 @@ class Main extends React.Component {
         doc.getElementById("g2149").addEventListener('click', (e) => {
           var state = (doc.getElementById("tspan3836").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("tspan3836").innerHTML = state;
+          ws.send("Нажатая Линия А");
+
+          doc.getElementById("text2546-2-0-1-2-8-8").innerHTML = "Линия А ТП-44";
+          doc.getElementById("g2246").style.opacity = 1; 
         }); 
 
         //Линия B
         doc.getElementById("g2142").addEventListener('click', (e) => {
           var state = (doc.getElementById("tspan3880").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("tspan3880").innerHTML = state;
+          ws.send("Нажатая Линия B");
+
+          doc.getElementById("text2546-2-0-1-2-8-8").innerHTML = "Линия B ТП-44";
+          doc.getElementById("g2246").style.opacity = 1; 
         }); 
 
         //Линия C
         doc.getElementById("g2135").addEventListener('click', (e) => {
           var state = (doc.getElementById("tspan3906").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("tspan3906").innerHTML = state;
+          ws.send("Нажатая Линия C");
+
+          doc.getElementById("text2546-2-0-1-2-8-8").innerHTML = "Линия C ТП-44";
+          doc.getElementById("g2246").style.opacity = 1; 
         }); 
+
+        //Кнопка закрыть у нижней панели
+        doc.getElementById("g2065").addEventListener('click', (e) =>
+        {
+          doc.getElementById("g2246").style.opacity = 0; 
+        });
         
         doc.doClickAction = (signal_id) => {
           console.log(signal_id);

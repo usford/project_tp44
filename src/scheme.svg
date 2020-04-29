@@ -3333,13 +3333,13 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="svg1388"
+     inkscape:current-layer="g2384"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="1110.4171"
-     inkscape:cx="1558.9678"
-     inkscape:zoom="1"
+     inkscape:cy="1221.5836"
+     inkscape:cx="681.31386"
+     inkscape:zoom="0.70710678"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -3361,22 +3361,6 @@
      x="236.2346"
      y="394.42249"
      rx="2.2763614e-15" />
-  <rect
-     style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:52.20295334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect2101-5"
-     width="771.04462"
-     height="710.75513"
-     x="322.83301"
-     y="1104.4366"
-     rx="1.7144267e-15" />
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect2118"
-     width="735.98535"
-     height="686.0871"
-     x="340.21457"
-     y="1113.629"
-     rx="1.7678677e-15" />
   <rect
      style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:19.64700508;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect2101"
@@ -6318,740 +6302,12 @@
          height="123"
          width="263"
          id="rect5815" /></flowRegion><flowPara
-       id="flowPara5817" /></flowRoot>  <g
-     id="g2114">
-    <desc
-       id="desc2116">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443)"
-       transform="matrix(0.16153719,0,0,0.0535469,348.08817,1261.7727)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="438.28253"
-       y="1299.1653"
-       id="text2447"><tspan
-         sodipodi:role="line"
-         id="tspan2445"
-         x="438.28253"
-         y="1299.1653"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.73006463">Ручной</tspan></text>
-  </g>
-  <rect
-     transform="matrix(0.94635959,0,0,0.73889175,54.223782,351.46445)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538)" />
-  <text
+       id="flowPara5817" /></flowRoot>  <text
      id="text2542"
      y="1333.8429"
      x="888.35254"
      style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;inline-size:120.721;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve" />
-  <text
-     id="text2546"
-     y="1351.6964"
-     x="879.60468"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       y="1351.6964"
-       x="879.60468"
-       id="tspan2544"
-       sodipodi:role="line">РУЧНОЙ</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.96375465px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.01591551"
-     x="741.13788"
-     y="1371.6453"
-     id="text2447-6-0"
-     transform="scale(1.0159155,0.98433386)"><tspan
-       sodipodi:role="line"
-       id="tspan1554"
-       x="741.13788"
-       y="1371.6453"
-       style="stroke-width:1.01591551">Состояние</tspan><tspan
-       sodipodi:role="line"
-       id="tspan1556"
-       x="741.13788"
-       y="1395.35"
-       style="stroke-width:1.01591551" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="739.21021"
-     y="1446.5559"
-     id="text2447-6-0-3"><tspan
-       sodipodi:role="line"
-       id="tspan1554-1"
-       x="739.21021"
-       y="1446.5559">Состояние</tspan><tspan
-       sodipodi:role="line"
-       id="tspan1556-1"
-       x="739.21021"
-       y="1469.8893" /></text>
-  <rect
-     transform="matrix(0.96257265,0,0,0.73582506,24.201369,450.88226)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4)" />
-  <text
-     id="text2546-3"
-     y="1447.0717"
-     x="861.06726"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       sodipodi:role="line"
-       id="tspan1633"
-       x="861.06726"
-       y="1447.0717">ВКЛЮЧЕНО</tspan></text>
-  <g
-     id="g2107">
-    <desc
-       id="desc2109">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0)"
-       transform="matrix(0.18636524,0,0,0.05215815,341.24572,1359.8454)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="434.10931"
-       y="1393.473"
-       id="text2447-4"><tspan
-         y="1393.473"
-         x="434.10931"
-         id="tspan1698"
-         sodipodi:role="line">Включить</tspan></text>
-  </g>
-  <text
-     id="text2447-4-6"
-     y="1361.4531"
-     x="399.04251"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan1737"
-       x="399.04251"
-       y="1361.4531">Ручной режим</tspan></text>
-  <g
-     id="g2121">
-    <desc
-       id="desc2123">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-60"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-6)"
-       transform="matrix(0.25858675,0,0,0.05273758,456.47647,1262.3081)" />
-    <text
-       id="text2447-6"
-       y="1347.4279"
-       x="548.06836"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33329964px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         sodipodi:role="line"
-         id="tspan2522"
-         x="548.06836"
-         y="1347.4279">Автоматический</tspan></text>
-  </g>
-  <g
-     id="g2100">
-    <desc
-       id="desc2102">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0)"
-       transform="matrix(0.18636524,0,0,0.05215815,494.01211,1359.5151)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="592.41925"
-       y="1393.1544"
-       id="text2447-4-9"><tspan
-         y="1393.1544"
-         x="592.41925"
-         id="tspan1698-4"
-         sodipodi:role="line">Включить</tspan></text>
-  </g>
-  <text
-     id="text2447-4-6-1"
-     y="1499.9446"
-     x="385.01559"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.26018524px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.78507328"
-     xml:space="preserve"
-     transform="scale(0.99566549,1.0043534)"><tspan
-       sodipodi:role="line"
-       id="tspan1853"
-       x="385.01559"
-       y="1499.9446"
-       style="stroke-width:1.78507328">Автоматический режим</tspan></text>
-  <text
-     id="text2447-4-6-6"
-     y="1267.8616"
-     x="396.98248"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan1873"
-       x="396.98248"
-       y="1267.8616">Выбор режимов управления</tspan></text>
-  <text
-     id="text2447-4-6-1-7"
-     y="1479.73"
-     x="581.77167"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan1893"
-       x="581.77167"
-       y="1479.73">Текущее расписание</tspan></text>
-  <text
-     id="text2447-4-6-1-3"
-     y="1546.4346"
-     x="390.18457"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.02369881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76315522"
-     xml:space="preserve"
-     transform="scale(0.98344021,1.0168386)"><tspan
-       sodipodi:role="line"
-       id="tspan1913"
-       x="390.18457"
-       y="1546.4346"
-       style="stroke-width:1.76315522">Время включения 1</tspan></text>
-  <text
-     id="text2447-4-6-1-3-2"
-     y="1585.4827"
-     x="388.71634"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.06799316px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76726043"
-     xml:space="preserve"
-     transform="scale(0.98573001,1.0144766)"><tspan
-       sodipodi:role="line"
-       id="tspan1933"
-       x="388.71634"
-       y="1585.4827"
-       style="stroke-width:1.76726043">Время выключения 1</tspan></text>
-  <text
-     id="text2447-4-6-1-3-4"
-     y="1629.3351"
-     x="387.91653"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.09758186px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77000272"
-     xml:space="preserve"
-     transform="scale(0.98725956,1.0129049)"><tspan
-       sodipodi:role="line"
-       id="tspan1943"
-       x="387.91653"
-       y="1629.3351"
-       style="stroke-width:1.77000272">Время включения 2</tspan></text>
-  <text
-     id="text2447-4-6-1-3-3"
-     y="1671.4"
-     x="387.38657"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.13794136px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77374351"
-     xml:space="preserve"
-     transform="scale(0.98934605,1.0107687)"><tspan
-       sodipodi:role="line"
-       id="tspan1953"
-       x="387.38657"
-       y="1671.4"
-       style="stroke-width:1.77374351">Время выключения 1</tspan></text>
-  <g
-     id="g2065">
-    <desc
-       id="desc2067">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0-3"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5)"
-       transform="matrix(0.18636524,0,0,0.05215815,585.80124,1684.243)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="696.24225"
-       y="1704.6675"
-       id="text2447-4-9-2"><tspan
-         y="1704.6675"
-         x="696.24225"
-         id="tspan2006"
-         sodipodi:role="line">Закрыть</tspan></text>
-  </g>
-  <g
-     id="g2093">
-    <desc
-       id="desc2095">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0-3-2"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1)"
-       transform="matrix(0.18664519,0,0,0.04208495,816.48065,1502.8582)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="927.53613"
-       y="1516.3046"
-       id="text2447-4-9-2-3"><tspan
-         y="1516.3046"
-         x="927.53613"
-         id="tspan2071"
-         sodipodi:role="line">Установить</tspan></text>
-  </g>
-  <g
-     id="g2086">
-    <desc
-       id="desc2088">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0-3-2-2"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-7)"
-       transform="matrix(0.18664519,0,0,0.04208495,816.85566,1538.7333)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="927.92474"
-       y="1550.9233"
-       id="text2447-4-9-2-3-1"><tspan
-         y="1550.9233"
-         x="927.92474"
-         id="tspan2071-0"
-         sodipodi:role="line">Установить</tspan></text>
-  </g>
-  <g
-     id="g2079">
-    <desc
-       id="desc2081">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0-3-2-0"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-0)"
-       transform="matrix(0.18664519,0,0,0.04208495,817.10566,1583.9833)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="928.18384"
-       y="1594.5889"
-       id="text2447-4-9-2-3-2"><tspan
-         y="1594.5889"
-         x="928.18384"
-         id="tspan2071-3"
-         sodipodi:role="line">Установить</tspan></text>
-  </g>
-  <g
-     id="g2072">
-    <desc
-       id="desc2074">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0-3-2-8"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-2)"
-       transform="matrix(0.18664519,0,0,0.04208495,816.85566,1619.7333)" />
-    <text
-       transform="scale(0.96498318,1.0362875)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-       x="927.9248"
-       y="1629.087"
-       id="text2447-4-9-2-3-0"><tspan
-         y="1629.087"
-         x="927.9248"
-         id="tspan2071-4"
-         sodipodi:role="line">Установить</tspan></text>
-  </g>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,284.24968,626.32206)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5)" />
-  <text
-     id="text2447-4-9-2-3-2-9"
-     y="1515.9309"
-     x="638.19122"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2248"
-       x="638.19122"
-       y="1515.9309">21</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,283.86796,663.23377)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-4"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6)" />
-  <text
-     id="text2447-4-9-2-3-2-9-2"
-     y="1551.55"
-     x="637.79565"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463;"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2292">3</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,284.2215,707.42795)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-7"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-3)" />
-  <text
-     id="text2447-4-9-2-3-2-9-1"
-     y="1594.1968"
-     x="638.16205"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2248-4"
-       x="638.16205"
-       y="1594.1968">21</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,393.4695,626.11067)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-3"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9)" />
-  <text
-     id="text2447-4-9-2-3-2-9-3"
-     y="1515.7269"
-     x="751.37439"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463;"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2360">15</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,392.76239,662.17311)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-3-7"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0)" />
-  <text
-     id="text2447-4-9-2-3-2-9-3-9"
-     y="1550.5265"
-     x="750.6416"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463;"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2404">10</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,392.76239,743.49039)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-3-7-7"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-9)" />
-  <text
-     id="text2447-4-9-2-3-2-9-3-9-7"
-     y="1628.9963"
-     x="750.6416"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       y="1628.9963"
-       x="750.6416"
-       sodipodi:role="line"
-       id="tspan2404-5">10</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,392.7624,707.42795)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-3-8"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-6)" />
-  <text
-     id="text2447-4-9-2-3-2-9-3-5"
-     y="1594.1968"
-     x="750.6416"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       y="1594.1968"
-       x="750.6416"
-       sodipodi:role="line"
-       id="tspan2360-6">15</tspan></text>
-  <rect
-     transform="matrix(0.38060279,0,0,0.69812902,284.2215,743.4904)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-7-4-1"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-6)" />
-  <text
-     id="text2447-4-9-2-3-2-9-2-0"
-     y="1628.9963"
-     x="638.16205"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       y="1628.9963"
-       x="638.16205"
-       sodipodi:role="line"
-       id="tspan2292-6">3</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4"
-     y="1516.3234"
-     x="712.98718"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2550"
-       x="712.98718"
-       y="1516.3234">ч</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-0-6"
-     y="1515.9014"
-     x="829.0257"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2604"
-       x="829.0257"
-       y="1515.9014">мин</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-0-6-7"
-     y="1550.3501"
-     x="827.89172"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2604-9"
-       x="827.89172"
-       y="1550.3501">мин</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-0-6-3"
-     y="1596.7498"
-     x="828.25812"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2604-6"
-       x="828.25812"
-       y="1596.7498">мин</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-0-6-4"
-     y="1628.4788"
-     x="828.25812"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2604-0"
-       x="828.25812"
-       y="1628.4788">мин</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-9"
-     y="1551.3737"
-     x="713.14911"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2550-4"
-       x="713.14911"
-       y="1551.3737">ч</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-4"
-     y="1597.0908"
-     x="713.5155"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2550-6"
-       x="713.5155"
-       y="1597.0908">ч</tspan></text>
-  <text
-     id="text2447-4-6-1-7-4-7"
-     y="1629.1611"
-     x="713.14905"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-     xml:space="preserve"
-     transform="scale(0.96498318,1.0362875)"><tspan
-       sodipodi:role="line"
-       id="tspan2550-9"
-       x="713.14905"
-       y="1629.1611">ч</tspan></text>
-  <rect
-     transform="matrix(0.18581149,0,0,0.70380496,468.72533,310.70241)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-7"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-1)" />
-  <rect
-     transform="matrix(0.18581149,0,0,0.70380496,667.86499,310.54264)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-7-1"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-1-1)" />
-  <text
-     id="text2546-2"
-     y="1264.0924"
-     x="637.72052"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       sodipodi:role="line"
-       id="tspan2798"
-       x="637.72052"
-       y="1264.0924">Х</tspan></text>
-  <text
-     id="text2546-2-0"
-     y="1266.9442"
-     x="550.17255"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       sodipodi:role="line"
-       id="tspan2818"
-       x="550.17255"
-       y="1266.9442">ВКЛ.</tspan></text>
-  <text
-     id="text2546-2-0-1"
-     y="1267.2856"
-     x="734.23438"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       sodipodi:role="line"
-       id="tspan2838"
-       x="734.23438"
-       y="1267.2856">ВЫКЛ.</tspan></text>
-  <text
-     id="text2546-2-0-1-2"
-     y="1261.4069"
-     x="433.36868"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.14733887px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0257504"
-     xml:space="preserve"
-     transform="scale(1.0257504,0.97489608)"><tspan
-       sodipodi:role="line"
-       id="tspan2858"
-       x="433.36868"
-       y="1261.4069"
-       style="stroke-width:1.0257504">Разрешение на дистанционное управление</tspan></text>
-  <text
-     id="text2546-2-0-1-2-8"
-     y="1223.7316"
-     x="405.40588"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.18007278px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02750385"
-     xml:space="preserve"
-     transform="scale(1.0275038,0.97323236)"><tspan
-       sodipodi:role="line"
-       id="tspan2878"
-       x="405.40588"
-       y="1223.7316"
-       style="stroke-width:1.02750385">Дистанционное управление на ТП</tspan></text>
-  <rect
-     transform="matrix(0.96257265,0,0,0.73582506,9.5575812,198.59539)"
-     y="1324.644"
-     x="869.95471"
-     height="36.795666"
-     width="159.00984"
-     id="rect2524-4-73"
-     style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58)" />
-  <text
-     id="text2546-3-9"
-     y="1194.7848"
-     x="846.42346"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       sodipodi:role="line"
-       id="tspan1633-7"
-       x="846.42346"
-       y="1194.7848">ВКЛЮЧЕНО</tspan></text>
-  <text
-     id="text2546-2-0-1-2-8-8"
-     y="1226.9611"
-     x="575.91687"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.16484642px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06755304"
-     xml:space="preserve"
-     transform="scale(1.067553,0.93672167)"><tspan
-       sodipodi:role="line"
-       id="tspan2940"
-       x="575.91687"
-       y="1226.9611"
-       style="stroke-width:1.06755304">Линия А ТП-44</tspan></text>
   <rect
      transform="matrix(1.9289871,0,0,1.0538478,-169.93283,567.83018)"
      y="1324.644"
@@ -7603,38 +6859,795 @@
          id="tspan2099"
          sodipodi:role="line">сит. план</tspan></text>
   </g>
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect2118-4-9"
-     width="674.58093"
-     height="122.43611"
-     x="368.92914"
-     y="1162.4031"
-     rx="1.6203716e-15" />
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect2118-4-9-8"
-     width="674.742"
-     height="74.538521"
-     x="369.05289"
-     y="1306.1475"
-     rx="1.6207584e-15" />
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect2118-4-9-8-4"
-     width="674.742"
-     height="74.538521"
-     x="368.629"
-     y="1401.7976"
-     rx="1.6207584e-15" />
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect2118-4-9-8-4-3"
-     width="674.02692"
-     height="219.48744"
-     x="369.38623"
-     y="1497.8241"
-     rx="1.6190407e-15" />
+  <g
+     id="g2246">
+    <g
+       id="g2384"
+       transform="translate(-9.8994946,-7.0710673)">
+      <rect
+         style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:52.20295334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2101-5"
+         width="771.04462"
+         height="710.75513"
+         x="322.83301"
+         y="1104.4366"
+         rx="1.7144267e-15" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2118"
+         width="735.98535"
+         height="686.0871"
+         x="340.21457"
+         y="1113.629"
+         rx="1.7678677e-15" />
+      <g
+         id="g2114">
+        <desc
+           id="desc2116">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443)"
+           transform="matrix(0.16153719,0,0,0.0535469,348.08817,1261.7727)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="438.28253"
+           y="1299.1653"
+           id="text2447"><tspan
+             sodipodi:role="line"
+             id="tspan2445"
+             x="438.28253"
+             y="1299.1653"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.73006463">Ручной</tspan></text>
+      </g>
+      <rect
+         transform="matrix(0.94635959,0,0,0.73889175,54.223782,351.46445)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538)" />
+      <text
+         id="text2546"
+         y="1351.6964"
+         x="879.60468"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="1351.6964"
+           x="879.60468"
+           id="tspan2544"
+           sodipodi:role="line">РУЧНОЙ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.96375465px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.01591551"
+         x="741.13788"
+         y="1371.6453"
+         id="text2447-6-0"
+         transform="scale(1.0159155,0.98433386)"><tspan
+           sodipodi:role="line"
+           id="tspan1554"
+           x="741.13788"
+           y="1371.6453"
+           style="stroke-width:1.01591551">Состояние</tspan><tspan
+           sodipodi:role="line"
+           id="tspan1556"
+           x="741.13788"
+           y="1395.35"
+           style="stroke-width:1.01591551" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="739.21021"
+         y="1446.5559"
+         id="text2447-6-0-3"><tspan
+           sodipodi:role="line"
+           id="tspan1554-1"
+           x="739.21021"
+           y="1446.5559">Состояние</tspan><tspan
+           sodipodi:role="line"
+           id="tspan1556-1"
+           x="739.21021"
+           y="1469.8893" /></text>
+      <rect
+         transform="matrix(0.96257265,0,0,0.73582506,24.201369,450.88226)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4)" />
+      <text
+         id="text2546-3"
+         y="1447.0717"
+         x="861.06726"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan1633"
+           x="861.06726"
+           y="1447.0717">ВКЛЮЧЕНО</tspan></text>
+      <g
+         id="g2107">
+        <desc
+           id="desc2109">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0)"
+           transform="matrix(0.18636524,0,0,0.05215815,341.24572,1359.8454)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="434.10931"
+           y="1393.473"
+           id="text2447-4"><tspan
+             y="1393.473"
+             x="434.10931"
+             id="tspan1698"
+             sodipodi:role="line">Включить</tspan></text>
+      </g>
+      <text
+         id="text2447-4-6"
+         y="1361.4531"
+         x="399.04251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan1737"
+           x="399.04251"
+           y="1361.4531">Ручной режим</tspan></text>
+      <g
+         id="g2121">
+        <desc
+           id="desc2123">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-60"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-6)"
+           transform="matrix(0.25858675,0,0,0.05273758,456.47647,1262.3081)" />
+        <text
+           id="text2447-6"
+           y="1347.4279"
+           x="548.06836"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33329964px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan2522"
+             x="548.06836"
+             y="1347.4279">Автоматический</tspan></text>
+      </g>
+      <g
+         id="g2100">
+        <desc
+           id="desc2102">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6-0"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0)"
+           transform="matrix(0.18636524,0,0,0.05215815,494.01211,1359.5151)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="592.41925"
+           y="1393.1544"
+           id="text2447-4-9"><tspan
+             y="1393.1544"
+             x="592.41925"
+             id="tspan1698-4"
+             sodipodi:role="line">Включить</tspan></text>
+      </g>
+      <text
+         id="text2447-4-6-1"
+         y="1499.9446"
+         x="385.01559"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.26018524px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.78507328"
+         xml:space="preserve"
+         transform="scale(0.99566549,1.0043534)"><tspan
+           sodipodi:role="line"
+           id="tspan1853"
+           x="385.01559"
+           y="1499.9446"
+           style="stroke-width:1.78507328">Автоматический режим</tspan></text>
+      <text
+         id="text2447-4-6-6"
+         y="1267.8616"
+         x="396.98248"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan1873"
+           x="396.98248"
+           y="1267.8616">Выбор режимов управления</tspan></text>
+      <text
+         id="text2447-4-6-1-7"
+         y="1479.73"
+         x="581.77167"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan1893"
+           x="581.77167"
+           y="1479.73">Текущее расписание</tspan></text>
+      <text
+         id="text2447-4-6-1-3"
+         y="1546.4346"
+         x="390.18457"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.02369881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76315522"
+         xml:space="preserve"
+         transform="scale(0.98344021,1.0168386)"><tspan
+           sodipodi:role="line"
+           id="tspan1913"
+           x="390.18457"
+           y="1546.4346"
+           style="stroke-width:1.76315522">Время включения 1</tspan></text>
+      <text
+         id="text2447-4-6-1-3-2"
+         y="1585.4827"
+         x="388.71634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.06799316px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76726043"
+         xml:space="preserve"
+         transform="scale(0.98573001,1.0144766)"><tspan
+           sodipodi:role="line"
+           id="tspan1933"
+           x="388.71634"
+           y="1585.4827"
+           style="stroke-width:1.76726043">Время выключения 1</tspan></text>
+      <text
+         id="text2447-4-6-1-3-4"
+         y="1629.3351"
+         x="387.91653"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.09758186px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77000272"
+         xml:space="preserve"
+         transform="scale(0.98725956,1.0129049)"><tspan
+           sodipodi:role="line"
+           id="tspan1943"
+           x="387.91653"
+           y="1629.3351"
+           style="stroke-width:1.77000272">Время включения 2</tspan></text>
+      <text
+         id="text2447-4-6-1-3-3"
+         y="1671.4"
+         x="387.38657"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.13794136px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.77374351"
+         xml:space="preserve"
+         transform="scale(0.98934605,1.0107687)"><tspan
+           sodipodi:role="line"
+           id="tspan1953"
+           x="387.38657"
+           y="1671.4"
+           style="stroke-width:1.77374351">Время выключения 1</tspan></text>
+      <g
+         id="g2065">
+        <desc
+           id="desc2067">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6-0-3"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5)"
+           transform="matrix(0.18636524,0,0,0.05215815,585.80124,1684.243)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="696.24225"
+           y="1704.6675"
+           id="text2447-4-9-2"><tspan
+             y="1704.6675"
+             x="696.24225"
+             id="tspan2006"
+             sodipodi:role="line">Закрыть</tspan></text>
+      </g>
+      <g
+         id="g2093">
+        <desc
+           id="desc2095">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6-0-3-2"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1)"
+           transform="matrix(0.18664519,0,0,0.04208495,816.48065,1502.8582)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="927.53613"
+           y="1516.3046"
+           id="text2447-4-9-2-3"><tspan
+             y="1516.3046"
+             x="927.53613"
+             id="tspan2071"
+             sodipodi:role="line">Установить</tspan></text>
+      </g>
+      <g
+         id="g2086">
+        <desc
+           id="desc2088">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6-0-3-2-2"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-7)"
+           transform="matrix(0.18664519,0,0,0.04208495,816.85566,1538.7333)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="927.92474"
+           y="1550.9233"
+           id="text2447-4-9-2-3-1"><tspan
+             y="1550.9233"
+             x="927.92474"
+             id="tspan2071-0"
+             sodipodi:role="line">Установить</tspan></text>
+      </g>
+      <g
+         id="g2079">
+        <desc
+           id="desc2081">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6-0-3-2-0"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-0)"
+           transform="matrix(0.18664519,0,0,0.04208495,817.10566,1583.9833)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="928.18384"
+           y="1594.5889"
+           id="text2447-4-9-2-3-2"><tspan
+             y="1594.5889"
+             x="928.18384"
+             id="tspan2071-3"
+             sodipodi:role="line">Установить</tspan></text>
+      </g>
+      <g
+         id="g2072">
+        <desc
+           id="desc2074">button</desc>
+        <rect
+           ry="1.7546879e-15"
+           rx="8.0620008e-16"
+           y="1107.9404"
+           x="313.09915"
+           height="710.75531"
+           width="771.04462"
+           id="rect7165-6-0-3-2-8"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-1-2)"
+           transform="matrix(0.18664519,0,0,0.04208495,816.85566,1619.7333)" />
+        <text
+           transform="scale(0.96498318,1.0362875)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+           x="927.9248"
+           y="1629.087"
+           id="text2447-4-9-2-3-0"><tspan
+             y="1629.087"
+             x="927.9248"
+             id="tspan2071-4"
+             sodipodi:role="line">Установить</tspan></text>
+      </g>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,284.24968,626.32206)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5)" />
+      <text
+         id="text2447-4-9-2-3-2-9"
+         y="1515.9309"
+         x="638.19122"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2248"
+           x="638.19122"
+           y="1515.9309">21</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,283.86796,663.23377)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-4"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6)" />
+      <text
+         id="text2447-4-9-2-3-2-9-2"
+         y="1551.55"
+         x="637.79565"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           y="1551.55"
+           x="637.79565"
+           sodipodi:role="line"
+           id="tspan2292">3</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,284.2215,707.42795)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-7"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-3)" />
+      <text
+         id="text2447-4-9-2-3-2-9-1"
+         y="1594.1968"
+         x="638.16205"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2248-4"
+           x="638.16205"
+           y="1594.1968">21</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,393.4695,626.11067)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-3"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9)" />
+      <text
+         id="text2447-4-9-2-3-2-9-3"
+         y="1515.7269"
+         x="751.37439"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           y="1515.7269"
+           x="751.37439"
+           sodipodi:role="line"
+           id="tspan2360">15</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,392.76239,662.17311)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-3-7"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0)" />
+      <text
+         id="text2447-4-9-2-3-2-9-3-9"
+         y="1550.5265"
+         x="750.6416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           y="1550.5265"
+           x="750.6416"
+           sodipodi:role="line"
+           id="tspan2404">10</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,392.76239,743.49039)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-3-7-7"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-9)" />
+      <text
+         id="text2447-4-9-2-3-2-9-3-9-7"
+         y="1628.9963"
+         x="750.6416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           y="1628.9963"
+           x="750.6416"
+           sodipodi:role="line"
+           id="tspan2404-5">10</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,392.7624,707.42795)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-3-8"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-6)" />
+      <text
+         id="text2447-4-9-2-3-2-9-3-5"
+         y="1594.1968"
+         x="750.6416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           y="1594.1968"
+           x="750.6416"
+           sodipodi:role="line"
+           id="tspan2360-6">15</tspan></text>
+      <rect
+         transform="matrix(0.38060279,0,0,0.69812902,284.2215,743.4904)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-7-4-1"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-6)" />
+      <text
+         id="text2447-4-9-2-3-2-9-2-0"
+         y="1628.9963"
+         x="638.16205"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           y="1628.9963"
+           x="638.16205"
+           sodipodi:role="line"
+           id="tspan2292-6">3</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4"
+         y="1516.3234"
+         x="712.98718"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2550"
+           x="712.98718"
+           y="1516.3234">ч</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-0-6"
+         y="1515.9014"
+         x="829.0257"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2604"
+           x="829.0257"
+           y="1515.9014">мин</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-0-6-7"
+         y="1550.3501"
+         x="827.89172"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2604-9"
+           x="827.89172"
+           y="1550.3501">мин</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-0-6-3"
+         y="1596.7498"
+         x="828.25812"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2604-6"
+           x="828.25812"
+           y="1596.7498">мин</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-0-6-4"
+         y="1628.4788"
+         x="828.25812"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2604-0"
+           x="828.25812"
+           y="1628.4788">мин</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-9"
+         y="1551.3737"
+         x="713.14911"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2550-4"
+           x="713.14911"
+           y="1551.3737">ч</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-4"
+         y="1597.0908"
+         x="713.5155"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2550-6"
+           x="713.5155"
+           y="1597.0908">ч</tspan></text>
+      <text
+         id="text2447-4-6-1-7-4-7"
+         y="1629.1611"
+         x="713.14905"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
+         xml:space="preserve"
+         transform="scale(0.96498318,1.0362875)"><tspan
+           sodipodi:role="line"
+           id="tspan2550-9"
+           x="713.14905"
+           y="1629.1611">ч</tspan></text>
+      <rect
+         transform="matrix(0.18581149,0,0,0.70380496,468.72533,310.70241)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-7"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-1)" />
+      <rect
+         transform="matrix(0.18581149,0,0,0.70380496,667.86499,310.54264)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-7-1"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-1-1)" />
+      <text
+         id="text2546-2"
+         y="1264.0924"
+         x="637.72052"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan2798"
+           x="637.72052"
+           y="1264.0924">Х</tspan></text>
+      <text
+         id="text2546-2-0"
+         y="1266.9442"
+         x="550.17255"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan2818"
+           x="550.17255"
+           y="1266.9442">ВКЛ.</tspan></text>
+      <text
+         id="text2546-2-0-1"
+         y="1267.2856"
+         x="734.23438"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan2838"
+           x="734.23438"
+           y="1267.2856">ВЫКЛ.</tspan></text>
+      <text
+         id="text2546-2-0-1-2"
+         y="1261.4069"
+         x="433.36868"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.14733887px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0257504"
+         xml:space="preserve"
+         transform="scale(1.0257504,0.97489608)"><tspan
+           sodipodi:role="line"
+           id="tspan2858"
+           x="433.36868"
+           y="1261.4069"
+           style="stroke-width:1.0257504">Разрешение на дистанционное управление</tspan></text>
+      <text
+         id="text2546-2-0-1-2-8"
+         y="1223.7316"
+         x="405.40588"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.18007278px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02750385"
+         xml:space="preserve"
+         transform="scale(1.0275038,0.97323236)"><tspan
+           sodipodi:role="line"
+           id="tspan2878"
+           x="405.40588"
+           y="1223.7316"
+           style="stroke-width:1.02750385">Дистанционное управление на ТП</tspan></text>
+      <rect
+         transform="matrix(0.96257265,0,0,0.73582506,9.5575812,198.59539)"
+         y="1324.644"
+         x="869.95471"
+         height="36.795666"
+         width="159.00984"
+         id="rect2524-4-73"
+         style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58)" />
+      <text
+         id="text2546-3-9"
+         y="1194.7848"
+         x="846.42346"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan1633-7"
+           x="846.42346"
+           y="1194.7848">ВКЛЮЧЕНО</tspan></text>
+      <text
+         id="text2546-2-0-1-2-8-8"
+         y="1226.9611"
+         x="575.91687"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.16484642px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06755304"
+         xml:space="preserve"
+         transform="scale(1.067553,0.93672167)"><tspan
+           sodipodi:role="line"
+           id="tspan2940"
+           x="575.91687"
+           y="1226.9611"
+           style="stroke-width:1.06755304">Линия А ТП-44</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2118-4-9"
+         width="674.58093"
+         height="122.43611"
+         x="368.92914"
+         y="1162.4031"
+         rx="1.6203716e-15" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2118-4-9-8"
+         width="674.742"
+         height="74.538521"
+         x="369.05289"
+         y="1306.1475"
+         rx="1.6207584e-15" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2118-4-9-8-4"
+         width="674.742"
+         height="74.538521"
+         x="368.629"
+         y="1401.7976"
+         rx="1.6207584e-15" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2118-4-9-8-4-3"
+         width="674.02692"
+         height="219.48744"
+         x="369.38623"
+         y="1497.8241"
+         rx="1.6190407e-15" />
+    </g>
+  </g>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect2118-4-5"
