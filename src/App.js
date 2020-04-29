@@ -164,63 +164,51 @@ class Main extends React.Component {
           //console.log(elem.getAttribute('id'));
         }
 
-        //changeAllElements(doc);
+        //Fullscrean
+        doc.getElementById("button1").style.cursor = "pointer";
 
         //Скрытие элемент
-        doc.getElementById("g2246").style.opacity = 0;
+        doc.getElementById("panel1").style.opacity = 0;
 
         //Fullscreen
-        doc.getElementById("g2045").addEventListener('click', (e) => {
+        doc.getElementById("button1").addEventListener('click', (e) => {
           this.goFull();
         }); 
 
-        //Смена линии
-        doc.getElementById("g2218").addEventListener('click', (e) => {
-          var stroke = (doc.getElementById("path2841").style.stroke == "#780000" || doc.getElementById("path2841").style.stroke == "rgb(120, 0, 0)") ? "#00760b" : "#780000";
-          doc.getElementById("path2841").style.stroke = stroke;
-        }); 
-
-        //Смена устройства
-        doc.getElementById("g2154").addEventListener('click', (e) => {
-          //var rect = (doc.getElementById("0700404220633") == null) ? "0700404220631" : "0700404220633";
-          //console.log(rect);
-          clickRect("0702204220631");
-        }); 
-
         //Линия А
-        doc.getElementById("g2149").addEventListener('click', (e) => {
-          var state = (doc.getElementById("tspan3836").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("tspan3836").innerHTML = state;
-          ws.send("Нажатая Линия А");
+        doc.getElementById("button14").addEventListener('click', (e) => {
+          var state = (doc.getElementById("text33").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("text33").innerHTML = state;
+          ws.send(`Нажата кнопка button14`);
 
-          doc.getElementById("text2546-2-0-1-2-8-8").innerHTML = "Линия А ТП-44";
-          doc.getElementById("g2246").style.opacity = 1; 
+          doc.getElementById("text29").innerHTML = "Линия А ТП-44";
+          doc.getElementById("panel1").style.opacity = 1; 
         }); 
 
         //Линия B
-        doc.getElementById("g2142").addEventListener('click', (e) => {
-          var state = (doc.getElementById("tspan3880").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("tspan3880").innerHTML = state;
-          ws.send("Нажатая Линия B");
+        doc.getElementById("button15").addEventListener('click', (e) => {
+          var state = (doc.getElementById("text34").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("text34").innerHTML = state;
+          ws.send("Нажата кнопка button15");
 
-          doc.getElementById("text2546-2-0-1-2-8-8").innerHTML = "Линия B ТП-44";
-          doc.getElementById("g2246").style.opacity = 1; 
+          doc.getElementById("text29").innerHTML = "Линия B ТП-44";
+          doc.getElementById("panel1").style.opacity = 1; 
         }); 
 
         //Линия C
-        doc.getElementById("g2135").addEventListener('click', (e) => {
-          var state = (doc.getElementById("tspan3906").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("tspan3906").innerHTML = state;
-          ws.send("Нажатая Линия C");
+        doc.getElementById("button16").addEventListener('click', (e) => {
+          var state = (doc.getElementById("text35").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("text35").innerHTML = state;
+          ws.send("Нажата кнопка button16");
 
-          doc.getElementById("text2546-2-0-1-2-8-8").innerHTML = "Линия C ТП-44";
-          doc.getElementById("g2246").style.opacity = 1; 
+          doc.getElementById("text29").innerHTML = "Линия C ТП-44";
+          doc.getElementById("panel1").style.opacity = 1; 
         }); 
 
         //Кнопка закрыть у нижней панели
-        doc.getElementById("g2065").addEventListener('click', (e) =>
+        doc.getElementById("button4").addEventListener('click', (e) =>
         {
-          doc.getElementById("g2246").style.opacity = 0; 
+          doc.getElementById("panel1").style.opacity = 0; 
         });
         
         doc.doClickAction = (signal_id) => {
