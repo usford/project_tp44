@@ -165,7 +165,7 @@ export function changeLine(id, color, doc)
         var lastSymb = (lastSymb == "1") ? "2" : "1";
         var truncWord = id.substring(0, id.length - 1);
         var id = truncWord + lastSymb;
-        console.log(`ID: ${id}`);
+        //console.log(`ID: ${id}`);
         if (doc.getElementById(id) != null)
         {
             doc.getElementById(id).style.stroke = color;
@@ -195,10 +195,9 @@ export function changeRect(id, doc)
         var lastSymb = id[id.length-1];
         var truncWord = id.substring(0, id.length - 1);
 
-        if (lastSymb == "1")
-        {
-            lastSymb = "2";
-        }
+        
+
+        lastSymb = (lastSymb == "1") ? "2" : "1"
         var check = false;
         list.forEach((item) => 
         {

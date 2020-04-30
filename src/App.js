@@ -30,40 +30,50 @@ function connectWs(doc)
     console.log(message);
 
     var count = 1;
-    try
+    if (message.elements != null)
     {
-      for (var item of message.elements)
+      for (var i = 0; i < message.elements.length - 1; i++)
       {
-        setTimeout(clickRect, count * 100, item);
-        count += 2;
-      }
-    }catch(e)
-    {
-      for (var item of message.lines)
-      {
-        changeLine(item.name, item.color, doc);
+        clickRect(message.elements[i]);
       }
     }
+    
+    
+    // try
+    // {
+    //   for (var item of message.elements)
+    //   {
+    //     //setTimeout(clickRect, count * 100, item);
+    //     clickRect(item);
+    //     count += 2;
+    //   }
+    // }catch(e)
+    // {
+    //   // for (var item of message.lines)
+    //   // {
+    //   //   //changeLine(item.name, item.color, doc);
+    //   // }
+    // }
   }
 
   ws.onclose = () => 
   {
     console.log('disconnected');
   }
-
-  return ws;
 }
 
+connectWs();
+
 //Замена ячеек на схеме
-function replaceRect(id, oldID)
+function replaceRect(id, oldID, doc2)
 {
   var doc = document.getElementById('svgObject').contentDocument;
 
-  var doc2 = document.getElementById('svgObject2').contentDocument;
-  
-
   var selection = doc2.querySelector('g');
-  
+
+  //console.log(`oldID1: ${oldID}`);
+  //console.log(`id1: ${id}`)
+  //console.log(`selection: ${selection}`);
 
   if (!selection) return;
 
@@ -73,8 +83,7 @@ function replaceRect(id, oldID)
   
 
   var oldElement = doc.getElementById(oldID);
-  //console.log(`oldID: ${oldID}`);
-  //console.log(`id: ${id}`)
+
 
   if (oldElement == null)
   {
@@ -85,7 +94,6 @@ function replaceRect(id, oldID)
 
   //newElement.setAttribute("transform", oldElement.getAttribute("transform"));
   newElement.setAttribute("id", newElement.getAttribute("id"));
-
 
   var parentDiv = oldElement.parentNode;
 
@@ -101,6 +109,9 @@ export function clickRect(id)
 
   
   var svgUrl = changeRect(id, doc);
+
+  //console.log(`oldID: ${svgUrl.id}`);
+  //console.log(`id: ${id}`)
   
 
   var newElement = document.createElement('div');
@@ -117,15 +128,29 @@ export function clickRect(id)
 
   if (svgUrl.url != 0)
   {
-    setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
+    
+    //setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
+    //replaceRect(id, svgUrl.id);
+    //console.log("ВОШЁЛ");
+    // window.onload = function()
+    // {
+    //   replaceRect(id, svgUrl.id);
+    // };
+
+    document.getElementById("svgObject2").addEventListener("load", function() {
+      var doc2 = document.getElementById('svgObject2').contentDocument;
+      replaceRect(id, svgUrl.id, doc2);
+    });
+
+    //replaceRect(id, svgUrl.id, doc2);
   }else
   {
-    setTimeout(() => {document.getElementById("div" + id).remove();}, 100)
+    //setTimeout(() => {document.getElementById("div" + id).remove();}, 100)
+    document.getElementById("div" + id).remove();
   }
   
-
-  
 }
+
 
 class Main extends React.Component {
   constructor(props) {
@@ -142,7 +167,7 @@ class Main extends React.Component {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
         var doc = document.getElementById('svgObject').contentDocument;
-        var ws = connectWs(doc);
+        
         // var elem = document.getElementById("svgObject");
 
         
@@ -179,7 +204,7 @@ class Main extends React.Component {
         doc.getElementById("button14").addEventListener('click', (e) => {
           var state = (doc.getElementById("text33").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("text33").innerHTML = state;
-          ws.send(JSON.stringify({type: "pressedButton", id: "button14"}));
+          //ws.send(JSON.stringify({type: "pressedButton", id: "button14"}));
 
           doc.getElementById("text29").innerHTML = "Линия А ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
@@ -189,7 +214,7 @@ class Main extends React.Component {
         doc.getElementById("button15").addEventListener('click', (e) => {
           var state = (doc.getElementById("text34").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("text34").innerHTML = state;
-          ws.send(JSON.stringify({type: "pressedButton", id: "button15"}));
+          //ws.send(JSON.stringify({type: "pressedButton", id: "button15"}));
 
           doc.getElementById("text29").innerHTML = "Линия B ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
@@ -199,7 +224,7 @@ class Main extends React.Component {
         doc.getElementById("button16").addEventListener('click', (e) => {
           var state = (doc.getElementById("text35").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("text35").innerHTML = state;
-          ws.send(JSON.stringify({type: "pressedButton", id: "button16"}));
+          //ws.send(JSON.stringify({type: "pressedButton", id: "button16"}));
 
           doc.getElementById("text29").innerHTML = "Линия C ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
