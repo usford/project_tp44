@@ -179,7 +179,7 @@ class Main extends React.Component {
         doc.getElementById("button14").addEventListener('click', (e) => {
           var state = (doc.getElementById("text33").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("text33").innerHTML = state;
-          ws.send(JSON.stringify({type: "pressedButton", id: "button14"}));
+          ws.send(`Нажата кнопка button14`);
 
           doc.getElementById("text29").innerHTML = "Линия А ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
@@ -189,7 +189,7 @@ class Main extends React.Component {
         doc.getElementById("button15").addEventListener('click', (e) => {
           var state = (doc.getElementById("text34").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("text34").innerHTML = state;
-          ws.send(JSON.stringify({type: "pressedButton", id: "button15"}));
+          ws.send("Нажата кнопка button15");
 
           doc.getElementById("text29").innerHTML = "Линия B ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
@@ -199,7 +199,7 @@ class Main extends React.Component {
         doc.getElementById("button16").addEventListener('click', (e) => {
           var state = (doc.getElementById("text35").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
           doc.getElementById("text35").innerHTML = state;
-          ws.send(JSON.stringify({type: "pressedButton", id: "button16"}));
+          ws.send("Нажата кнопка button16");
 
           doc.getElementById("text29").innerHTML = "Линия C ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
