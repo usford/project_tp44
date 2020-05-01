@@ -14,8 +14,9 @@ import {changeAllElements, changeElements}  from './default_settings.js';
 
 
 //Подключение по вебсокету
-function connectWs(doc)
+function connectWs()
 {
+  isWs = true;
   const ws = new WebSocket('ws://localhost:8888');
 
   ws.onopen = () => 
@@ -30,11 +31,19 @@ function connectWs(doc)
     console.log(message);
 
     var count = 1;
+    var doc = document.getElementById('svgObject').contentDocument;
     if (message.elements != null)
     {
       for (var i = 0; i < message.elements.length - 1; i++)
       {
         clickRect(message.elements[i]);
+      }
+    }else if (message.lines != null)
+    {
+      for (var item of message.lines)
+      {
+        console.log(item);
+        changeLine(item.name, item.color, doc);
       }
     }
     
@@ -62,7 +71,7 @@ function connectWs(doc)
   }
 }
 
-connectWs();
+var isWs = false;
 
 //Замена ячеек на схеме
 function replaceRect(id, oldID, doc2)
@@ -167,6 +176,7 @@ class Main extends React.Component {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
         var doc = document.getElementById('svgObject').contentDocument;
+        if (!isWs) connectWs();
         
         // var elem = document.getElementById("svgObject");
 

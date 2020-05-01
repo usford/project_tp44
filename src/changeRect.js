@@ -164,17 +164,19 @@ export function changeLine(id, color, doc)
         var lastSymb = id[id.length-1];
         var lastSymb = (lastSymb == "1") ? "2" : "1";
         var truncWord = id.substring(0, id.length - 1);
-        var id = truncWord + lastSymb;
+        var changeId = truncWord + lastSymb;
         //console.log(`ID: ${id}`);
-        if (doc.getElementById(id) != null)
+        if (doc.getElementById(changeId) != null)
         {
-            doc.getElementById(id).style.stroke = color;
-            var itemPath = doc.getElementById(id).querySelectorAll("path");  
+            doc.getElementById(changeId).style.stroke = color;
+            
+            var itemPath = doc.getElementById(changeId).querySelectorAll("path");  
 
             for (var item of itemPath)
             {
                 item.style.stroke = color;
             }
+            doc.getElementById(changeId).setAttribute("id", id);
         }
         
     }
