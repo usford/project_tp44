@@ -3337,9 +3337,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="817.25531"
-     inkscape:cx="785.7223"
-     inkscape:zoom="1"
+     inkscape:cy="787.00968"
+     inkscape:cx="918.58118"
+     inkscape:zoom="0.5"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -6370,7 +6370,8 @@
        x="1529.572"
        y="2056.2224">10.01.2020 15:30:20</tspan></text>
   <g
-     id="button2">
+     id="btn2"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn2&quot;}));}, 100);">
     <desc
        id="desc2049">button</desc>
     <rect
@@ -6397,7 +6398,8 @@
          sodipodi:role="line">Пуск опроса</tspan></text>
   </g>
   <g
-     id="btn44-14">
+     id="btn44-14"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-14&quot;}));}, 100);">
     <desc
        id="desc2130">button</desc>
     <rect
@@ -6506,7 +6508,8 @@
          y="720.45557">Линия A</tspan></text>
   </g>
   <g
-     id="btn44-8">
+     id="btn44-8"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-8&quot;}));}, 100);">
     <desc
        id="desc2170">button</desc>
     <rect
@@ -6535,7 +6538,8 @@
          sodipodi:role="line">A</tspan></text>
   </g>
   <g
-     id="btn44-10">
+     id="btn44-10"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-10&quot;}));}, 100);">
     <desc
        id="desc2186">button</desc>
     <rect
@@ -6564,7 +6568,8 @@
          sodipodi:role="line">A</tspan></text>
   </g>
   <g
-     id="btn44-6">
+     id="btn44-6"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-6&quot;}));}, 100);">
     <desc
        id="desc2150">button</desc>
     <rect
@@ -6594,7 +6599,8 @@
          sodipodi:role="line">A</tspan></text>
   </g>
   <g
-     id="btn44-7">
+     id="btn44-7"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-7&quot;}));}, 100);">
     <desc
        id="desc2162">button</desc>
     <rect
@@ -6624,7 +6630,8 @@
          sodipodi:role="line">Р</tspan></text>
   </g>
   <g
-     id="btn44-9">
+     id="btn44-9"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-9&quot;}));}, 100);">
     <desc
        id="desc2178">button</desc>
     <rect
@@ -6653,7 +6660,8 @@
          sodipodi:role="line">Р</tspan></text>
   </g>
   <g
-     id="btn44-11">
+     id="btn44-11"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-11&quot;}));}, 100);">
     <desc
        id="desc2194">button</desc>
     <rect
@@ -6849,7 +6857,8 @@
        y="445.36154"
        style="stroke-width:0.98169452">Выбор линии для дистанцинного управления ТП-44</tspan></text>
   <g
-     id="button3">
+     id="btn3"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn3&quot;}));}, 100);">
     <desc
        id="desc2060">button</desc>
     <rect
@@ -6920,7 +6929,8 @@
          y="1113.629"
          rx="1.7678677e-15" />
       <g
-         id="btnA1-2">
+         id="btnA1-2"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-2&quot;}));}, 100);">
         <desc
            id="desc2116">button</desc>
         <rect
@@ -7014,7 +7024,8 @@
            x="861.06726"
            y="1447.0717">ВКЛЮЧЕНО</tspan></text>
       <g
-         id="btnA1-5">
+         id="btnA1-5"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-5&quot;}));}, 100);">
         <desc
            id="desc2109">button</desc>
         <rect
@@ -7051,7 +7062,8 @@
            x="399.04251"
            y="1361.4531">Ручной режим</tspan></text>
       <g
-         id="btnA1-3">
+         id="btnA1-3"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-3&quot;}));}, 100);">
         <desc
            id="desc2123">button</desc>
         <rect
@@ -7076,7 +7088,8 @@
              y="1347.4279">Автоматический</tspan></text>
       </g>
       <g
-         id="btnA1-6">
+         id="btnA1-6"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-6&quot;}));}, 100);">
         <desc
            id="desc2102">button</desc>
         <rect
@@ -7184,7 +7197,8 @@
            y="1671.4"
            style="stroke-width:1.77374351">Время выключения 1</tspan></text>
       <g
-         id="btnA1-20">
+         id="btnA1-20"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-20&quot;}));}, 100);">
         <desc
            id="desc2067">button</desc>
         <rect
@@ -7210,7 +7224,8 @@
              sodipodi:role="line">Закрыть</tspan></text>
       </g>
       <g
-         id="btnA1-10">
+         id="btnA1-10"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-10&quot;}));}, 100);">
         <desc
            id="desc2095">button</desc>
         <rect
@@ -7236,7 +7251,8 @@
              sodipodi:role="line">Установить</tspan></text>
       </g>
       <g
-         id="btnA1-13">
+         id="btnA1-13"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-13&quot;}));}, 100);">
         <desc
            id="desc2088">button</desc>
         <rect
@@ -7262,7 +7278,8 @@
              sodipodi:role="line">Установить</tspan></text>
       </g>
       <g
-         id="btnA1-16">
+         id="btnA1-16"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-16}));}, 100);">
         <desc
            id="desc2081">button</desc>
         <rect
@@ -7288,7 +7305,8 @@
              sodipodi:role="line">Установить</tspan></text>
       </g>
       <g
-         id="btnA1-19">
+         id="btnA1-19"
+         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-19&quot;}));}, 100);">
         <desc
            id="desc2074">button</desc>
         <rect
@@ -7694,7 +7712,7 @@
            sodipodi:role="line"
            id="tspan2222"
            x="835.58698"
-           y="1282.8562"></tspan></text>
+           y="1282.8562" /></text>
     </g>
   </g>
   <rect
@@ -7793,11 +7811,12 @@
   <image
      y="33.668335"
      x="5550.3838"
-     id="button1"
+     id="btn1"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9YAAAPUCAMAAAB//1GLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAwBQTFRF /////f393t7euLi4kJCQaWlpSEhIMzMzKCgoHR0dERERAAAADg4OGRkZJSUlQkJCYmJiiYmJr6+v 19fX+vr62dnZsrKyi4uLZWVlRUVFJiYmGxsbEBAQZmZmjIyMtLS029vb+/v7/Pz8zMzMVVVVDw8P AwMDd3d3u7u79vb2iIiIRERECAgIBAQE+Pj4+fn5rq6uUlJSQ0NDnZ2d8fHxn5+fCQkJCwsLTExM pqamx8fHampqEhISWVlZtbW1YWFhwMDA/v7+Nzc3Hx8foaGhIyMjmZmZMjIyFhYWf39/8/PzICAg 9/f3ExMT5ubmXV1dAQEBPDw80dHRzc3NOTk5cnJy8vLyaGhoAgICg4OD6+vrSkpKKSkp09PT1NTU KysrNjY239/fyMjIDAwMpKSkCgoKFBQU9fX1U1NTeHh47u7uOzs7WlpaWFhYNTU16urq4ODg4eHh GhoaR0dH6Ojo3NzcNDQ0VlZWLi4u7+/v6enpb29vQUFB8PDwMDAwhoaGW1tbPz8/dHR0mJiYzs7O RkZGJCQk4uLienp6v7+/BgYG1tbWUFBQ7e3tPj4+t7e3jY2NISEhDQ0N5+fn9PT0mpqadnZ2T09P jo6OGBgYo6OjV1dXl5eXKioq2NjYvLy8sLCwXl5eOjo67OzsoKCgBwcHubm5s7Ozy8vLh4eHZGRk fHx8YGBgeXl5VFRUFRUVLy8vLS0tHh4e5eXl3d3d0NDQxcXFgYGBcHBww8PDsbGxra2tc3Nzz8/P xsbGQEBAwcHBvb29ycnJj4+PwsLC0tLSnp6eqampurq6HBwc1dXVbm5uPT09qKioe3t7m5uboqKi BQUFa2trnJycp6en2traJycnFxcXlZWVTU1NdXV1ysrKMTExtra24+PjgoKCbGxsfX19lpaWhISE S0tL5OTkkZGRioqKrKysTk5OODg4SUlJLCwsbW1tUVFRIiIiqqqqXFxcY2NjlJSUcXFxpaWlX19f fn5+q6urgICAvr6+k5OTxMTEhYWFZ2dn////iXaB+gAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1I 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 6ZqsM1SNjTzpmqypGln86JqsqRrZvOiarKkaOXzoOvisqRodeNB16FlTNTrR33XgWVM18lDfddhZ UzXy0t510FlTNQpQ3nXIWVM1CtLddcBZUzWKUN11uFlTNYrS3HWwWVM1SlDcdahZUzVK0tt1oFlT NWJQ23WYWVM1YtHadZBZUzViUtp1iFlTNWLT2XWAWVM1ElDZdXhZUzUS0dh1cFlTNRJS2HVoWVM1 EtPXdWBZUzXKoK7rsLKmapRFW9dBZU3VKJOyrkPKmqpRNl1dB5Q1VaMCqroOJ2uqRkU0dR1M1lSN CinqOpSsqRoV09N1IFlTNVKgpuswsqZqpEJL10FkTdVIiZKuQ8iaqpEaHV0HkDVVI0UquvY/a6pG qjR07X3WVI2UKeja96ypGqlzv2vPs6ZqGOB8135nTdUwwvWuvc6aqmGI4137nDVVwxi3u/Y4a6qG QU537W/WVA2jXO7a26ypGoY53LWvWVM1jHO3a0+zpmpY4GzXfmZN1bDC1a69zJqqYYmjXfuYNVXD Gje79jBrqoZFTnbtX9ZUDatc7Nq7rKkaljnYtW9ZUzWsc69rz7Kmaghwrmu/sn7VrapHjZWeN9jh 2O0k2tPKUWxl7Rbu1eFw7X5tRZBZU3VIQuw6xKypOiwBdh1g1lQdmvC6Di9rqg5PcF0HlzVVhyi0 rkPLmqrDFFjXgWVN1aEKq+uwsqbqcAXVdVBZU3XIQuo6pKypOmwBdR1Q1lQdunC6DidrqkYwXQeT NVUjnK5DyZqq0SyQrgPJmqrRKoyuw8iaqtEmiK6DyJqq0S6ErkPImqqRLYCuA8iaqpHL/679z5qq 0ZH3XXufNVWjM9+79j1rqkY+nnftedZUjfz87trvrKkahXjdtddZUzUK87lrn7OmahTjcdceZ03V KM7frv3NmqpRirdde5s1VaM0X7v2NWuqRhyedu1p1lSNePzs2s+sqRpxedm1l1lTNeLzsWsfs6Zq JOFh1x5mTdVIxr+u/cuaqpGUd117lzVVIznfuvYta6pGOTzr2rOsqRrl8atrv7KmapTLq669ypqq UT6fuvYpa6pGJTzq2qOsqRqV8adrf7KmalTKm669yZqqUTlfuvYla6pGGjzp2pOsqRrp8KNrP7Km aqTFi669yJqqkR4fuvYha6pGmjzo2oOsqRrp0t+1/qypGmlT37X6rKka6dPetfasqRomKO9aedZU DTN0d607a6qGKaq7Vp01VcMczV1rzpqqYZLirhVnTdUwS2/XerOmapimtmu1WVM1zNPatdasqRo2 KO1aadZUDTt0dq0za6qGLSq7Vpk1VcMejV1rzJqqYZPCrhVmTdWwS1/X+rKmatimrmt1WVM17NPW tbasqRoSlHWtLeuF41P20t1fVO80THpqkJ5eXarH7v/rtOfkVenJT0Rb1mYMOnD9kZccWyc9kKjQ 2uFv/nn7NdLT5ACybrfutPErpQcT5Xp37ynPS0+QM8g61y27LZCeTyQ3Ytzu9dKj4xKy7qhxyTu8 Gtdl1X4jpafGMWSdx7fGDZSeVMT2yF7S8+Iess7rlpO4Y+twezfpWXERWRdwzlvSA4vS5q+XnhM3 kXUhNS+MkB5aFLfrhKHSU+Iosi5s3m3Sc4ti3rpMekKcRdZF1A/m0Zm7xjdKz4e7yLqoRSukhxf5 Xbiz9Gy4jKyLu/FS6flFPmv/Kj0ZTiPrEmbcJT3B6Kz6YOm5cBtZl9L4kvQMo6PFPaSnwnFkXVLD cOkpRq5Hl0vPhOvIurRB/yU9x8j25EzpiXAeWcfQOER6ktFu9WbS8+A+so6jB8/DndGlp/Q0KEDW sTywVHqa0WrWcdKzoAFZx3MU3+hywwHSk6ACWce0o/Q8o9nvpOdAB7KOac0Y6YlGJrP1DOk50IGs 49qcXx0WV3WE9BQoQdaxXSQ91LhOega0IOvYRnaRnurQLT1Zega0IOv4rpce69D9RHoC1CDrBBZL z3XYjmmQHgA1yDqB3aUHO2z7SV9/Pcg6iYekJztk82ukL78eZJ3EG9KjHbLPpK++ImSdRP0x0rMd rhX8ImF8ZJ3I49LDHa4fS197Tcg6kXUDpKc7WB9JX3tNyDqZq6WnO1TV0ldeFbJO5lTp8Q7V+dJX XhWyTmZUrfR8B2qe9JVXhawTelZ6vsN0pfR114WsE/pv6QEP0++lr7suZJ3QIukBD9O90tddF7JO qHGZ9ISHqI6vZCZC1knxuXAB86WvujJkndSvpEc8RP2lr7oyZJ3UYOkRD9F3pa+6MmSd1BLpEQ/R DtJXXRmyTupo6REP0SLpq64MWSc1Q3rEQ3Sg9FVXhqyTqq+SnvEA3Sd91ZUh68SmSc94gEZKX3Rl yDqxFdIzHp4B0tdcG7JObGvpIQ/PedLXXJumrAdJn4MyD0oPeXgWSF9zbQ7PZHpIn4MyK6WHPDzL pK+5NmdmMn2lz0GZM6SHPDx1vKJM5sJMprv0OSgzWXrIA8QrykSa/xH2dOmT0KVGesRD1Ff6quvS o2nLviN9ErrcJz3iIeLXhBP5XtOWbSJ9ErocIT3iIbpe+qrr8uWmLesqfRK6/Ex6xEP0femrrsvD TVt2tfRJ6PJj6REP0XDpq67LJU1b1kX6JHTZQ3rEQ/Qv6auuy6qmLauaIX0WqtwqPeIhWlovfdk1 qZ/evGdnSZ+GJuvqpEc8SPdLX3dNvtWyZbtJn4Ym/BEuEedLX3dNjmzZsrekT0OTl6UHPEy3S193 TfZv2bKB/aTPQxG+6CHiPD4VHlvNiNY94y+hxLa59HyH6g7pK6/HBRu2bA/pE9GDv6wn5G/SV16P tj9QUctfOIprrfR4h2rpculLr8XMjT+296r0qWgxR3q6w/Wx9LXX4tONW3ai9KlocYn0cIeLd4ox Pde+Z3znOpZdLpQe7nD1miR99XU4Out37LeSPhkdJkjPdsh+L331dTgpa8vq+HBeDDOmS492yIbN k77+Ghw4IHvP/lP6dDTgb+CK2kb6+mswPGfLBh4tfT7u67FAerDDNvFG6Qlw32W9cvdsFV99K+WX 0nMdupukJ8B9+3fcs/2kz8h1H/UqZxSRoi2kZ8B1O3fasmv5wkdR9WOlhxq/WSM9BW6bObfznv1T +qTc9pn0TCOT+bn0FLjthjxbVsevthax+QjpkUYm04svchWxvirfns2eJH1e7hr6hPREo9nlh0hP grueL/CxihMbpc/MWfwoiiPu5l9sCqh5ttCe3SB9aq76ofQ0o82b0rPgqh0L79mR0ufmpi2GSQ8z 2tR9Lj0NbvpqsT37mfTZueicidKzjHa9viw9Dy46raronq2XPj/3XHa29CQj26wjpCfCPaVeTy7j jwF0cPSZ0nOMXHd+TXomXPOdkq8nB2wpfY5uOf0M6SlGR8vWS0+FWxbG+FxzHc8as+w+rfSOwTbu PdleqIq1aTfw0ds2m/D9DifVXcG/X2+wpmvcTXvre9Ln6oZr9pEeXxRyG9++brHpQ/H37EL+0EeT 434jPbso7P0XpefDBW8sTbJndX/bRfqEpa15c7L05KKYAe+NlJ4Raf3+I+nfZb52StjvXq46Rnps Ucq7gb+o3LmcT1QsPk76tOX0vIk/T6/B7ZOkJ0XOR2PL27OqPt2kT13Gut1mSc8r4uk17nXpaZFx /7iB5e/akA+lT9++SV15U61IVZ+DpCfGvm9/UuGryWMHr5Neg01Dd+4zoLINg3XVLwT16wqb7fBI Cm8Re/U5d1/pldgx86wf8aEylSa/dP010tNjx743353aR6Sqpm6zfob0gsxqPGzCKr5WrdiAJ9/b y/N/8Zpx1I6XxvugaHx1c+/656vrT7/lgc18+pevHvO277bdT/70aG8+JeqBgfPfueF/zjqn+/M+ /Tp2/WYP3HL8+lf/+dzc+C+9/xeKIEKDi1DcSwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0y OVQxMjo0Mjo1NyswODowMEEFZ4IAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTYtMDQtMTZUMTU6NDM6 MzYrMDg6MDC3r5JkAAAAVHRFWHRzdmc6YmFzZS11cmkAZmlsZTovLy9ob21lL2RiL3N2Z19pbmZv L3N2Zy82MS8xNC82MTE0NzI0ZGJmOWI2ZDdmOTAwZWNhMGI4YWMyYzBlNi5zdmc2cTynAAAAAElF TkSuQmCC "
      preserveAspectRatio="none"
      height="98"
-     width="106">
+     width="106"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn1&quot;}));}, 100);">
     <desc
        id="desc2111">button</desc>
   </image>

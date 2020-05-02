@@ -203,13 +203,13 @@ class Main extends React.Component {
         }
 
         //Fullscrean
-        doc.getElementById("button1").style.cursor = "pointer";
+        doc.getElementById("btn1").style.cursor = "pointer";
 
         //Скрытие элемент
         doc.getElementById("panel1").style.opacity = 0;
 
         //Fullscreen
-        doc.getElementById("button1").addEventListener('click', (e) => {
+        doc.getElementById("btn1").addEventListener('click', (e) => {
           this.goFull();
         }); 
 
