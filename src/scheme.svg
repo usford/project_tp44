@@ -3333,13 +3333,13 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="svg1388"
+     inkscape:current-layer="g2384"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="1556.612"
-     inkscape:cx="5477.0028"
-     inkscape:zoom="0.5"
+     inkscape:cy="817.25531"
+     inkscape:cx="785.7223"
+     inkscape:zoom="1"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -6397,7 +6397,7 @@
          sodipodi:role="line">Пуск опроса</tspan></text>
   </g>
   <g
-     id="button13">
+     id="btn44-14">
     <desc
        id="desc2130">button</desc>
     <rect
@@ -6424,7 +6424,8 @@
          sodipodi:role="line">Закрыть</tspan></text>
   </g>
   <g
-     id="button16">
+     id="btn44-5"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-5&quot;}));}, 100);">
     <desc
        id="desc2137">button</desc>
     <rect
@@ -6451,7 +6452,8 @@
          sodipodi:role="line">Линия С</tspan></text>
   </g>
   <g
-     id="button15">
+     id="btn44-4"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-4&quot;}));}, 100);">
     <desc
        id="desc2144">button</desc>
     <rect
@@ -6477,7 +6479,8 @@
          y="791.15497">Линия B</tspan></text>
   </g>
   <g
-     id="button14">
+     id="btn44-3"
+     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-3&quot;}));}, 100);">
     <desc
        id="desc2151">button</desc>
     <rect
@@ -6502,132 +6505,182 @@
          x="468.40002"
          y="720.45557">Линия A</tspan></text>
   </g>
-  <rect
-     transform="matrix(0.0778683,0,0,0.0663521,872.16205,739.74353)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4)"
-     id="rect7165-2-9-8"
-     width="771.04462"
-     height="710.75531"
-     x="313.09915"
-     y="1107.9404"
-     rx="8.0620008e-16"
-     ry="1.7546879e-15" />
-  <text
-     id="text2447-4-9-2-0-5-1-5"
-     y="791.76227"
-     x="981.03937"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
-     xml:space="preserve"
-     transform="scale(0.93491269,1.0696186)"><tspan
-       sodipodi:role="line"
-       id="tspan3478"
+  <g
+     id="btn44-8">
+    <desc
+       id="desc2170">button</desc>
+    <rect
+       ry="1.7546879e-15"
+       rx="8.0620008e-16"
+       y="1107.9404"
+       x="313.09915"
+       height="710.75531"
+       width="771.04462"
+       id="rect24"
+       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4)"
+       transform="matrix(0.0778683,0,0,0.0663521,872.16205,739.74353)">
+      <desc
+         id="desc2101">button</desc>
+    </rect>
+    <text
+       transform="scale(0.93491269,1.0696186)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
        x="981.03937"
-       y="791.76227">A</tspan></text>
-  <rect
-     transform="matrix(0.0778683,0,0,0.0663521,872.09953,814.9727)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-8)"
-     id="rect7165-2-9-8-0"
-     width="771.04462"
-     height="710.75531"
-     x="313.09915"
-     y="1107.9404"
-     rx="8.0620008e-16"
-     ry="1.7546879e-15" />
-  <text
-     id="text2447-4-9-2-0-5-1-5-0"
-     y="862.09497"
-     x="980.97253"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
-     xml:space="preserve"
-     transform="scale(0.93491269,1.0696186)"><tspan
-       sodipodi:role="line"
-       id="tspan3478-5"
+       y="791.76227"
+       id="text2447-4-9-2-0-5-1-5"><tspan
+         y="791.76227"
+         x="981.03937"
+         id="tspan3478"
+         sodipodi:role="line">A</tspan></text>
+  </g>
+  <g
+     id="btn44-10">
+    <desc
+       id="desc2186">button</desc>
+    <rect
+       ry="1.7546879e-15"
+       rx="8.0620008e-16"
+       y="1107.9404"
+       x="313.09915"
+       height="710.75531"
+       width="771.04462"
+       id="rect26"
+       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-8)"
+       transform="matrix(0.0778683,0,0,0.0663521,872.09953,814.9727)">
+      <desc
+         id="desc2105">button</desc>
+    </rect>
+    <text
+       transform="scale(0.93491269,1.0696186)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
        x="980.97253"
-       y="862.09497">A</tspan></text>
-  <rect
-     transform="matrix(0.0778683,0,0,0.0663521,871.09953,663.9727)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-9)"
-     id="rect7165-2-9-8-4"
-     width="771.04462"
-     height="710.75531"
-     x="313.09915"
-     y="1107.9404"
-     rx="8.0620008e-16"
-     ry="1.7546879e-15" />
-  <text
-     id="text2447-4-9-2-0-5-1-5-5"
-     y="720.92316"
-     x="979.90289"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
-     xml:space="preserve"
-     transform="scale(0.93491269,1.0696186)"><tspan
-       sodipodi:role="line"
-       id="tspan3478-6"
+       y="862.09497"
+       id="text2447-4-9-2-0-5-1-5-0"><tspan
+         y="862.09497"
+         x="980.97253"
+         id="tspan3478-5"
+         sodipodi:role="line">A</tspan></text>
+  </g>
+  <g
+     id="btn44-6">
+    <desc
+       id="desc2150">button</desc>
+    <rect
+       ry="1.7546879e-15"
+       rx="8.0620008e-16"
+       y="1107.9404"
+       x="313.09915"
+       height="710.75531"
+       width="771.04462"
+       id="rect21"
+       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-9)"
+       transform="matrix(0.0778683,0,0,0.0663521,871.09953,663.9727)"
+       inkscape:label="#rect21">
+      <desc
+         id="desc2097">button</desc>
+    </rect>
+    <text
+       transform="scale(0.93491269,1.0696186)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
        x="979.90289"
-       y="720.92316">A</tspan></text>
-  <rect
-     transform="matrix(0.0778683,0,0,0.0663521,951.59953,663.4727)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96)"
-     id="rect7165-2-9-8-41"
-     width="771.04462"
-     height="710.75531"
-     x="313.09915"
-     y="1107.9404"
-     rx="8.0620008e-16"
-     ry="1.7546879e-15" />
-  <text
-     id="text2447-4-9-2-0-5-1-5-55"
-     y="720.45575"
-     x="1066.0072"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
-     xml:space="preserve"
-     transform="scale(0.93491269,1.0696186)"><tspan
-       sodipodi:role="line"
-       id="tspan3593"
+       y="720.92316"
+       id="text2447-4-9-2-0-5-1-5-5"><tspan
+         y="720.92316"
+         x="979.90289"
+         id="tspan3478-6"
+         sodipodi:role="line">A</tspan></text>
+  </g>
+  <g
+     id="btn44-7">
+    <desc
+       id="desc2162">button</desc>
+    <rect
+       inkscape:label="#rect23"
+       ry="1.7546879e-15"
+       rx="8.0620008e-16"
+       y="1107.9404"
+       x="313.09915"
+       height="710.75531"
+       width="771.04462"
+       id="rect23"
+       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96)"
+       transform="matrix(0.0778683,0,0,0.0663521,951.59953,663.4727)">
+      <desc
+         id="desc2099">button</desc>
+    </rect>
+    <text
+       transform="scale(0.93491269,1.0696186)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
        x="1066.0072"
-       y="720.45575">Р</tspan></text>
-  <rect
-     transform="matrix(0.0778683,0,0,0.0663521,951.59953,739.4727)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96-3)"
-     id="rect7165-2-9-8-41-0"
-     width="771.04462"
-     height="710.75531"
-     x="313.09915"
-     y="1107.9404"
-     rx="8.0620008e-16"
-     ry="1.7546879e-15" />
-  <text
-     id="text2447-4-9-2-0-5-1-5-55-2"
-     y="791.50916"
-     x="1066.0072"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
-     xml:space="preserve"
-     transform="scale(0.93491269,1.0696186)"><tspan
-       sodipodi:role="line"
-       id="tspan3593-7"
+       y="720.45575"
+       id="text2447-4-9-2-0-5-1-5-55"><tspan
+         y="720.45575"
+         x="1066.0072"
+         id="tspan3593"
+         sodipodi:role="line">Р</tspan></text>
+  </g>
+  <g
+     id="btn44-9">
+    <desc
+       id="desc2178">button</desc>
+    <rect
+       ry="1.7546879e-15"
+       rx="8.0620008e-16"
+       y="1107.9404"
+       x="313.09915"
+       height="710.75531"
+       width="771.04462"
+       id="rect25"
+       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96-3)"
+       transform="matrix(0.0778683,0,0,0.0663521,951.59953,739.4727)">
+      <desc
+         id="desc2103">button</desc>
+    </rect>
+    <text
+       transform="scale(0.93491269,1.0696186)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
        x="1066.0072"
-       y="791.50916">Р</tspan></text>
-  <rect
-     transform="matrix(0.0778683,0,0,0.0663521,951.09953,815.4727)"
-     style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96-6)"
-     id="rect7165-2-9-8-41-9"
-     width="771.04462"
-     height="710.75531"
-     x="313.09915"
-     y="1107.9404"
-     rx="8.0620008e-16"
-     ry="1.7546879e-15" />
-  <text
-     id="text2447-4-9-2-0-5-1-5-55-1"
-     y="862.56244"
-     x="1065.4724"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
-     xml:space="preserve"
-     transform="scale(0.93491269,1.0696186)"><tspan
-       sodipodi:role="line"
-       id="tspan3593-2"
+       y="791.50916"
+       id="text2447-4-9-2-0-5-1-5-55-2"><tspan
+         y="791.50916"
+         x="1066.0072"
+         id="tspan3593-7"
+         sodipodi:role="line">Р</tspan></text>
+  </g>
+  <g
+     id="btn44-11">
+    <desc
+       id="desc2194">button</desc>
+    <rect
+       ry="1.7546879e-15"
+       rx="8.0620008e-16"
+       y="1107.9404"
+       x="313.09915"
+       height="710.75531"
+       width="771.04462"
+       id="rect27"
+       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-7-8-4-96-6)"
+       transform="matrix(0.0778683,0,0,0.0663521,951.09953,815.4727)">
+      <desc
+         id="desc2107">button</desc>
+    </rect>
+    <text
+       transform="scale(0.93491269,1.0696186)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.83600044px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.67615294"
        x="1065.4724"
-       y="862.56244">Р</tspan></text>
+       y="862.56244"
+       id="text2447-4-9-2-0-5-1-5-55-1"><tspan
+         y="862.56244"
+         x="1065.4724"
+         id="tspan3593-2"
+         sodipodi:role="line">Р</tspan></text>
+  </g>
   <rect
      transform="matrix(0.72327013,0,0,1.1027388,288.28518,-835.383)"
      y="1324.644"
@@ -6637,7 +6690,7 @@
      id="rect2524-4-73-7"
      style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2)" />
   <text
-     id="text36"
+     id="txt44-2"
      y="639.9245"
      x="940.35413"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68283272px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795"
@@ -6691,7 +6744,7 @@
      id="rect2524-4-73-7-7"
      style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2-6)" />
   <text
-     id="text33"
+     id="txt44-1"
      y="590.74341"
      x="556.60303"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266487px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795"
@@ -6710,7 +6763,7 @@
      id="rect2524-4-73-7-7-0"
      style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2-6-5)" />
   <text
-     id="text34"
+     id="txt44-12"
      y="629.49591"
      x="556.53387"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266551px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795;"
@@ -6727,7 +6780,7 @@
      id="rect2524-4-73-7-7-9"
      style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-2-6-9)" />
   <text
-     id="text35"
+     id="txt44-13"
      y="668.07111"
      x="557.55786"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266551px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795;"
@@ -6867,7 +6920,7 @@
          y="1113.629"
          rx="1.7678677e-15" />
       <g
-         id="button11">
+         id="btnA1-2">
         <desc
            id="desc2116">button</desc>
         <rect
@@ -6902,7 +6955,7 @@
          id="rect2524"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538)" />
       <text
-         id="text19"
+         id="txtA1-4"
          y="1351.6964"
          x="879.60468"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -6951,7 +7004,7 @@
          id="rect2524-4"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4)" />
       <text
-         id="text18"
+         id="txtA1-7"
          y="1447.0717"
          x="861.06726"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -6961,7 +7014,7 @@
            x="861.06726"
            y="1447.0717">ВКЛЮЧЕНО</tspan></text>
       <g
-         id="button9">
+         id="btnA1-5">
         <desc
            id="desc2109">button</desc>
         <rect
@@ -6998,7 +7051,7 @@
            x="399.04251"
            y="1361.4531">Ручной режим</tspan></text>
       <g
-         id="button12">
+         id="btnA1-3">
         <desc
            id="desc2123">button</desc>
         <rect
@@ -7023,7 +7076,7 @@
              y="1347.4279">Автоматический</tspan></text>
       </g>
       <g
-         id="button10">
+         id="btnA1-6">
         <desc
            id="desc2102">button</desc>
         <rect
@@ -7131,7 +7184,7 @@
            y="1671.4"
            style="stroke-width:1.77374351">Время выключения 1</tspan></text>
       <g
-         id="button4">
+         id="btnA1-20">
         <desc
            id="desc2067">button</desc>
         <rect
@@ -7157,7 +7210,7 @@
              sodipodi:role="line">Закрыть</tspan></text>
       </g>
       <g
-         id="button8">
+         id="btnA1-10">
         <desc
            id="desc2095">button</desc>
         <rect
@@ -7183,7 +7236,7 @@
              sodipodi:role="line">Установить</tspan></text>
       </g>
       <g
-         id="button7">
+         id="btnA1-13">
         <desc
            id="desc2088">button</desc>
         <rect
@@ -7209,7 +7262,7 @@
              sodipodi:role="line">Установить</tspan></text>
       </g>
       <g
-         id="button6">
+         id="btnA1-16">
         <desc
            id="desc2081">button</desc>
         <rect
@@ -7235,7 +7288,7 @@
              sodipodi:role="line">Установить</tspan></text>
       </g>
       <g
-         id="button5">
+         id="btnA1-19">
         <desc
            id="desc2074">button</desc>
         <rect
@@ -7269,7 +7322,7 @@
          id="rect2524-4-7"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5)" />
       <text
-         id="text2447-4-9-2-3-2-9"
+         id="txtA1-8"
          y="1515.9309"
          x="638.19122"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7288,7 +7341,7 @@
          id="rect2524-4-7-4"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6)" />
       <text
-         id="text2447-4-9-2-3-2-9-2"
+         id="txtA1-11"
          y="1551.55"
          x="637.79565"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7307,7 +7360,7 @@
          id="rect2524-4-7-7"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-3)" />
       <text
-         id="text2447-4-9-2-3-2-9-1"
+         id="txtA1-14"
          y="1594.1968"
          x="638.16205"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7326,7 +7379,7 @@
          id="rect2524-4-7-3"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9)" />
       <text
-         id="text2447-4-9-2-3-2-9-3"
+         id="txtA1-9"
          y="1515.7269"
          x="751.37439"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7345,7 +7398,7 @@
          id="rect2524-4-7-3-7"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0)" />
       <text
-         id="text2447-4-9-2-3-2-9-3-9"
+         id="txtA1-12"
          y="1550.5265"
          x="750.6416"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7364,7 +7417,7 @@
          id="rect2524-4-7-3-7-7"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-9)" />
       <text
-         id="text2447-4-9-2-3-2-9-3-9-7"
+         id="txtA1-18"
          y="1628.9963"
          x="750.6416"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7383,7 +7436,7 @@
          id="rect2524-4-7-3-8"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-6)" />
       <text
-         id="text2447-4-9-2-3-2-9-3-5"
+         id="txtA1-15"
          y="1594.1968"
          x="750.6416"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7402,7 +7455,7 @@
          id="rect2524-4-7-4-1"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-6)" />
       <text
-         id="text2447-4-9-2-3-2-9-2-0"
+         id="txtA1-17"
          y="1628.9963"
          x="638.16205"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
@@ -7579,7 +7632,7 @@
          id="rect2524-4-73"
          style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58)" />
       <text
-         id="text28"
+         id="txtA1-20"
          y="1194.7848"
          x="846.42346"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -7632,6 +7685,16 @@
          x="369.38623"
          y="1497.8241"
          rx="1.6190407e-15" />
+      <text
+         id="txtA1-1"
+         y="1263.3932"
+         x="835.58698"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan2222"
+           x="835.58698"
+           y="1282.8562"></tspan></text>
     </g>
   </g>
   <rect

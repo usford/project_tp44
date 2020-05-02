@@ -42,7 +42,7 @@ function connectWs()
     {
       for (var item of message.lines)
       {
-        console.log(item);
+        //console.log(item);
         changeLine(item.name, item.color, doc);
       }
     }
@@ -69,6 +69,8 @@ function connectWs()
   {
     console.log('disconnected');
   }
+
+  return ws;
 }
 
 var isWs = false;
@@ -175,8 +177,9 @@ class Main extends React.Component {
   render() {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
+        var ws;
         var doc = document.getElementById('svgObject').contentDocument;
-        if (!isWs) connectWs();
+        if (!isWs) ws = connectWs();
         
         // var elem = document.getElementById("svgObject");
 
@@ -211,37 +214,43 @@ class Main extends React.Component {
         }); 
 
         //Линия А
-        doc.getElementById("button14").addEventListener('click', (e) => {
-          var state = (doc.getElementById("text33").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("text33").innerHTML = state;
-          //ws.send(JSON.stringify({type: "pressedButton", id: "button14"}));
+        doc.getElementById("btn44-3").addEventListener('click', (e) => {
+          var state = (doc.getElementById("txt44-1").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("txt44-1").innerHTML = state;
+          //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-3"}));
 
           doc.getElementById("text29").innerHTML = "Линия А ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
         }); 
 
         //Линия B
-        doc.getElementById("button15").addEventListener('click', (e) => {
-          var state = (doc.getElementById("text34").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("text34").innerHTML = state;
-          //ws.send(JSON.stringify({type: "pressedButton", id: "button15"}));
+        doc.getElementById("btn44-4").addEventListener('click', (e) => {
+          var state = (doc.getElementById("txt44-12").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("txt44-12").innerHTML = state;
+          //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-4"}));
 
           doc.getElementById("text29").innerHTML = "Линия B ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
         }); 
 
         //Линия C
-        doc.getElementById("button16").addEventListener('click', (e) => {
-          var state = (doc.getElementById("text35").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("text35").innerHTML = state;
-          //ws.send(JSON.stringify({type: "pressedButton", id: "button16"}));
+        doc.getElementById("btn44-5").addEventListener('click', (e) => {
+          var state = (doc.getElementById("txt44-13").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          doc.getElementById("txt44-13").innerHTML = state;
+          //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-5"}));
 
           doc.getElementById("text29").innerHTML = "Линия C ТП-44";
           doc.getElementById("panel1").style.opacity = 1; 
         }); 
 
         //Кнопка закрыть у нижней панели
-        doc.getElementById("button4").addEventListener('click', (e) =>
+        doc.getElementById("btn44-14").addEventListener('click', (e) =>
+        {
+          doc.getElementById("panel1").style.opacity = 0; 
+        });
+
+        //Кнопка закрыть на панели с линией
+        doc.getElementById("btnA1-20").addEventListener('click', (e) =>
         {
           doc.getElementById("panel1").style.opacity = 0; 
         });
