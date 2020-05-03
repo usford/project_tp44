@@ -16,6 +16,9 @@
    width="1526mm"
    id="svg1388"
    version="1.1">
+  <script
+     xlink:href="App.js"
+     id="script2" />
   <metadata
      id="metadata1394">
     <rdf:RDF>
@@ -3333,12 +3336,12 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="g2384"
+     inkscape:current-layer="svg1388"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="787.00968"
-     inkscape:cx="918.58118"
+     inkscape:cy="973.0097"
+     inkscape:cx="680.5812"
      inkscape:zoom="0.5"
      units="mm"
      showgrid="false"
@@ -6371,7 +6374,7 @@
        y="2056.2224">10.01.2020 15:30:20</tspan></text>
   <g
      id="btn2"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn2&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2049">button</desc>
     <rect
@@ -6399,7 +6402,7 @@
   </g>
   <g
      id="btn44-14"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-14&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2130">button</desc>
     <rect
@@ -6427,7 +6430,7 @@
   </g>
   <g
      id="btn44-5"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-5&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2137">button</desc>
     <rect
@@ -6455,7 +6458,7 @@
   </g>
   <g
      id="btn44-4"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-4&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2144">button</desc>
     <rect
@@ -6482,7 +6485,7 @@
   </g>
   <g
      id="btn44-3"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-3&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2151">button</desc>
     <rect
@@ -6509,7 +6512,7 @@
   </g>
   <g
      id="btn44-8"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-8&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2170">button</desc>
     <rect
@@ -6539,7 +6542,7 @@
   </g>
   <g
      id="btn44-10"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-10&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2186">button</desc>
     <rect
@@ -6569,7 +6572,7 @@
   </g>
   <g
      id="btn44-6"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-6&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2150">button</desc>
     <rect
@@ -6600,7 +6603,7 @@
   </g>
   <g
      id="btn44-7"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-7&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2162">button</desc>
     <rect
@@ -6631,7 +6634,7 @@
   </g>
   <g
      id="btn44-9"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-9&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2178">button</desc>
     <rect
@@ -6661,7 +6664,7 @@
   </g>
   <g
      id="btn44-11"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn44-11&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2194">button</desc>
     <rect
@@ -6858,7 +6861,7 @@
        style="stroke-width:0.98169452">Выбор линии для дистанцинного управления ТП-44</tspan></text>
   <g
      id="btn3"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn3&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2060">button</desc>
     <rect
@@ -6930,7 +6933,7 @@
          rx="1.7678677e-15" />
       <g
          id="btnA1-2"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-2&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2116">button</desc>
         <rect
@@ -7025,7 +7028,7 @@
            y="1447.0717">ВКЛЮЧЕНО</tspan></text>
       <g
          id="btnA1-5"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-5&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2109">button</desc>
         <rect
@@ -7063,7 +7066,7 @@
            y="1361.4531">Ручной режим</tspan></text>
       <g
          id="btnA1-3"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-3&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2123">button</desc>
         <rect
@@ -7089,7 +7092,7 @@
       </g>
       <g
          id="btnA1-6"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-6&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2102">button</desc>
         <rect
@@ -7198,7 +7201,7 @@
            style="stroke-width:1.77374351">Время выключения 1</tspan></text>
       <g
          id="btnA1-20"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-20&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2067">button</desc>
         <rect
@@ -7225,7 +7228,7 @@
       </g>
       <g
          id="btnA1-10"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-10&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2095">button</desc>
         <rect
@@ -7252,7 +7255,7 @@
       </g>
       <g
          id="btnA1-13"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-13&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2088">button</desc>
         <rect
@@ -7279,7 +7282,7 @@
       </g>
       <g
          id="btnA1-16"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-16}));}, 100);">
+         onclick="">
         <desc
            id="desc2081">button</desc>
         <rect
@@ -7306,7 +7309,7 @@
       </g>
       <g
          id="btnA1-19"
-         onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btnA1-19&quot;}));}, 100);">
+         onclick="">
         <desc
            id="desc2074">button</desc>
         <rect
@@ -7816,7 +7819,7 @@
      preserveAspectRatio="none"
      height="98"
      width="106"
-     onclick="const ws = new WebSocket('ws://localhost:8888'); setTimeout(()=&gt;{ws.send(JSON.stringify({type: &quot;pressedButton&quot;, id: &quot;btn1&quot;}));}, 100);">
+     onclick="">
     <desc
        id="desc2111">button</desc>
   </image>

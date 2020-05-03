@@ -45,24 +45,13 @@ function connectWs()
         //console.log(item);
         changeLine(item.name, item.color, doc);
       }
+    }else if (message.controls != null)
+    {
+      for (var item of message.controls)
+      {
+        changeControls(item.control, item.value);
+      }
     }
-    
-    
-    // try
-    // {
-    //   for (var item of message.elements)
-    //   {
-    //     //setTimeout(clickRect, count * 100, item);
-    //     clickRect(item);
-    //     count += 2;
-    //   }
-    // }catch(e)
-    // {
-    //   // for (var item of message.lines)
-    //   // {
-    //   //   //changeLine(item.name, item.color, doc);
-    //   // }
-    // }
   }
 
   ws.onclose = () => 
@@ -74,6 +63,22 @@ function connectWs()
 }
 
 var isWs = false;
+
+//Смена текста у контроллеров
+function changeControls(id, value)
+{
+  //console.log(id, value);
+  var doc = document.getElementById('svgObject').contentDocument;
+  var docT = doc.querySelectorAll("text");
+
+  for (var elem of docT)
+  {
+    if (elem.id == id)
+    {
+      elem.innerHTML = value;
+    }
+  }
+}
 
 //Замена ячеек на схеме
 function replaceRect(id, oldID, doc2)
@@ -139,27 +144,22 @@ export function clickRect(id)
 
   if (svgUrl.url != 0)
   {
-    
-    //setTimeout(() => {replaceRect(id, svgUrl.id);}, 100);
-    //replaceRect(id, svgUrl.id);
-    //console.log("ВОШЁЛ");
-    // window.onload = function()
-    // {
-    //   replaceRect(id, svgUrl.id);
-    // };
 
     document.getElementById("svgObject2").addEventListener("load", function() {
       var doc2 = document.getElementById('svgObject2').contentDocument;
       replaceRect(id, svgUrl.id, doc2);
     });
 
-    //replaceRect(id, svgUrl.id, doc2);
   }else
   {
-    //setTimeout(() => {document.getElementById("div" + id).remove();}, 100)
     document.getElementById("div" + id).remove();
   }
   
+}
+
+function sendButton(ws, id)
+{
+  ws.send(JSON.stringify({type: "pressedButton", id: id}));
 }
 
 
@@ -167,7 +167,6 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {fontSize: 17, isFull: false};
-    
   }
 
   goFull = () => {
@@ -180,13 +179,6 @@ class Main extends React.Component {
         var ws;
         var doc = document.getElementById('svgObject').contentDocument;
         if (!isWs) ws = connectWs();
-        
-        // var elem = document.getElementById("svgObject");
-
-        
-        // if (!document.fullscreenElement) {
-        //   elem.requestFullscreen();
-        // }
 
         var elements = doc.querySelectorAll("g");
 
@@ -195,8 +187,20 @@ class Main extends React.Component {
 
           if (desc != null)
           {
-            if (desc.innerHTML == "button")
+            if (desc.innerHTML == "button")   
+            {
               elem.style.cursor = "pointer";
+              elem.addEventListener('click', (e) => {
+                if (e.target.parentNode.tagName != "g")
+                {
+                  sendButton(ws, e.target.parentNode.parentNode.id);
+                }else
+                {
+                  sendButton(ws, e.target.parentNode.id);
+                }
+                
+              }); 
+            }
           }
 
           //console.log(elem.getAttribute('id'));
@@ -211,6 +215,7 @@ class Main extends React.Component {
         //Fullscreen
         doc.getElementById("btn1").addEventListener('click', (e) => {
           this.goFull();
+          sendButton(ws, "btn1");
         }); 
 
         //Линия А
