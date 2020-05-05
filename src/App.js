@@ -199,8 +199,8 @@ class Main extends React.Component {
 
         //Линия А
         doc.getElementById("btn44-3").addEventListener('click', (e) => {
-          var state = (doc.getElementById("txt44-1").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("txt44-1").innerHTML = state;
+          //var state = (doc.getElementById("txt44-1").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          //doc.getElementById("txt44-1").innerHTML = state;
           //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-3"}));
 
           doc.getElementById("text29").innerHTML = "Линия А ТП-44";
@@ -209,8 +209,8 @@ class Main extends React.Component {
 
         //Линия B
         doc.getElementById("btn44-4").addEventListener('click', (e) => {
-          var state = (doc.getElementById("txt44-12").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("txt44-12").innerHTML = state;
+          //var state = (doc.getElementById("txt44-12").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          //doc.getElementById("txt44-12").innerHTML = state;
           //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-4"}));
 
           doc.getElementById("text29").innerHTML = "Линия B ТП-44";
@@ -219,8 +219,8 @@ class Main extends React.Component {
 
         //Линия C
         doc.getElementById("btn44-5").addEventListener('click', (e) => {
-          var state = (doc.getElementById("txt44-13").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          doc.getElementById("txt44-13").innerHTML = state;
+          //var state = (doc.getElementById("txt44-13").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
+          //doc.getElementById("txt44-13").innerHTML = state;
           //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-5"}));
 
           doc.getElementById("text29").innerHTML = "Линия C ТП-44";
