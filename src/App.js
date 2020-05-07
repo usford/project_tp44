@@ -12,6 +12,10 @@ import { changeRect, changeLine } from './changeRect.js';
 
 import { changeAllElements, changeElements } from './default_settings.js';
 
+import lineA1 from './lineA1.js';
+import lineB1 from './lineB1.js';
+import lineC1 from './lineC1.js';
+
 
 //Подключение по вебсокету
 function connectWs() {
@@ -188,54 +192,25 @@ class Main extends React.Component {
         //Fullscrean
         doc.getElementById("btn1").style.cursor = "pointer";
 
-        //Скрытие элемент
-        doc.getElementById("panel1").style.opacity = 0;
+        //Линии
+        lineA1();
+        lineB1();
+        lineC1();
+        
 
         //Fullscreen
         doc.getElementById("btn1").addEventListener('click', (e) => {
           this.goFull();
           sendButton(ws, "btn1");
-        });
-
-        //Линия А
-        doc.getElementById("btn44-3").addEventListener('click', (e) => {
-          //var state = (doc.getElementById("txt44-1").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          //doc.getElementById("txt44-1").innerHTML = state;
-          //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-3"}));
-
-          doc.getElementById("text29").innerHTML = "Линия А ТП-44";
-          doc.getElementById("panel1").style.opacity = 1;
-        });
-
-        //Линия B
-        doc.getElementById("btn44-4").addEventListener('click', (e) => {
-          //var state = (doc.getElementById("txt44-12").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          //doc.getElementById("txt44-12").innerHTML = state;
-          //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-4"}));
-
-          doc.getElementById("text29").innerHTML = "Линия B ТП-44";
-          doc.getElementById("panel1").style.opacity = 1;
-        });
-
-        //Линия C
-        doc.getElementById("btn44-5").addEventListener('click', (e) => {
-          //var state = (doc.getElementById("txt44-13").innerHTML == "ВКЛ.") ? "ВЫКЛ." : "ВКЛ.";
-          //doc.getElementById("txt44-13").innerHTML = state;
-          //ws.send(JSON.stringify({type: "pressedButton", id: "btn44-5"}));
-
-          doc.getElementById("text29").innerHTML = "Линия C ТП-44";
-          doc.getElementById("panel1").style.opacity = 1;
-        });
+        });    
 
         //Кнопка закрыть у нижней панели
         doc.getElementById("btn44-14").addEventListener('click', (e) => {
-          doc.getElementById("panel1").style.opacity = 0;
+          doc.getElementById("panelA1").style.display = "none";
+          doc.getElementById("panelB1").style.display = "none";
+          doc.getElementById("panelC1").style.display = "none";;
         });
 
-        //Кнопка закрыть на панели с линией
-        doc.getElementById("btnA1-20").addEventListener('click', (e) => {
-          doc.getElementById("panel1").style.opacity = 0;
-        });
 
         doc.doClickAction = (signal_id) => {
           console.log(signal_id);
