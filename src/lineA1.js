@@ -7,8 +7,8 @@ export default function lineA1()
 
     //Линия А
     doc.getElementById("btn44-3").addEventListener('click', (e) => {
-        var state = (doc.getElementById("txt44-1").innerHTML == "ВКЛ") ? "ВЫКЛ" : "ВКЛ";
-        doc.getElementById("txt44-1").innerHTML = state;
+        //var state = (doc.getElementById("txt44-1").innerHTML == "ВКЛ") ? "ВЫКЛ" : "ВКЛ";
+        //doc.getElementById("txt44-1").innerHTML = state;
 
         doc.getElementById("panelA1").style.display = "block";
         doc.getElementById("panelB1").style.display = "none";
