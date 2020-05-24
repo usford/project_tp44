@@ -166,6 +166,7 @@ class Main extends React.Component {
         var ws;
         var doc = document.getElementById('svgObject').contentDocument;
         if (!isWs) ws = connectWs();
+        
 
         var elements = doc.querySelectorAll("g");
 
