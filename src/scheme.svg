@@ -5453,9 +5453,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="469.06723"
-     inkscape:cx="485.96588"
-     inkscape:zoom="0.35355339"
+     inkscape:cy="698.31448"
+     inkscape:cx="2049.5871"
+     inkscape:zoom="0.5"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -6486,6 +6486,14 @@
        d="M 1604.2485,710.69123 H 1744.565"
        id="path24767"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="ln0701104220632-5-1"
+       d="m 1749.4657,1384.7953 v 217.1875"
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
+      <title
+         id="title2441-3-3">Линия от KM2.1 до L3</title>
+    </path>
   </g>
   <g
      id="0701704220632">
@@ -6710,6 +6718,14 @@
        d="M 2142.4052,651.58812 V 1282.8105"
        id="path24988"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="ln0701104220632-5-1-3"
+       d="M 2140.9453,1381.8725 V 1599.06"
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
+      <title
+         id="title2441-3-3-5">Линия от KM2.1 до L3</title>
+    </path>
   </g>
   <g
      id="ln0700804220632">
@@ -6725,6 +6741,14 @@
        d="M 2438.8091,654.28855 V 1278.4399"
        id="path24990"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="ln0701104220632-5-1-3-6"
+       d="m 2439.0045,1385.0389 v 217.1875"
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
+      <title
+         id="title2441-3-3-5-1">Линия от KM2.1 до L3</title>
+    </path>
   </g>
   <path
      inkscape:connector-curvature="0"
@@ -6907,7 +6931,7 @@
     </g>
   </g>
   <g
-     id="0700404220633">
+     id="0700404220632">
     <rect
        style="opacity:1;fill:#00760b;fill-opacity:0.95686275;fill-rule:evenodd;stroke:#090000;stroke-width:2.03936505;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4611-5-7-1-3-8-2-8"
@@ -7720,166 +7744,120 @@
      id="path24729-9-59-50-27"
      style="fill:#00070b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <g
-     id="ln0700904220632"
-     transform="translate(-391.56035,5.0631847)">
+     style="fill:#00760b;fill-opacity:0.95726498"
+     id="0702504220632"
+     transform="translate(-0.66305,-1.1238717)">
     <title
-       id="title2582">Линия от KM1.1</title>
-    <g
-       transform="translate(390.8973,-6.1870564)"
-       id="0702704220632-8"
-       style="fill:#00760b;fill-opacity:0.95726498">
-      <title
-         id="title2391-1">L2 выключен</title>
-      <ellipse
-         transform="matrix(0.99998163,0.00606081,0,1,0,0)"
-         ry="70.71067"
-         rx="71.374908"
-         cy="1663.9656"
-         cx="1749.0167"
-         id="path24543-2-2"
-         style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#00000d;stroke-width:3.00002742;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:original-d="m 1698.3821,1621.9751 c 33.4413,34.4705 66.8815,68.9419 100.3208,103.4144"
-         inkscape:path-effect="#path-effect24519-7-5"
-         inkscape:connector-curvature="0"
-         id="path24517-4-3"
-         d="m 1698.3821,1621.9751 c 33.4403,34.4715 66.8805,68.9429 100.3208,103.4144"
-         style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:original-d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
-         inkscape:path-effect="#path-effect24523-8-7"
-         inkscape:connector-curvature="0"
-         id="path24521-8-8"
-         d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
-         style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
+       id="title2391-1">L2 выключен</title>
+    <ellipse
+       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#00000d;stroke-width:3.00002742;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24543-2-2"
+       cx="1749.0167"
+       cy="1663.9656"
+       rx="71.374908"
+       ry="70.71067"
+       transform="matrix(0.99998163,0.00606081,0,1,0,0)" />
     <path
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 2141.0261,1377.7242 v 217.1875"
-       id="ln0701104220632-5-1"
-       inkscape:connector-curvature="0">
-      <title
-         id="title2441-3-3">Линия от KM2.1 до L3</title>
-    </path>
+       style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1698.3821,1621.9751 c 33.4403,34.4715 66.8805,68.9429 100.3208,103.4144"
+       id="path24517-4-3"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect24519-7-5"
+       inkscape:original-d="m 1698.3821,1621.9751 c 33.4413,34.4705 66.8815,68.9419 100.3208,103.4144" />
+    <path
+       style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
+       id="path24521-8-8"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect24523-8-7"
+       inkscape:original-d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982" />
   </g>
   <g
-     id="ln0701004220632"
-     transform="translate(1.6609725,-1.3975105)">
+     style="fill:#00760b;fill-opacity:0.95726498"
+     id="0702404220632"
+     transform="translate(392.55827,-7.5845669)">
     <title
-       id="title2582-2">Линия от KM2.1 до N</title>
-    <g
-       transform="translate(390.8973,-6.1870564)"
-       id="0702704220632-8-3"
-       style="fill:#00760b;fill-opacity:0.95726498">
-      <title
-         id="title2391-1-4">L2 выключен</title>
-      <ellipse
-         transform="matrix(0.99998163,0.00606081,0,1,0,0)"
-         ry="70.71067"
-         rx="71.374908"
-         cy="1663.9656"
-         cx="1749.0167"
-         id="path24543-2-2-7"
-         style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#00000d;stroke-width:3.00002742;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:original-d="m 1698.3821,1621.9751 c 33.4413,34.4705 66.8815,68.9419 100.3208,103.4144"
-         inkscape:path-effect="#path-effect24519-7-5-8"
-         inkscape:connector-curvature="0"
-         id="path24517-4-3-4"
-         d="m 1698.3821,1621.9751 c 33.4403,34.4715 66.8805,68.9429 100.3208,103.4144"
-         style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:original-d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
-         inkscape:path-effect="#path-effect24523-8-7-9"
-         inkscape:connector-curvature="0"
-         id="path24521-8-8-5"
-         d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
-         style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
+       id="title2391-1-4">L2 выключен</title>
+    <ellipse
+       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#00000d;stroke-width:3.00002742;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24543-2-2-7"
+       cx="1749.0167"
+       cy="1663.9656"
+       rx="71.374908"
+       ry="70.71067"
+       transform="matrix(0.99998163,0.00606081,0,1,0,0)" />
     <path
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 2141.0261,1377.7242 v 217.1875"
-       id="ln0701104220632-5-1-3"
-       inkscape:connector-curvature="0">
-      <title
-         id="title2441-3-3-5">Линия от KM2.1 до L3</title>
-    </path>
+       style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1698.3821,1621.9751 c 33.4403,34.4715 66.8805,68.9429 100.3208,103.4144"
+       id="path24517-4-3-4"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect24519-7-5-8"
+       inkscape:original-d="m 1698.3821,1621.9751 c 33.4413,34.4705 66.8815,68.9419 100.3208,103.4144" />
+    <path
+       style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
+       id="path24521-8-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect24523-8-7-9"
+       inkscape:original-d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982" />
   </g>
   <g
-     id="ln0701104220632"
-     transform="translate(297.97839,7.3147273)">
+     style="fill:#00760b;fill-opacity:0.95726498"
+     id="0702304220632"
+     transform="translate(688.87569,1.1276709)">
     <title
-       id="title2582-2-0">Линия от KM3.1 до N</title>
-    <g
-       transform="translate(390.8973,-6.1870564)"
-       id="0702704220632-8-3-2"
-       style="fill:#00760b;fill-opacity:0.95726498">
-      <title
-         id="title2391-1-4-0">L2 выключен</title>
-      <ellipse
-         transform="matrix(0.99998163,0.00606081,0,1,0,0)"
-         ry="70.71067"
-         rx="71.374908"
-         cy="1663.9656"
-         cx="1749.0167"
-         id="path24543-2-2-7-7"
-         style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#00000d;stroke-width:3.00002742;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:original-d="m 1698.3821,1621.9751 c 33.4413,34.4705 66.8815,68.9419 100.3208,103.4144"
-         inkscape:path-effect="#path-effect24519-7-5-8-2"
-         inkscape:connector-curvature="0"
-         id="path24517-4-3-4-0"
-         d="m 1698.3821,1621.9751 c 33.4403,34.4715 66.8805,68.9429 100.3208,103.4144"
-         style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:original-d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
-         inkscape:path-effect="#path-effect24523-8-7-9-3"
-         inkscape:connector-curvature="0"
-         id="path24521-8-8-5-4"
-         d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
-         style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
+       id="title2391-1-4-0">L2 выключен</title>
+    <ellipse
+       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#00000d;stroke-width:3.00002742;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24543-2-2-7-7"
+       cx="1749.0167"
+       cy="1663.9656"
+       rx="71.374908"
+       ry="70.71067"
+       transform="matrix(0.99998163,0.00606081,0,1,0,0)" />
     <path
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 2141.0261,1377.7242 v 217.1875"
-       id="ln0701104220632-5-1-3-6"
-       inkscape:connector-curvature="0">
-      <title
-         id="title2441-3-3-5-1">Линия от KM2.1 до L3</title>
-    </path>
+       style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1698.3821,1621.9751 c 33.4403,34.4715 66.8805,68.9429 100.3208,103.4144"
+       id="path24517-4-3-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect24519-7-5-8-2"
+       inkscape:original-d="m 1698.3821,1621.9751 c 33.4413,34.4705 66.8815,68.9419 100.3208,103.4144" />
+    <path
+       style="fill:#00760b;fill-opacity:0.95726498;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982"
+       id="path24521-8-8-5-4"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect24523-8-7-9-3"
+       inkscape:original-d="m 1697.4982,1726.2733 c 33.7359,-34.767 67.4708,-69.5331 101.2047,-104.2982" />
   </g>
   <g
-     transform="translate(-232.11808,-350.17382)"
-     id="ln0701204220632">
+     id="ln0701204220632"
+     transform="translate(-425.8711,2.47232)">
     <title
-       id="title2712">Линия от Т1 до КМ1</title>
-    <g
-       transform="translate(-193.75302,352.64614)"
-       id="ln0701304220632-3">
-      <title
-         id="title2453-1">Линия от Т2 до DO3,Р1, КМ2</title>
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path25021-0-8"
-         d="m 3055.586,699.90711 -0.098,61.97265 -45.8281,-0.0977 0.3906,677.05074 c 71.1433,0.5543 136.8151,2.6968 207.5683,0 l 0.024,-84.1198"
-         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path25027-6-6"
-         d="m 3106.146,1353.5883 v 259.4375"
-         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-    </g>
+       id="title2453-1">Линия от Т1 до DO1,Р1, КМ1</title>
+    <path
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 3055.586,699.90711 -0.098,61.97265 -45.8281,-0.0977 0.3906,677.05074 c 71.1433,0.5543 136.8151,2.6968 207.5683,0 l 0.024,-84.1198"
+       id="path25021-0-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 3106.146,1353.5883 v 259.4375"
+       id="path25027-6-6"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="0702804220632">
+    <title
+       id="title2744">KM1 выключен</title>
     <rect
        style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="0701804220632-6"
+       id="rect292"
        width="183.95825"
        height="113.8"
-       x="2811.4509"
-       y="1966.5558">
-      <title
-         id="title2381-0">КМ2 выключен</title>
-    </rect>
+       x="2579.3328"
+       y="1616.382" />
   </g>
   <ellipse
      ry="1.6674696"
@@ -7896,108 +7874,101 @@
      id="path24729-9-59-0"
      style="fill:#00070b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <g
-     transform="translate(191.31942,-352.20504)"
-     id="ln0701304220632">
+     id="ln0701304220632"
+     transform="translate(-2.4336,0.4411)">
     <title
-       id="title2712-6">Линия от Т2 до КМ2</title>
-    <g
-       transform="translate(-193.75302,352.64614)"
-       id="ln0701304220632-3-4">
-      <title
-         id="title2453-1-1">Линия от Т2 до DO3,Р1, КМ2</title>
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path25021-0-8-0"
-         d="m 3055.586,699.90711 -0.098,61.97265 -45.8281,-0.0977 0.3906,677.05074 c 71.1433,0.5543 136.8151,2.6968 207.5683,0 l 0.024,-84.1198"
-         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path25027-6-6-8"
-         d="m 3106.146,1353.5883 v 259.4375"
-         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-    </g>
-    <rect
-       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="0701804220632-6-5"
-       width="183.95825"
-       height="113.8"
-       x="2811.4509"
-       y="1966.5558">
-      <title
-         id="title2381-0-7">КМ2 выключен</title>
-    </rect>
+       id="title2453-1-1">Линия от Т2 до DO3,Р1, КМ2</title>
+    <path
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 3055.586,699.90711 -0.098,61.97265 -45.8281,-0.0977 0.3906,677.05074 c 71.1433,0.5543 136.8151,2.6968 207.5683,0 l 0.024,-84.1198"
+       id="path25021-0-8-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 3106.146,1353.5883 v 259.4375"
+       id="path25027-6-6-8"
+       inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(601.31943,-350.33004)"
-     id="ln0701404220632">
+     id="0702704220632">
     <title
-       id="title2712-6-6">Линия от Т3 до КМ3</title>
-    <g
-       transform="translate(-193.75302,352.64614)"
-       id="ln0701304220632-3-4-1">
-      <title
-         id="title2453-1-1-5">Линия от Т2 до DO3,Р1, КМ2</title>
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path25021-0-8-0-1"
-         d="m 3055.586,699.90711 -0.098,61.97265 -45.8281,-0.0977 0.3906,677.05074 c 71.1433,0.5543 136.8151,2.6968 207.5683,0 l 0.024,-84.1198"
-         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path25027-6-6-8-5"
-         d="m 3106.146,1353.5883 v 259.4375"
-         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-    </g>
+       id="title2745">KM2 выключен</title>
     <rect
        style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="0701804220632-6-5-1"
+       id="rect272"
        width="183.95825"
        height="113.8"
-       x="2811.4509"
-       y="1966.5558">
-      <title
-         id="title2381-0-7-2">КМ2 выключен</title>
-    </rect>
+       x="3002.7703"
+       y="1614.3507" />
   </g>
   <g
-     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     id="ln0700504220632">
+     id="ln0701404220632"
+     transform="translate(407.56641,2.3161)"
+     inkscape:label="#ln0701304220632">
     <title
-       id="title2822">Линия от QF4 до Рв</title>
+       id="title2453-1-1-5">Линия от Т3 до DO5,Р1, КМ3</title>
+    <path
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 3055.586,699.90711 -0.098,61.97265 -45.8281,-0.0977 0.3906,677.05074 c 71.1433,0.5543 136.8151,2.6968 207.5683,0 l 0.024,-84.1198"
+       id="path25021-0-8-0-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 3106.146,1353.5883 v 259.4375"
+       id="path25027-6-6-8-5"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="0702604220632">
+    <title
+       id="title2743">KM3 выключен</title>
+    <rect
+       inkscape:label="#rect281"
+       style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect281"
+       width="183.95825"
+       height="113.8"
+       x="3412.7703"
+       y="1616.2257" />
+  </g>
+  <g
+     id="0702904220632">
+    <title
+       id="title2746">PB выключен</title>
     <rect
        style="fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000b0e;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="0702904220632-6"
+       id="rect2992"
        width="177.32912"
        height="104.40873"
        x="3942.8855"
        y="148.42"
-       inkscape:label="#0703004220632">
-      <title
-         id="title2395-7">Р1 выключен</title>
-    </rect>
+       inkscape:label="#rect2992" />
+  </g>
+  <g
+     id="ln0700504220632">
     <path
        style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
        d="m 2635.5591,465.89168 h 1325.3437 v -213.715"
-       id="path2806"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 2685.9009,466.51842 v 96.12233"
-       id="path2808"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 3112.3747,466.51842 v 89.4932"
-       id="path2810"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 3520.0659,470.93784 v 88.38835"
-       id="path2812"
+       id="ln5"
        inkscape:connector-curvature="0" />
   </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path2808"
+     d="m 2685.9009,466.51842 v 96.12233"
+     style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path2810"
+     d="m 3112.3747,466.51842 v 89.4932"
+     style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path2812"
+     d="m 3520.0659,470.93784 v 88.38835"
+     style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
   <ellipse
      ry="1.06669"
      rx="0.90541285"
@@ -10725,24 +10696,25 @@
      y="407.38455"
      rx="2.3890541e-15" />
   <g
-     transform="translate(-2.9296875e-5,-4.2590765e-4)"
-     id="ln0702404220632_"
-     inkscape:label="#ln0702404220632 ">
+     id="0703004220632">
     <title
-       id="title2847">Линия от Рв до Р1</title>
+       id="title2751">P1 выключен</title>
     <rect
        ry="5.0275598e-16"
        rx="5.0275598e-16"
-       y="759.02863"
+       y="759.0282"
        x="3972.78"
        height="104.40873"
        width="177.32912"
-       id="rect2824-1"
+       id="rect302"
        style="opacity:1;vector-effect:none;fill:#00760b;fill-opacity:0.95726498;fill-rule:nonzero;stroke:#000a0b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95686275" />
+  </g>
+  <g
+     id="ln0702404220632">
     <path
        inkscape:connector-curvature="0"
        id="path2841"
-       d="M 4074.7028,254.38639 V 765.93395"
+       d="M 4074.7028,254.38596 V 765.93352"
        style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
   </g>
   <image

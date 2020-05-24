@@ -14,24 +14,30 @@ import rect0700304220631 from './rects/0700304220631.svg'; //Красный пр
 import rect0700304220632 from './rects/0700304220632.svg'; //Зелёный прямоугольник
 
 import rect0700404220631 from './rects/0700404220631.svg'; //Красный прямоугольник
-import rect0700404220633 from './rects/0700404220633.svg'; //Зелёный прямоугольник
+import rect0700404220632 from './rects/0700404220632.svg'; //Зелёный прямоугольник
 
 import rect0700504220631 from './rects/0700504220631.svg'; //Красный прямоугольник
 import rect0700504220632 from './rects/0700504220632.svg'; //Зелёный прямоугольник
+import rect0700504220633 from './rects/0700504220633.svg'; //Красный прямоугольник
 
 import rect0700604220631 from './rects/0700604220631.svg'; //Красный прямоугольник
 import rect0700604220632 from './rects/0700604220632.svg'; //Зелёный прямоугольник
+import rect0700604220633 from './rects/0700604220633.svg'; //Красный прямоугольник
 
 import rect0700704220631 from './rects/0700704220631.svg'; //Красный прямоугольник
 import rect0700704220632 from './rects/0700704220632.svg'; //Зелёный прямоугольник
+import rect0700704220633 from './rects/0700704220633.svg'; //Красный прямоугольник
 
 import rect0700804220631 from './rects/0700804220631.svg'; //Красный прямоугольник
+import rect0700804220632 from './rects/0700804220632.svg'; //Красный прямоугольник
 import rect0700804220633 from './rects/0700804220633.svg'; //Зелёный прямоугольник
 
 import rect0700904220631 from './rects/0700904220631.svg'; //Красный прямоугольник
+import rect0700904220632 from './rects/0700904220632.svg'; //Красный прямоугольник
 import rect0700904220633 from './rects/0700904220633.svg'; //Зелёный прямоугольник
 
 import rect0701004220631 from './rects/0701004220631.svg'; //Красный прямоугольник
+import rect0701004220632 from './rects/0701004220632.svg'; //Красный прямоугольник
 import rect0701004220633 from './rects/0701004220633.svg'; //Зелёный прямоугольник
 
 import rect0701104220631 from './rects/0701104220631.svg'; //Красный прямоугольник
@@ -64,6 +70,30 @@ import rect0702104220632 from './rects/0702104220632.svg'; //Зелёный пр
 import rect0702204220631 from './rects/0702204220631.svg'; //Красный прямоугольник
 import rect0702204220632 from './rects/0702204220632.svg'; //Зелёный прямоугольник
 
+import rect0702304220631 from './rects/0702304220631.svg'; //Красный прямоугольник
+import rect0702304220632 from './rects/0702304220632.svg'; //Зелёный прямоугольник
+
+import rect0702404220631 from './rects/0702404220631.svg'; //Красный прямоугольник
+import rect0702404220632 from './rects/0702404220632.svg'; //Зелёный прямоугольник
+
+import rect0702504220631 from './rects/0702504220631.svg'; //Красный прямоугольник
+import rect0702504220632 from './rects/0702504220632.svg'; //Зелёный прямоугольник
+
+import rect0702604220631 from './rects/0702604220631.svg'; //Красный прямоугольник
+import rect0702604220632 from './rects/0702604220632.svg'; //Зелёный прямоугольник
+
+import rect0702704220631 from './rects/0702704220631.svg'; //Красный прямоугольник
+import rect0702704220632 from './rects/0702704220632.svg'; //Зелёный прямоугольник
+
+import rect0702804220631 from './rects/0702804220631.svg'; //Красный прямоугольник
+import rect0702804220632 from './rects/0702804220632.svg'; //Зелёный прямоугольник
+
+import rect0702904220631 from './rects/0702904220631.svg'; //Красный прямоугольник
+import rect0702904220632 from './rects/0702904220632.svg'; //Зелёный прямоугольник
+
+import rect0703004220631 from './rects/0703004220631.svg'; //Красный прямоугольник
+import rect0703004220632 from './rects/0703004220632.svg'; //Зелёный прямоугольник
+
 const list = [
     rect0701904220631,
     rect0701904220632,
@@ -81,24 +111,30 @@ const list = [
     rect0700304220632,
 
     rect0700404220631,
-    rect0700404220633,
+    rect0700404220632,
 
     rect0700504220631,
     rect0700504220632,
+    rect0700504220633,
 
     rect0700604220631,
     rect0700604220632,
+    rect0700604220633,
 
     rect0700704220631,
     rect0700704220632,
+    rect0700704220633,
 
     rect0700804220631,
+    rect0700804220632,
     rect0700804220633,
 
     rect0700904220631,
+    rect0700904220632,
     rect0700904220633,
 
     rect0701004220631,
+    rect0701004220632,
     rect0701004220633,
 
     rect0701104220631,
@@ -129,7 +165,31 @@ const list = [
     rect0702104220632,
 
     rect0702204220631,
-    rect0702204220632
+    rect0702204220632,
+
+    rect0702304220631,
+    rect0702304220632,
+
+    rect0702404220631,
+    rect0702404220632,
+
+    rect0702504220631,
+    rect0702504220632,
+
+    rect0702604220631,
+    rect0702604220632,
+
+    rect0702704220631,
+    rect0702704220632,
+
+    rect0702804220631, 
+    rect0702804220632,
+
+    rect0702904220631,
+    rect0702904220632,
+
+    rect0703004220631,
+    rect0703004220632,
 ]
 
 const listLines = [
@@ -194,24 +254,25 @@ export function changeRect(id, doc)
     if (doc.getElementById(id) == null)
     {
         //alert('Не найден');
-        var lastSymb = id[id.length-1];
-        var truncWord = id.substring(0, id.length - 1);
+        //var lastSymb = id[id.length-1]; //Последний символ
+        var truncWord = id.substring(0, id.length - 1); //Всё, кроме последнего символа
 
-        
+        var checkDoc = "";
 
-        lastSymb = (lastSymb == "1") ? "2" : "1"
-        var check = false;
-        list.forEach((item) => 
+        for (var i = 1; i <= 3; i++)
         {
-            var findID = item.toString().split('/')[3].split('.')[0];
-            var transID = truncWord + lastSymb;
-            if (findID == transID)
-            {
-                check = true;
-            }
-        });
+            list.forEach((item) => 
+            {       
+                if (doc.getElementById(truncWord + i.toString()))
+                {
+                    checkDoc = truncWord + i.toString();
+                }
+            });
+        }
 
-        if (!check) lastSymb = "3";
+        // console.log("Элемент, на который заменяется: " + id);
+        // console.log("Элемент, который нужно заменить: " + checkDoc);
+
         list.forEach((item) => 
         {
             var findID = item.toString().split('/')[3].split('.')[0];
@@ -221,7 +282,7 @@ export function changeRect(id, doc)
             }
         });
 
-        change.id = truncWord + lastSymb;
+        change.id = checkDoc;
         
     }else
     {

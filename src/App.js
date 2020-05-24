@@ -34,8 +34,11 @@ function connectWs() {
     var count = 1;
     var doc = document.getElementById('svgObject').contentDocument;
     if (message.elements != null) {
-      for (var i = 0; i < message.elements.length - 1; i++) {
+      for (var i = 0; i < message.elements.length; i++) {
+        var lastSymb = message.elements[i][message.elements[i].length-1];
         clickRect(message.elements[i]);
+        //clickRect(message.elements[i]);
+        //console.log(message.elements[i]);
       }
     } else if (message.lines != null) {
       for (var item of message.lines) {
@@ -114,8 +117,8 @@ export function clickRect(id) {
 
   var svgUrl = changeRect(id, doc);
 
-  //console.log(`oldID: ${svgUrl.id}`);
-  //console.log(`id: ${id}`)
+  // console.log(`oldID: ${svgUrl.id}`);
+  // console.log(`id: ${id}`)
 
 
   var newElement = document.createElement('div');
