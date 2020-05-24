@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -192,11 +192,12 @@ class Main extends React.Component {
         //Fullscrean
         doc.getElementById("btn1").style.cursor = "pointer";
 
+
         //Линии
         lineA1();
         lineB1();
         lineC1();
-        
+        var schemeServer;
 
         //Fullscreen
         doc.getElementById("btn1").addEventListener('click', (e) => {
@@ -241,10 +242,14 @@ class Main extends React.Component {
           enabled={this.state.isFull}
           onChange={isFull => this.setState({ isFull })}
         >
-
+        
+        <Suspense fallback={<div>Загрузка...</div>}>
           <object id="svgObject" data={scheme} type="image/svg+xml" width="100%" height="100%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
-            Your browser doesn't support SVG
-        </object>
+              Your browser doesn't support SVG
+          </object>
+        </Suspense>
+
+          
         </Fullscreen>
       </div>
     );

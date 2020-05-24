@@ -13,7 +13,6 @@ export default function lineB1()
         doc.getElementById("panelA1").style.display = "none";
         doc.getElementById("panelB1").style.display = "block";
         doc.getElementById("panelC1").style.display = "none";
-        console.log(doc.getElementById("panelB1").style.opacity);
       });
 
     //Кнопка закрыть на панели с линией B1
