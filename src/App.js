@@ -48,6 +48,17 @@ function connectWs() {
     } else if (message.controls != null) {
       for (var item of message.controls) {
         changeControls(item.control, item.value);
+      } 
+    }else if (message.controlsPanels != null) {
+      for (var item of message.controlsPanels)
+      {
+        if (item.value == 1)
+        {
+          doc.getElementById(item.control).style.display = "block";
+        }else
+        {
+          doc.getElementById(item.control).style.display = "none";
+        }
       }
     }
   }

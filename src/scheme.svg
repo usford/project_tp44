@@ -5453,9 +5453,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="698.31448"
-     inkscape:cx="2049.5871"
-     inkscape:zoom="0.5"
+     inkscape:cy="1635.4077"
+     inkscape:cx="745.66816"
+     inkscape:zoom="0.70710678"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -7953,22 +7953,22 @@
        d="m 2635.5591,465.89168 h 1325.3437 v -213.715"
        id="ln5"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2808"
+       d="m 2686.4347,465.63453 v 96.12233"
+       style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2810"
+       d="m 3109.8722,470.23244 v 89.4932"
+       style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2812"
+       d="m 3519.8722,473.21229 v 88.38835"
+       style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
   </g>
-  <path
-     inkscape:connector-curvature="0"
-     id="path2808"
-     d="m 2685.9009,466.51842 v 96.12233"
-     style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-  <path
-     inkscape:connector-curvature="0"
-     id="path2810"
-     d="m 3112.3747,466.51842 v 89.4932"
-     style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-  <path
-     inkscape:connector-curvature="0"
-     id="path2812"
-     d="m 3520.0659,470.93784 v 88.38835"
-     style="fill:none;stroke:#00760b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
   <ellipse
      ry="1.06669"
      rx="0.90541285"
@@ -8842,13 +8842,11 @@
      id="txt44-1"
      y="590.74341"
      x="556.60303"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266487px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.68266556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97658795;"
      xml:space="preserve"
      transform="scale(0.97658796,1.0239733)"><tspan
        sodipodi:role="line"
-       id="tspan3836"
-       x="556.60303"
-       y="590.74341">ВКЛ.</tspan></text>
+       id="tspan2747">ВЫКЛ.</tspan></text>
   <rect
      transform="matrix(0.59287229,0,0,0.89796784,24.091693,-571.44148)"
      y="1324.644"
