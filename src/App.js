@@ -12,6 +12,8 @@ import { changeRect, changeLine } from './changeRect.js';
 
 import { changeAllElements, changeElements } from './default_settings.js';
 
+import styleConfig from './styleConfig';
+
 import lineA1 from './lineA1.js';
 import lineB1 from './lineB1.js';
 import lineC1 from './lineC1.js';
@@ -24,6 +26,8 @@ function connectWs() {
 
   ws.onopen = () => {
     console.log('connected WS');
+    var doc = document.getElementById('svgObject').contentDocument;
+    styleConfig(doc);
   }
 
   ws.onmessage = evt => {
@@ -33,6 +37,7 @@ function connectWs() {
 
     var count = 1;
     var doc = document.getElementById('svgObject').contentDocument;
+
     if (message.elements != null) {
       for (var i = 0; i < message.elements.length; i++) {
         var lastSymb = message.elements[i][message.elements[i].length-1];
@@ -60,6 +65,16 @@ function connectWs() {
           doc.getElementById(item.control).style.display = "none";
         }
       }
+    }else if (message.controlsButtons != null) {
+      for (var item of message.controlsButtons) {
+        if (item.value == 1)
+        {
+          doc.getElementById(item.control).style.opacity = 1;
+        }else
+        {
+          doc.getElementById(item.control).style.opacity = 0.3;
+        } 
+      } 
     }
   }
 
