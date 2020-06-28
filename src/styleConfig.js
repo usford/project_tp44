@@ -1,9 +1,10 @@
 export default function styleConfig(doc)
 {
-    doc.getElementById("btn44-6").style.opacity = 0.3;
-    doc.getElementById("btn44-7").style.opacity = 0.3;
-    doc.getElementById("btn44-8").style.opacity = 0.3;
-    doc.getElementById("btn44-9").style.opacity = 0.3;
-    doc.getElementById("btn44-10").style.opacity = 0.3;
-    doc.getElementById("btn44-11").style.opacity = 0.3;
+    doc.getElementById("panelLine").style.display = "none";
+    doc.getElementById("1kn04-035.2").style.opacity = 0.3;
+    doc.getElementById("1kn04-038.2").style.opacity = 0.3;
+    doc.getElementById("1kn04-036.2").style.opacity = 0.3;
+    doc.getElementById("1kn04-039.2").style.opacity = 0.3;
+    doc.getElementById("1kn04-037.2").style.opacity = 0.3;
+    doc.getElementById("1kn04-040.2").style.opacity = 0.3;
 }

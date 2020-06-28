@@ -17,6 +17,7 @@ import styleConfig from './styleConfig';
 import lineA1 from './lineA1.js';
 import lineB1 from './lineB1.js';
 import lineC1 from './lineC1.js';
+import line from './line.js';
 
 
 //Подключение по вебсокету
@@ -59,10 +60,7 @@ function connectWs() {
       {
         if (item.value == 1)
         {
-          doc.getElementById(item.control).style.display = "block";
-        }else
-        {
-          doc.getElementById(item.control).style.display = "none";
+          line(item.control);
         }
       }
     }else if (message.controlsButtons != null) {
@@ -174,6 +172,7 @@ export function clickRect(id) {
 
 }
 
+//Отправка id кнопка на сервер
 function sendButton(ws, id) {
   ws.send(JSON.stringify({ type: "pressedButton", id: id }));
 }
@@ -219,27 +218,16 @@ class Main extends React.Component {
           //console.log(elem.getAttribute('id'));
         }
 
-        //Fullscrean
-        doc.getElementById("btn1").style.cursor = "pointer";
-
-
-        //Линии
-        lineA1();
-        lineB1();
-        lineC1();
-        var schemeServer;
-
         //Fullscreen
+        doc.getElementById("btn1").style.cursor = "pointer";
         doc.getElementById("btn1").addEventListener('click', (e) => {
           this.goFull();
           sendButton(ws, "btn1");
         });    
 
         //Кнопка закрыть у нижней панели
-        doc.getElementById("btn44-14").addEventListener('click', (e) => {
-          doc.getElementById("panelA1").style.display = "none";
-          doc.getElementById("panelB1").style.display = "none";
-          doc.getElementById("panelC1").style.display = "none";;
+        doc.getElementById("1kn04-041.1").addEventListener('click', (e) => {
+          doc.getElementById("panelLine").style.display = "none";
         });
 
 
