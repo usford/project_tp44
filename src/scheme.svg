@@ -7748,13 +7748,13 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="svg1388"
+     inkscape:current-layer="ln0700804220632"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="1386.4418"
-     inkscape:cx="601.30823"
-     inkscape:zoom="0.94280904"
+     inkscape:cy="1671.4558"
+     inkscape:cx="2102.0416"
+     inkscape:zoom="0.47140453"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -8684,14 +8684,6 @@
      style="fill:none;stroke:#000000;stroke-width:0.045;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
      inkscape:connector-curvature="0"
-     id="ln0700204220632"
-     d="M 1751.1941,302.99422 V 542.20094"
-     style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
-    <title
-       id="title2401">Линия от А до QF1</title>
-  </path>
-  <path
-     inkscape:connector-curvature="0"
      id="path24639"
      d="m 1750.8217,297.11383 v -68.6016 h -0.4311"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
@@ -8720,19 +8712,6 @@
      id="path24641-9"
      d="m 2124.3096,248.44653 c 4.1016,0 8.2031,0 12.3047,0 0.7161,0 1.4323,0 2.1484,0 0.1359,0 0.906,-0.0353 0.9766,0 0.082,0.0412 0.113,0.15413 0.1953,0.19531 0.1036,0.0518 0.8437,-0.0443 0.9766,0 0.087,0.0291 0.1129,0.15414 0.1953,0.19531 0.058,0.0291 0.1302,0 0.1953,0 0.065,0 0.1302,0 0.1953,0 0.3906,0 0.7813,0 1.1719,0 0.065,0 0.1302,0 0.1953,0 0.065,0 0.1493,-0.046 0.1953,0 0.046,0.046 -0.046,0.14928 0,0.19531 0.03,0.0303 0.5099,-0.0253 0.5859,0 0.1382,0.046 0.2526,0.14928 0.3907,0.19532 0.1235,0.0412 0.2741,-0.0582 0.3906,0 0.21,0.10497 0.368,0.30344 0.5859,0.39062 0.1209,0.0484 0.2742,-0.0582 0.3907,0 0.058,0.0291 -0.029,0.13708 0,0.19531 0.041,0.0824 0.1129,0.15414 0.1953,0.19532 0.058,0.0291 0.1371,-0.0291 0.1953,0 0.082,0.0412 0.1129,0.15413 0.1953,0.19531 0.058,0.0291 0.1371,-0.0291 0.1953,0 0.8129,0.40642 -0.2088,-0.0135 0.1953,0.39062 0.046,0.046 0.1371,-0.0291 0.1953,0 0.082,0.0412 0.113,0.15414 0.1953,0.19532 0.1165,0.0582 0.2986,-0.0921 0.3907,0 0.046,0.046 -0.046,0.14927 0,0.19531 0.046,0.046 0.1492,-0.046 0.1953,0 0.046,0.046 -0.046,0.14928 0,0.19531 0.092,0.0921 0.2741,-0.0582 0.3906,0 0.082,0.0412 0.113,0.15414 0.1953,0.19531 0.1165,0.0582 0.2986,-0.0921 0.3906,0 0.046,0.046 -0.046,0.14928 0,0.19532 0.046,0.046 0.1371,-0.0291 0.1954,0 0.082,0.0412 0.1129,0.15413 0.1953,0.19531 0.058,0.0291 0.1492,-0.046 0.1953,0 0.046,0.046 -0.046,0.14928 0,0.19531 0.046,0.046 0.1493,-0.046 0.1953,0 0.046,0.046 -0.046,0.14928 0,0.19531 0.4041,0.40411 -0.016,-0.61753 0.3906,0.19532 0.029,0.0582 -0.046,0.14927 0,0.19531 0.046,0.046 0.1493,-0.046 0.1953,0 0.046,0.046 -0.029,0.13708 0,0.19531 0.096,0.1922 0.6852,0.58906 0.7813,0.78125 0.029,0.0582 -0.046,0.14928 0,0.19531 0.4041,0.40411 -0.016,-0.61753 0.3906,0.19532 0.029,0.0582 -0.029,0.13708 0,0.19531 0.041,0.0823 0.1541,0.11296 0.1953,0.19531 0.029,0.0582 -0.029,0.13708 0,0.19531 0.041,0.0824 0.1542,0.11297 0.1953,0.19532 0.029,0.0582 -0.046,0.14927 0,0.19531 0.046,0.046 0.1493,-0.046 0.1953,0 0.054,0.0535 -0.046,0.83923 0,0.97656 0.046,0.13811 0.1493,0.25252 0.1954,0.39063 0.069,0.20754 -0.069,0.57371 0,0.78125 0.046,0.1381 0.1492,0.25252 0.1953,0.39062 0.021,0.0618 -0.029,0.13708 0,0.19531 0.041,0.0824 0.1541,0.11297 0.1953,0.19532 0.029,0.0582 0,0.13021 0,0.19531 0,0.13021 -0.032,0.2643 0,0.39062 0.035,0.14124 0.1493,0.25252 0.1953,0.39063 0.037,0.11019 0,0.4576 0,0.58594 0,0.45573 0,0.91146 0,1.36718 0,0.19669 0.036,1.06387 0,1.17188 -0.029,0.0874 -0.1442,0.1187 -0.1953,0.19531 -0.081,0.12113 -0.1146,0.2695 -0.1953,0.39063 -0.1022,0.15321 -0.3083,0.22592 -0.3907,0.39062 -0.1347,0.26941 0.2366,0.1747 -0.1953,0.39063 -0.058,0.0291 -0.1492,-0.046 -0.1953,0 -0.046,0.046 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1493,-0.046 -0.1953,0 -0.4041,0.40411 0.6175,-0.0158 -0.1953,0.39062 -0.058,0.0291 -0.1493,-0.046 -0.1953,0 -0.046,0.046 0.046,0.14928 0,0.19532 -0.046,0.046 -0.1493,-0.046 -0.1953,0 -0.046,0.046 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1493,-0.046 -0.1953,0 -0.4042,0.40411 0.6175,-0.0158 -0.1954,0.39062 -0.058,0.0291 -0.1302,0 -0.1953,0 -0.1302,0.0651 -0.2695,0.11457 -0.3906,0.19532 -0.077,0.0511 -0.113,0.15413 -0.1953,0.19531 -0.1747,0.0874 -0.4112,-0.0873 -0.5859,0 -0.058,0.0291 0.046,0.14928 0,0.19531 -0.098,0.0977 -0.4883,-0.0976 -0.586,0 -0.046,0.046 0.046,0.14928 0,0.19531 -0.047,0.047 -0.7342,-0.047 -0.7812,0 -0.046,0.046 0.046,0.14928 0,0.19532 -0.061,0.0605 -0.9161,-0.0605 -0.9766,0 -0.046,0.046 0.029,0.13708 0,0.19531 -0.2159,0.43185 -0.1212,0.0606 -0.3906,0.19531 -0.082,0.0412 -0.113,0.15414 -0.1953,0.19532 -0.077,0.0387 -0.546,-0.0399 -0.586,0 -0.046,0.046 0.046,0.14927 0,0.19531 -0.092,0.0921 -0.2985,-0.0921 -0.3906,0 -0.046,0.046 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1371,-0.0291 -0.1953,0 -0.082,0.0412 -0.113,0.15414 -0.1953,0.19531 -0.078,0.0387 -0.546,-0.0399 -0.586,0 -0.046,0.046 0,0.13021 0,0.19532 -0.065,0 -0.137,-0.0291 -0.1953,0 -0.051,0.0254 -0.33,0.25592 -0.1953,0.39062 0.046,0.046 0.1371,-0.0291 0.1953,0 0.082,0.0412 0.113,0.15414 0.1953,0.19531 0.1165,0.0582 0.2742,-0.0582 0.3907,0 0.5747,0.28739 -0.3032,0.19532 0.5859,0.19532 0.1953,0 0.3906,0 0.5859,0 0.065,0 0.1954,-0.0651 0.1954,0 0,0.0651 -0.2605,0 -0.1954,0 0.1303,0 0.2671,-0.0412 0.3907,0 0.087,0.0291 0.1129,0.15413 0.1953,0.19531 0.058,0.0291 0.1493,-0.046 0.1953,0 0.046,0.046 -0.046,0.14927 0,0.19531 0.092,0.0921 0.2742,-0.0582 0.3906,0 0.082,0.0412 0.113,0.15414 0.1953,0.19531 0.1165,0.0582 0.2742,-0.0582 0.3907,0 0.8128,0.40642 -0.2088,-0.0135 0.1953,0.39063 0.046,0.046 0.1371,-0.0291 0.1953,0 0.082,0.0412 0.1129,0.15413 0.1953,0.19531 0.058,0.0291 0.1493,-0.046 0.1953,0 0.4041,0.40411 -0.6175,-0.0158 0.1953,0.39063 0.1165,0.0582 0.2742,-0.0582 0.3906,0 0.082,0.0412 0.113,0.15413 0.1954,0.19531 0.077,0.0387 0.546,-0.0399 0.5859,0 0.046,0.046 -0.046,0.14927 0,0.19531 0.1029,0.10294 0.2695,0.11456 0.3906,0.19531 0.077,0.0511 0.113,0.15414 0.1953,0.19532 0.2694,0.1347 0.1747,-0.23654 0.3907,0.19531 0,0.52083 -0.065,-0.0651 0.1953,0.19531 0.046,0.046 -0.058,0.1662 0,0.19531 0.1164,0.0582 0.2741,-0.0582 0.3906,0 0.1165,0.0582 -0.058,0.27417 0,0.39063 0.041,0.0824 0.1541,0.11296 0.1953,0.19531 0.058,0.11646 -0.058,0.27416 0,0.39063 0.4469,0.89386 -0.081,-0.8288 0.3906,0.58593 0.041,0.12353 -0.092,0.29856 0,0.39063 0.046,0.046 0.1493,-0.046 0.1953,0 0.092,0.0921 -0.041,0.2671 0,0.39062 0.046,0.13811 0.1493,0.25252 0.1954,0.39063 0.02,0.0618 -0.029,0.13708 0,0.19531 0.041,0.0824 0.1541,0.11296 0.1953,0.19531 0.062,0.12421 -0.054,0.8148 0,0.97657 0.058,0.17469 0.3082,0.22592 0.3906,0.39062 0.029,0.0582 0,0.13021 0,0.19531 0,0.32552 0,0.65104 0,0.97657 0,0.0651 0,0.1302 0,0.19531 0,0.0651 -0.029,0.13708 0,0.19531 0.041,0.0824 0.1541,0.11296 0.1953,0.19531 0.026,0.0514 0,0.67912 0,0.78125 0,0.65104 0,1.30209 0,1.95313 0,0.39062 0,0.78125 0,1.17187 0,0.0651 0,0.13021 0,0.19532 0,0.0651 0.029,0.13708 0,0.19531 -0.041,0.0824 -0.1541,0.11296 -0.1953,0.19531 -0.029,0.0582 0.046,0.14928 0,0.19531 -0.046,0.046 -0.1493,-0.046 -0.1953,0 -0.046,0.046 0.029,0.13708 0,0.19532 -0.041,0.0823 -0.1542,0.11296 -0.1953,0.19531 -0.029,0.0582 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1371,-0.0291 -0.1953,0 -0.052,0.0259 -0.5601,0.53408 -0.586,0.58594 -0.029,0.0582 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1371,-0.0291 -0.1953,0 -0.082,0.0412 -0.1302,0.13021 -0.1953,0.19531 -0.065,0.0651 -0.1541,0.11296 -0.1953,0.19532 -0.029,0.0582 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1371,-0.0291 -0.1953,0 -0.082,0.0412 -0.113,0.15413 -0.1953,0.19531 -0.058,0.0291 -0.1371,-0.0291 -0.1954,0 -0.082,0.0412 -0.1129,0.15414 -0.1953,0.19531 -0.058,0.0291 -0.137,-0.0291 -0.1953,0 -0.8128,0.40642 0.2088,-0.0135 -0.1953,0.39063 -0.065,0.0651 -0.3255,-0.0651 -0.3906,0 -0.046,0.046 0.046,0.14927 0,0.19531 -0.092,0.0921 -0.2986,-0.0921 -0.3906,0 -0.046,0.046 0.046,0.14928 0,0.19531 -0.092,0.0921 -0.2742,-0.0582 -0.3907,0 -0.082,0.0412 -0.1129,0.15414 -0.1953,0.19532 -0.059,0.0297 -0.498,0 -0.5859,0 -0.4581,0 0.092,-0.046 -0.3906,0.19531 -0.1186,0.0593 -1.0533,-0.0593 -1.1719,0 -0.082,0.0412 -0.113,0.15413 -0.1953,0.19531 -0.1165,0.0582 -0.2986,-0.0921 -0.3907,0 -0.046,0.046 0.046,0.14928 0,0.19531 -0.04,0.0399 -0.5085,-0.0387 -0.5859,0 -0.082,0.0412 -0.113,0.15414 -0.1953,0.19532 -0.058,0.0291 -0.1302,0 -0.1953,0 -0.3255,0 -0.6511,0 -0.9766,0 -0.1302,0 -0.2741,-0.0582 -0.3906,0 -0.058,0.0291 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1302,0 -0.1953,0 -0.065,0 -0.1302,0 -0.1953,0 -0.9766,0 -1.9532,0 -2.9297,0 -2.0834,0 -4.1667,0 -6.25,0 -1.3672,0 -2.7344,0 -4.1016,0 -0.5208,0 -1.0416,0 -1.5625,0 -0.1953,0 -0.4112,-0.0873 -0.5859,0 -0.058,0.0291 0.046,0.14927 0,0.19531 -0.046,0.046 -0.1302,0 -0.1953,0 -0.1359,0 -0.906,-0.0353 -0.9766,0 -0.082,0.0412 -0.113,0.15414 -0.1953,0.19531 -0.083,0.0417 -0.8994,0 -0.9766,0 -0.1302,0 -0.2604,0 -0.3906,0 -0.065,0 -0.1953,0.0651 -0.1953,0 0,-0.0651 0.1302,0 0.1953,0"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     inkscape:connector-curvature="0"
-     id="ln0700304220632"
-     d="M 2142.9911,306.27162 V 545.47834"
-     style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
-    <title
-       id="title2403">Линия от В до QF2</title>
-  </path>
-  <path
-     inkscape:connector-curvature="0"
-     id="path24600-6"
-     d="m 2142.7275,168.7994 v 57.45242"
-     style="fill:none;stroke:#000000;stroke-width:0.045;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      inkscape:connector-curvature="0"
      id="path4617-6-3-8-7-6-7-7-1-4"
@@ -8766,7 +8745,7 @@
   <g
      id="ln0700604220632">
     <title
-       id="title2423">Линия от QF1 до KU1,КМ1.1</title>
+       id="title2961">Линия от QF1 до KU1,КМ1.1  (включено)</title>
     <path
        style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
        d="M 1749.1088,650.84427 V 1281.6247"
@@ -8778,13 +8757,30 @@
        id="path24767"
        inkscape:connector-curvature="0" />
     <path
-       inkscape:connector-curvature="0"
-       id="ln0701104220632-5-1"
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
        d="m 1749.4657,1384.7953 v 217.1875"
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
+       id="ln0700904220631"
+       inkscape:connector-curvature="0">
       <title
-         id="title2441-3-3">Линия от KM2.1 до L3</title>
+         id="title2441-3-3">Линия от KM1.1 до L1 (включено)</title>
     </path>
+    <g
+       transform="translate(-0.345267,1.1739077)"
+       id="n0700204220632">
+      <title
+         id="title2930">Линия от А до QF1</title>
+      <path
+         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+         d="M 1751.1941,302.99422 V 542.20094"
+         id="path3245"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path3245" />
+      <path
+         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+         d="M 1750.1464,226.22301 V 162.61447"
+         id="path3773"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
   <g
      id="0701704220632">
@@ -8991,7 +8987,7 @@
   <g
      id="ln0700704220632">
     <title
-       id="title2429">Линия от QF2 до KU2,КМ2.1</title>
+       id="title2951">Линия от QF2 до KU2,КМ2.1 (включено)</title>
     <path
        style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
        d="m 1605.9058,910.11744 h 529.7777"
@@ -9003,18 +8999,40 @@
        id="path24988"
        inkscape:connector-curvature="0" />
     <path
-       inkscape:connector-curvature="0"
-       id="ln0701104220632-5-1-3"
-       d="M 2140.9453,1381.8725 V 1599.06"
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 2141.0261,1377.7242 v 217.1875"
+       id="ln0701004220631"
+       inkscape:connector-curvature="0">
       <title
-         id="title2441-3-3-5">Линия от KM2.1 до L3</title>
+         id="title2441-3-3-5">Линия от KM2.1 до L2 (включено)</title>
     </path>
+    <g
+       transform="translate(0.2232,3.06548)"
+       id="n0700304220632">
+      <title
+         id="title2932">Линия от В до QF2</title>
+      <path
+         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+         d="M 2142.9911,306.27162 V 545.47834"
+         id="path3246"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path3246" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.045;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2142.7275,168.7994 v 57.45242"
+         id="path24600-6"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3797"
+         d="M 2142.7275,226.25182 V 165.62294"
+         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+    </g>
   </g>
   <g
      id="ln0700804220632">
     <title
-       id="title2435">Линия от QF3 до КМ3.2,KU3</title>
+       id="title2941">Линия от QF3 до KU3,KM3.1 (включено)</title>
     <path
        style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
        d="m 1608.6679,1193.5126 h 828.6408"
@@ -9026,13 +9044,41 @@
        id="path24990"
        inkscape:connector-curvature="0" />
     <path
-       inkscape:connector-curvature="0"
-       id="ln0701104220632-5-1-3-6"
-       d="m 2439.0045,1385.0389 v 217.1875"
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275">
+       style="fill:none;stroke:#007600;stroke-width:3.04881144;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+       d="m 2439.0854,1380.8906 v 224.3125"
+       id="ln0701104220631"
+       inkscape:connector-curvature="0">
       <title
-         id="title2441-3-3-5-1">Линия от KM2.1 до L3</title>
+         id="title2441-3-3-5-1">Линия от KM3.1 до L3 (включено)</title>
     </path>
+    <g
+       transform="translate(0.1541,-0.35266)"
+       id="n0700404220632">
+      <title
+         id="title2966">Линия от С до QF3,QF4</title>
+      <g
+         id="path3247">
+        <title
+           id="title6023">Линия от С до QF3,QF4</title>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path24602-5-2"
+           d="M 2439.5619,307.75151 V 546.95823"
+           style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1130"
+           d="m 2441.0375,469.97113 97.9177,-0.13811"
+           style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
+      </g>
+      <path
+         style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
+         d="M 2439.2292,224.31357 V 163.68469"
+         id="path3797-9"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
   <path
      inkscape:connector-curvature="0"
@@ -9131,23 +9177,6 @@
     <title
        id="title2465">Линия от Т3 до Т6</title>
   </path>
-  <g
-     id="ln0700404220632">
-    <title
-       id="title6023">Линия от С до QF3,QF4</title>
-    <path
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="M 2439.5619,307.75151 V 546.95823"
-       id="path24602-5-2"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 2441.0375,469.97113 97.9177,-0.13811"
-       id="path1130"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-  </g>
   <path
      inkscape:connector-curvature="0"
      id="path1132"
@@ -9306,11 +9335,6 @@
        x="1816.323"
        id="tspan4767-0-2-2-4-0-4"
        sodipodi:role="line">А</tspan></text>
-  <path
-     inkscape:connector-curvature="0"
-     id="path3773"
-     d="M 1750.1464,226.22301 V 162.61447"
-     style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
   <ellipse
      ry="3.9015169"
      rx="3.8324633"
@@ -9342,11 +9366,6 @@
        x="2220.9077"
        id="tspan4767-0-2-2-4-0-45"
        sodipodi:role="line">B</tspan></text>
-  <path
-     inkscape:connector-curvature="0"
-     id="path3797"
-     d="M 2142.4506,228.42235 V 167.79347"
-     style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.95686275;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      transform="scale(0.95579249,1.0462522)"
      id="text4769-3-2-1-4-9-54"
@@ -9938,12 +9957,7 @@
          height="48.437496"
          width="42.1875"
          id="rect1946-2-1-4-0-0" /></flowRegion><flowPara
-       id="flowPara1948-1-5-2-1-4">101000</flowPara></flowRoot>  <path
-     inkscape:connector-curvature="0"
-     id="path3797-9"
-     d="M 2439.2292,224.31357 V 163.68469"
-     style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275" />
-  <ellipse
+       id="flowPara1948-1-5-2-1-4">101000</flowPara></flowRoot>  <ellipse
      ry="1.8636425"
      rx="1.4815848"
      cy="910.0177"
@@ -10617,36 +10631,6 @@
      style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;inline-size:120.721;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve" />
   <g
-     id="1kn04-041.1"
-     onclick="">
-    <title
-       id="title5055">кн закрытия окна выбора линии</title>
-    <desc
-       id="desc2130">button</desc>
-    <rect
-       ry="1.7546879e-15"
-       rx="8.0620008e-16"
-       y="1107.9404"
-       x="313.09915"
-       height="710.75531"
-       width="771.04462"
-       id="rect7165-6-0-3-1"
-       style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-4)"
-       transform="matrix(0.24026844,0,0,0.0819552,581.53761,874.12478)" />
-    <text
-       transform="scale(0.95070256,1.0518537)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.27202988px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70446169"
-       x="731.9248"
-       y="952.12823"
-       id="text2447-4-9-2-0"><tspan
-         style="stroke-width:1.70446169"
-         y="952.12823"
-         x="731.9248"
-         id="tspan2006-1"
-         sodipodi:role="line">Закрыть</tspan></text>
-  </g>
-  <g
      id="1kn04-034.2"
      onclick="">
     <title
@@ -10950,7 +10934,7 @@
        id="tspan3734"
        x="940.35413"
        y="639.9245"
-       style="stroke-width:0.97658795">Неисп.</tspan></text>
+       style="stroke-width:0.97658795">   Исп. </tspan></text>
   <text
      id="text30"
      y="567.18176"
@@ -11275,7 +11259,7 @@
        id="tspan3032"
        x="1486.2086"
        y="284.78467"
-       style="stroke-width:1.5147965">10.01.2020 20:15:10</tspan></text>
+       style="stroke-width:1.5147965">10.01.2020 15:30:20</tspan></text>
   <text
      id="text1"
      y="400.50058"
@@ -11481,14 +11465,14 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.75927544px;line-height:1.25;font-family:'GOST type A';-inkscape-font-specification:'GOST type A';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6189819"
-     x="584.85773"
-     y="669.04089"
+     x="593.69666"
+     y="668.21356"
      id="text5290"
      transform="scale(1.1030736,0.90655782)"><tspan
        sodipodi:role="line"
        id="tspan5288"
-       x="584.85773"
-       y="669.04089"
+       x="593.69666"
+       y="668.21356"
        style="stroke-width:0.6189819">Вкл</tspan></text>
   <g
      transform="matrix(0.68488523,0,0,0.56548726,121.51975,-177.13319)"
@@ -11635,26 +11619,26 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.75927544px;line-height:1.25;font-family:'GOST type A';-inkscape-font-specification:'GOST type A';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6189819"
-     x="585.19098"
+     x="594.02991"
      y="710.31342"
      id="text5290-5"
      transform="scale(1.1030736,0.90655782)"><tspan
        sodipodi:role="line"
        id="tspan5288-1"
-       x="585.19098"
+       x="594.02991"
        y="710.31342"
        style="stroke-width:0.6189819">Вкл</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.75927544px;line-height:1.25;font-family:'GOST type A';-inkscape-font-specification:'GOST type A';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6189819"
-     x="585.10846"
-     y="751.21277"
+     x="592.58759"
+     y="750.38544"
      id="text5290-8"
      transform="scale(1.1030736,0.90655782)"><tspan
        sodipodi:role="line"
        id="tspan5288-6"
-       x="585.10846"
-       y="751.21277"
+       x="592.58759"
+       y="750.38544"
        style="stroke-width:0.6189819">Вкл</tspan></text>
   <g
      id="panelLine">
@@ -11910,37 +11894,7 @@
          y="1689.4763"
          x="375.7832"
          id="tspan1953-4"
-         sodipodi:role="line">Время выключения 1</tspan></text>
-    <g
-       onclick=""
-       id="1kn04-021.1"
-       transform="matrix(0.98147644,0,0,0.99248244,-6.4475461,40.519279)">
-      <title
-         id="title5015">кнопка закрытия окна управления</title>
-      <desc
-         id="desc2067-9">button</desc>
-      <rect
-         transform="matrix(0.18636524,0,0,0.05215815,585.80124,1684.243)"
-         style="fill:#c8c8c8;fill-opacity:1;stroke-width:2.36572003;filter:url(#filter2443-0-0-5-8-7)"
-         id="rect7165-6-0-3-3"
-         width="771.04462"
-         height="710.75531"
-         x="313.09915"
-         y="1107.9404"
-         rx="8.0620008e-16"
-         ry="1.7546879e-15" />
-      <text
-         id="text2447-4-9-2-2"
-         y="1704.6675"
-         x="696.24225"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.73006463"
-         xml:space="preserve"
-         transform="scale(0.96498318,1.0362875)"><tspan
-           sodipodi:role="line"
-           id="tspan2006-3"
-           x="696.24225"
-           y="1704.6675">Закрыть</tspan></text>
-    </g>
+         sodipodi:role="line">Время выключения 2</tspan></text>
     <g
        transform="matrix(0.98147644,0,0,0.99248244,988.87596,50.344032)"
        id="1kn04-010.1">
@@ -12083,14 +12037,14 @@
          sodipodi:role="line">21</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-8-2)"
-       id="num04-011.3"
+       id="num04-011.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,272.16222,698.76707)">
       <title
-         id="title4995">время ч выключения 1 лин С</title>
+         id="title4995">время ч выключения 1 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12106,14 +12060,14 @@
          y="1570.207">3</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-3-4-3)"
-       id="num04-014.3"
+       id="num04-014.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,272.50921,742.62904)">
       <title
-         id="title5001">время ч включения 2 лин С</title>
+         id="title5001">время ч включения 2 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12126,17 +12080,17 @@
          y="1612.2981"
          x="623.12421"
          id="tspan2248-4-2"
-         sodipodi:role="line">21</tspan></text>
+         sodipodi:role="line">5</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-4-86)"
-       id="num04-009.3"
+       id="num04-009.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,379.73355,661.92305)">
       <title
-         id="title4991">время мин включения 1 лин С</title>
+         id="title4991">время мин включения 1 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12152,14 +12106,14 @@
          y="1534.8511">15</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-0-9)"
-       id="num04-012.3"
+       id="num04-012.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,379.03954,697.71444)">
       <title
-         id="title4997">время мин выключения 1 лин С</title>
+         id="title4997">время мин выключения 1 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12175,14 +12129,14 @@
          y="1569.1969">10</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-9-3-7)"
-       id="num04-018.3"
+       id="num04-018.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,379.03954,778.42044)">
       <title
-         id="title5009">время мин выключения 2 лин С</title>
+         id="title5009">время мин выключения 2 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12198,14 +12152,14 @@
          y="1646.644">10</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-6-0-2)"
-       id="num04-015.3"
+       id="num04-015.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,379.03955,742.62904)">
       <title
-         id="title5003">время мин включения 2 лин С</title>
+         id="title5003">время мин включения 2 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12221,14 +12175,14 @@
          y="1612.2981">15</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-6-0-3)"
-       id="num04-017.3"
+       id="num04-017.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.37355267,0,0,0.69288079,272.50921,778.42044)">
       <title
-         id="title5007">время ч выключения 2 лин С</title>
+         id="title5007">время ч выключения 2 лин А</title>
     </rect>
     <text
        transform="scale(0.95961776,1.0420816)"
@@ -12241,7 +12195,7 @@
          id="tspan2292-6-1"
          sodipodi:role="line"
          x="623.12421"
-         y="1646.644">3</tspan></text>
+         y="1646.644">7</tspan></text>
     <text
        transform="scale(0.95961776,1.0420816)"
        xml:space="preserve"
@@ -12352,14 +12306,14 @@
          sodipodi:role="line">Дистанционное управление на ТП</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-1-8)"
-       id="txt04-001.5"
+       id="txt04-001.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.94474238,0,0,0.73029345,-3.3130637,274.99202)">
       <title
-         id="title4975">дист управление на ТП лин С</title>
+         id="title4975">дист управление на ТП лин А</title>
     </rect>
     <rect
        rx="1.5907361e-15"
@@ -12399,14 +12353,14 @@
          sodipodi:role="line">ВКЛ</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-1-6-4)"
-       id="txt04-007.5"
+       id="txt04-007.2"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.96257265,0,0,0.73582506,-1.5086827,483.25553)">
       <title
-         id="title4987">сост руч режима управ лин С</title>
+         id="title4987">сост руч режима управ лин А</title>
     </rect>
     <text
        transform="scale(0.99566547,1.0043534)"
@@ -12453,14 +12407,14 @@
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-58-1-0-8-4)"
-       id="txt04-020.3"
+       id="txt04-020.1"
        width="159.00984"
        height="36.795666"
        x="869.95471"
        y="1324.644"
        transform="matrix(0.96257265,0,0,0.73582506,-245.17682,178.3498)">
       <title
-         id="title5013">табло дист управления линии С</title>
+         id="title5013">табло дист управления линии А</title>
     </rect>
     <text
        inkscape:label="#text29-С1"
@@ -12474,7 +12428,7 @@
          y="1252.3654"
          x="572.59845"
          id="tspan2940-2-3"
-         sodipodi:role="line">Линия С </tspan></text>
+         sodipodi:role="line">Линия А </tspan></text>
     <text
        inkscape:label="#text29-С1"
        transform="scale(1.067553,0.93672165)"
@@ -12497,7 +12451,7 @@
          sodipodi:role="line"
          id="tspan2544-7-2-5"
          x="890.00854"
-         y="1477.9197">ВКЛ</tspan></text>
+         y="1477.9197">ВЫКЛ</tspan></text>
   </g>
   <ellipse
      ry="7.421875"

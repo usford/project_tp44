@@ -44,10 +44,4 @@ export default function line(lineChar)
     doc.getElementById("1kn04-006.1").addEventListener('click', (e) => {
         doc.getElementById("txtC1-4-8").innerHTML = "ВЫКЛ";
     });
-
-    //Закрытие панели
-
-    doc.getElementById("1kn04-021.1").addEventListener('click', (e) => {
-        doc.getElementById("panelLine").style.display = "none";
-      });
 }

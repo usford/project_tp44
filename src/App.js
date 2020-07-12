@@ -19,6 +19,7 @@ import lineB1 from './lineB1.js';
 import lineC1 from './lineC1.js';
 import line from './line.js';
 
+let delayChangeMode = false;
 
 //Подключение по вебсокету
 function connectWs() {
@@ -29,6 +30,7 @@ function connectWs() {
     console.log('connected WS');
     var doc = document.getElementById('svgObject').contentDocument;
     styleConfig(doc);
+    
   }
 
   ws.onmessage = evt => {
@@ -54,6 +56,10 @@ function connectWs() {
     } else if (message.controls != null) {
       for (var item of message.controls) {
         changeControls(item.control, item.value);
+        if (item.control == "txt44-2" && item.value == "Неиспр.")
+        {
+          sendButton(ws, "1kn04-035.2");
+        }
       } 
     }else if (message.controlsPanels != null) {
       for (var item of message.controlsPanels)
@@ -61,7 +67,7 @@ function connectWs() {
         if (item.value == 1)
         {
           line(item.control);
-        }
+        } 
       }
     }else if (message.controlsButtons != null) {
       for (var item of message.controlsButtons) {
@@ -74,6 +80,9 @@ function connectWs() {
         } 
       } 
     }
+
+    delayChangeMode = true;
+    setTimeout(function(){delayChangeMode = false}, 500);
   }
 
   ws.onclose = () => {
@@ -206,9 +215,15 @@ class Main extends React.Component {
               elem.style.cursor = "pointer";
               elem.addEventListener('click', (e) => {
                 if (e.target.parentNode.tagName != "g") {
-                  sendButton(ws, e.target.parentNode.parentNode.id);
+                  if (!delayChangeMode)
+                  {
+                    sendButton(ws, e.target.parentNode.parentNode.id);
+                  }
                 } else {
-                  sendButton(ws, e.target.parentNode.id);
+                  if (!delayChangeMode)
+                  {
+                    sendButton(ws, e.target.parentNode.id);
+                  }   
                 }
 
               });
@@ -224,11 +239,6 @@ class Main extends React.Component {
           this.goFull();
           sendButton(ws, "btn1");
         });    
-
-        //Кнопка закрыть у нижней панели
-        doc.getElementById("1kn04-041.1").addEventListener('click', (e) => {
-          doc.getElementById("panelLine").style.display = "none";
-        });
 
 
         doc.doClickAction = (signal_id) => {

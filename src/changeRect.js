@@ -196,9 +196,11 @@ const listLines = [
     "ln0700204220631",
     "ln0700304220631",
     "ln0700404220631",
+    "ln0700504220632",
     "ln0700504220631",
     "ln0700604220632",
     "ln0700704220631",
+    "ln0700804220631",
     "ln0700804220632",
     "ln0700904220632",
     "ln0701004220632",
@@ -226,6 +228,7 @@ export function changeLine(id, color, doc)
         var truncWord = id.substring(0, id.length - 1);
         var changeId = truncWord + lastSymb;
         //console.log(`ID: ${id}`);
+        
         if (doc.getElementById(changeId) != null)
         {
             doc.getElementById(changeId).style.stroke = color;
@@ -239,6 +242,12 @@ export function changeLine(id, color, doc)
             doc.getElementById(changeId).setAttribute("id", id);
         }
         
+        // let itemPath = doc.getElementById(id).querySelectorAll("path");
+
+        // for (let item of itemPath)
+        // {
+        //     item.style.stroke = color;
+        // }
     }
     
 }
