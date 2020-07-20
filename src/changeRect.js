@@ -284,7 +284,7 @@ export function changeRect(id, doc)
 
         list.forEach((item) => 
         {
-            var findID = item.toString().split('/')[3].split('.')[0];
+            let findID = item.toString().split('/')[3].split('.')[0];
             if (findID == id)
             {
                 change.url = item;

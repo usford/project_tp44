@@ -19,196 +19,35 @@ import lineB1 from './lineB1.js';
 import lineC1 from './lineC1.js';
 import line from './line.js';
 
-let delayChangeMode = false;
-
-//Подключение по вебсокету
-function connectWs() {
-  isWs = true;
-  const ws = new WebSocket('ws://localhost:8888');
-
-  ws.onopen = () => {
-    console.log('connected WS');
-    var doc = document.getElementById('svgObject').contentDocument;
-    styleConfig(doc);
-    
-  }
-
-  ws.onmessage = evt => {
-    const message = JSON.parse(evt.data);
-
-    console.log(message);
-
-    var count = 1;
-    var doc = document.getElementById('svgObject').contentDocument;
-
-    if (message.elements != null) {
-      for (var i = 0; i < message.elements.length; i++) {
-        var lastSymb = message.elements[i][message.elements[i].length-1];
-        clickRect(message.elements[i]);
-        //clickRect(message.elements[i]);
-        //console.log(message.elements[i]);
-      }
-    } else if (message.lines != null) {
-      for (var item of message.lines) {
-        //console.log(item);
-        changeLine(item.name, item.color, doc);
-      }
-    } else if (message.controls != null) {
-      for (var item of message.controls) {
-        changeControls(item.control, item.value);
-        if (item.control == "txt44-2" && item.value == "Неиспр.")
-        {
-          sendButton(ws, "1kn04-035.2");
-        }
-      } 
-    }else if (message.controlsPanels != null) {
-      for (var item of message.controlsPanels)
-      {
-        if (item.value == 1)
-        {
-          line(item.control);
-        } 
-      }
-    }else if (message.controlsButtons != null) {
-      for (var item of message.controlsButtons) {
-        if (item.value == 1)
-        {
-          doc.getElementById(item.control).style.opacity = 1;
-        }else
-        {
-          doc.getElementById(item.control).style.opacity = 0.3;
-        } 
-      } 
-    }
-
-    delayChangeMode = true;
-    setTimeout(function(){delayChangeMode = false}, 500);
-  }
-
-  ws.onclose = () => {
-    console.log('disconnected');
-  }
-
-  return ws;
-}
-
-var isWs = false;
-
-//Смена текста у контроллеров
-function changeControls(id, value) {
-  //console.log(id, value);
-  var doc = document.getElementById('svgObject').contentDocument;
-  var docT = doc.querySelectorAll("text");
-
-  for (var elem of docT) {
-    if (elem.id == id) {
-      elem.innerHTML = value;
-    }
-  }
-}
-
-//Замена ячеек на схеме
-function replaceRect(id, oldID, doc2) {
-  var doc = document.getElementById('svgObject').contentDocument;
-
-  var selection = doc2.querySelector('g');
-
-  //console.log(`oldID1: ${oldID}`);
-  //console.log(`id1: ${id}`)
-  //console.log(`selection: ${selection}`);
-
-  if (!selection) return;
-
-
-  var newElement = selection;
-
-
-
-  var oldElement = doc.getElementById(oldID);
-
-
-  if (oldElement == null) {
-    document.getElementById("div" + id).remove();
-    return;
-  };
-
-
-  //newElement.setAttribute("transform", oldElement.getAttribute("transform"));
-  newElement.setAttribute("id", newElement.getAttribute("id"));
-
-  var parentDiv = oldElement.parentNode;
-
-  parentDiv.replaceChild(newElement, oldElement);
-  document.getElementById("div" + id).remove();
-}
-
-//Обработка входящего запроса на изменение устройства
-export function clickRect(id) {
-  var doc = document.getElementById('svgObject').contentDocument;
-  var oldElement = doc.getElementById(id);
-
-
-  var svgUrl = changeRect(id, doc);
-
-  // console.log(`oldID: ${svgUrl.id}`);
-  // console.log(`id: ${id}`)
-
-
-  var newElement = document.createElement('div');
-  newElement.setAttribute("id", "div" + id);
-  newElement.setAttribute("style", 'opacity:0');
-
-  newElement.innerHTML = `<object id="svgObject2" data=${svgUrl.url} type="image/svg+xml" width="1" height="1"> \
-  Your browser doesnt support SVG \
-  </object>`;
-
-  var parent = document.getElementById("divSVG").parentNode;
-
-  parent.appendChild(newElement);
-
-  if (svgUrl.url != 0) {
-
-    document.getElementById("svgObject2").addEventListener("load", function () {
-      setTimeout((time) => {
-        var doc2 = document.getElementById('svgObject2').contentDocument;
-        replaceRect(id, svgUrl.id, doc2);
-      }, 100);
-    });
-
-  } else {
-    document.getElementById("div" + id).remove();
-  }
-
-}
-
-//Отправка id кнопка на сервер
-function sendButton(ws, id) {
-  ws.send(JSON.stringify({ type: "pressedButton", id: id }));
-}
-
-
 class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { fontSize: 17, isFull: false };
+    this.state = { fontSize: 17, isFull: true };
   }
 
   goFull = () => {
     this.setState({ isFull: !this.state.isFull });
+    if (!this.state.isFull)
+    {
+      launchFullScreen(document);
+    }else
+    {
+      cancelFullscreen(document);
+    }
   }
 
   render() {
     document.onreadystatechange = async () => {
       if (document.readyState === 'complete') {
-        var ws;
-        var doc = document.getElementById('svgObject').contentDocument;
+        let ws;
+        let doc = document.getElementById('svgObject').contentDocument;
+
         if (!isWs) ws = connectWs();
         
-
-        var elements = doc.querySelectorAll("g");
+        let elements = doc.querySelectorAll("g");
 
         for (let elem of elements) {
-          var desc = elem.querySelector("desc");
+          let desc = elem.querySelector("desc");
 
           if (desc != null) {
             if (desc.innerHTML == "button") {
@@ -238,13 +77,21 @@ class Main extends React.Component {
         doc.getElementById("btn1").addEventListener('click', (e) => {
           this.goFull();
           sendButton(ws, "btn1");
-        });    
+        });   
 
-
+        //document.documentElement.requestFullscreen();
+        
         doc.doClickAction = (signal_id) => {
           console.log(signal_id);
           this.setState({ fontSize: 27 });
         }
+
+        requestFullScreen(document.documentElement);
+
+        // setTimeout(() => {
+
+        //   if (window.confirm("Открыть в полноэкранном режиме?")) this.goFull();
+        // }, 1000);
       }
     }
     return (
@@ -265,11 +112,6 @@ class Main extends React.Component {
         {/* <button onclick="{this.goFull}">
           Go Fullscreen
         </button> */}
-
-        <Fullscreen
-          enabled={this.state.isFull}
-          onChange={isFull => this.setState({ isFull })}
-        >
         
         <Suspense fallback={<div>Загрузка...</div>}>
           <object id="svgObject" data={scheme} type="image/svg+xml" width="100%" height="100%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
@@ -277,10 +119,195 @@ class Main extends React.Component {
           </object>
         </Suspense>
 
-          
-        </Fullscreen>
+        <p><span style={{fontSize: 10}}>Версия приложения: 0.7</span></p>
+        
       </div>
     );
+  }
+}
+
+let delayChangeMode = false;
+
+//Подключение по вебсокету
+function connectWs() {
+  isWs = true;
+  const ws = new WebSocket('ws://localhost:8888');
+
+  ws.onopen = () => {
+    console.log('connected WS');
+    let doc = document.getElementById('svgObject').contentDocument;
+    styleConfig(doc);
+    
+  }
+
+  ws.onmessage = evt => {
+    const message = JSON.parse(evt.data);
+
+    console.log(message);
+
+    let count = 1;
+    let doc = document.getElementById('svgObject').contentDocument;
+
+    if (message.elements != null) {
+      for (let i = 0; i < message.elements.length; i++) {
+        let lastSymb = message.elements[i][message.elements[i].length-1];
+        clickRect(message.elements[i]);
+        //clickRect(message.elements[i]);
+        //console.log(message.elements[i]);
+      }
+    } else if (message.lines != null) {
+      for (let item of message.lines) {
+        //console.log(item);
+        changeLine(item.name, item.color, doc);
+      }
+    } else if (message.controls != null) {
+      for (let item of message.controls) {
+        changeControls(item.control, item.value);
+      } 
+    }else if (message.controlsPanels != null) {
+      for (let item of message.controlsPanels)
+      {
+        if (item.value == 1)
+        {
+          line(item.control);
+        } 
+      }
+    }else if (message.controlsButtons != null) {
+      for (let item of message.controlsButtons) {
+        if (item.value == 1)
+        {
+          doc.getElementById(item.control).style.opacity = 1;
+        }else
+        {
+          doc.getElementById(item.control).style.opacity = 0.3;
+        } 
+      } 
+    }
+
+    delayChangeMode = true;
+    setTimeout(function(){delayChangeMode = false}, 200);
+  }
+
+  ws.onclose = () => {
+    console.log('disconnected');
+  }
+
+  return ws;
+}
+
+let isWs = false;
+
+//Смена текста у контроллеров
+function changeControls(id, value) {
+  //console.log(id, value);
+  let doc = document.getElementById('svgObject').contentDocument;
+  let docT = doc.querySelectorAll("text");
+
+  for (let elem of docT) {
+    if (elem.id == id) {
+      elem.innerHTML = value;
+    }
+  }
+}
+
+//Замена ячеек на схеме
+function replaceRect(id, oldID, doc2) {
+  let doc = document.getElementById('svgObject').contentDocument;
+
+  let selection = doc2.querySelector('g');
+
+  //console.log(`oldID1: ${oldID}`);
+  //console.log(`id1: ${id}`)
+  //console.log(`selection: ${selection}`);
+
+  if (!selection) return;
+
+  let newElement = selection;
+  let oldElement = doc.getElementById(oldID);
+
+  if (oldElement == null) {
+    document.getElementById("div" + id).remove();
+    return;
+  };
+
+  //newElement.setAttribute("transform", oldElement.getAttribute("transform"));
+  newElement.setAttribute("id", newElement.getAttribute("id"));
+
+  let parentDiv = oldElement.parentNode;
+
+  parentDiv.replaceChild(newElement, oldElement);
+  document.getElementById("div" + id).remove();
+}
+
+//Обработка входящего запроса на изменение устройства
+export function clickRect(id) {
+  let doc = document.getElementById('svgObject').contentDocument;
+  let oldElement = doc.getElementById(id);
+  let svgUrl = changeRect(id, doc);
+
+  // console.log(`oldID: ${svgUrl.id}`);
+  // console.log(`id: ${id}`)
+
+  let newElement = document.createElement('div');
+  newElement.setAttribute("id", "div" + id);
+  newElement.setAttribute("style", 'opacity:0');
+
+  newElement.innerHTML = `<object id="svgObject2" data=${svgUrl.url} type="image/svg+xml" width="1" height="1"> \
+  Your browser doesnt support SVG \
+  </object>`;
+
+  let parent = document.getElementById("divSVG").parentNode;
+
+  parent.appendChild(newElement);
+
+  if (svgUrl.url != 0) {
+
+    document.getElementById("svgObject2").addEventListener("load", function () {
+      setTimeout((time) => {
+        let doc2 = document.getElementById('svgObject2').contentDocument;
+        replaceRect(id, svgUrl.id, doc2);
+      }, 100);
+    });
+
+  } else {
+    document.getElementById("div" + id).remove();
+  }
+
+}
+
+//Запустить отображение в полноэкранном режиме
+function launchFullScreen(document) {
+  if(document.documentElement.requestFullScreen) {
+    document.documentElement.requestFullScreen();
+  } else if(document.documentElement.mozRequestFullScreen) {
+    document.documentElement.mozRequestFullScreen();
+  } else if(document.documentElement.webkitRequestFullScreen) {
+    document.documentElement.webkitRequestFullScreen();
+  }
+}
+
+// Выход из полноэкранного режима
+function cancelFullscreen(document) {
+  if(document.cancelFullScreen) {
+    document.cancelFullScreen();
+  } else if(document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if(document.webkitCancelFullScreen) {
+    document.webkitCancelFullScreen();
+  }
+}
+
+//Отправка id кнопка на сервер
+function sendButton(ws, id) {
+  ws.send(JSON.stringify({ type: "pressedButton", id: id }));
+}
+
+function requestFullScreen(element) {
+  // Supports most browsers and their versions.
+  var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+
+  if (requestMethod) { // Native full screen.
+      requestMethod.call(element);
   }
 }
 
