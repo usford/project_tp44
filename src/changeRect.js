@@ -238,8 +238,8 @@ export function changeLine(id, color, doc)
             for (var item of itemPath)
             {
                 item.style.stroke = color;
-                console.log(item);
-                console.log(item.style.stroke );
+                //console.log(item);
+                //console.log(item.style.stroke );
             }
             doc.getElementById(changeId).setAttribute("id", id);
         }

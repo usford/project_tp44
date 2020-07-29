@@ -6,7 +6,6 @@ import scheme from './scheme.svg';
 import PollingTime from './polling_time.js';
 import Line44 from './line44.js';
 
-import Fullscreen from "react-full-screen";
 
 import { changeRect, changeLine } from './changeRect.js';
 
@@ -19,15 +18,18 @@ import lineB1 from './lineB1.js';
 import lineC1 from './lineC1.js';
 import line from './line.js';
 
+import DialogFullscreen from './dialog_fullscreen.js';
+
+import {launchFullScreen, cancelFullscreen} from './fullscreen.js';
+
 class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { fontSize: 17, isFull: true };
+    this.state = { fontSize: 17};
   }
 
   goFull = () => {
-    this.setState({ isFull: !this.state.isFull });
-    if (!this.state.isFull)
+    if (!document.fullscreen)
     {
       launchFullScreen(document);
     }else
@@ -86,12 +88,9 @@ class Main extends React.Component {
           this.setState({ fontSize: 27 });
         }
 
-        requestFullScreen(document.documentElement);
 
-        // setTimeout(() => {
 
-        //   if (window.confirm("Открыть в полноэкранном режиме?")) this.goFull();
-        // }, 1000);
+        //let fullScreenState = window.confirm("Включить полноэкранный режим?");
       }
     }
     return (
@@ -114,7 +113,8 @@ class Main extends React.Component {
         </button> */}
         
         <Suspense fallback={<div>Загрузка...</div>}>
-          <object id="svgObject" data={scheme} type="image/svg+xml" width="100%" height="100%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
+          <DialogFullscreen></DialogFullscreen>
+          <object id="svgObject" data={scheme} type="image/svg+xml" width="95%" height="95%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
               Your browser doesn't support SVG
           </object>
         </Suspense>
@@ -275,40 +275,10 @@ export function clickRect(id) {
 
 }
 
-//Запустить отображение в полноэкранном режиме
-function launchFullScreen(document) {
-  if(document.documentElement.requestFullScreen) {
-    document.documentElement.requestFullScreen();
-  } else if(document.documentElement.mozRequestFullScreen) {
-    document.documentElement.mozRequestFullScreen();
-  } else if(document.documentElement.webkitRequestFullScreen) {
-    document.documentElement.webkitRequestFullScreen();
-  }
-}
-
-// Выход из полноэкранного режима
-function cancelFullscreen(document) {
-  if(document.cancelFullScreen) {
-    document.cancelFullScreen();
-  } else if(document.mozCancelFullScreen) {
-    document.mozCancelFullScreen();
-  } else if(document.webkitCancelFullScreen) {
-    document.webkitCancelFullScreen();
-  }
-}
-
 //Отправка id кнопка на сервер
 function sendButton(ws, id) {
   ws.send(JSON.stringify({ type: "pressedButton", id: id }));
 }
 
-function requestFullScreen(element) {
-  // Supports most browsers and their versions.
-  var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
-
-  if (requestMethod) { // Native full screen.
-      requestMethod.call(element);
-  }
-}
 
 export default Main;
