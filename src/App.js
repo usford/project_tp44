@@ -22,6 +22,9 @@ import DialogFullscreen from './dialog_fullscreen.js';
 
 import {launchFullScreen, cancelFullscreen} from './fullscreen.js';
 
+let activeElements = new Array();
+let activeLines = new Array();
+
 class Main extends React.Component {
   constructor(props) {
     super(props);
@@ -114,7 +117,7 @@ class Main extends React.Component {
         
         <Suspense fallback={<div>Загрузка...</div>}>
           <DialogFullscreen></DialogFullscreen>
-          <object id="svgObject" data={scheme} type="image/svg+xml" width="95%" height="95%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
+          <object id="svgObject" data={scheme} type="image/svg+xml" width="100%" height="95%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
               Your browser doesn't support SVG
           </object>
         </Suspense>
@@ -149,17 +152,80 @@ function connectWs() {
     let doc = document.getElementById('svgObject').contentDocument;
 
     if (message.elements != null) {
+      activeElements = new Array();
       for (let i = 0; i < message.elements.length; i++) {
         let lastSymb = message.elements[i][message.elements[i].length-1];
         clickRect(message.elements[i]);
+
         //clickRect(message.elements[i]);
         //console.log(message.elements[i]);
       }
+      setTimeout(() => 
+      {
+        activeElements = new Array();
+        let allElements = doc.querySelectorAll("g");
+        for (let index in allElements)
+        {
+          try{
+            let result = allElements[index].getAttribute("id").startsWith("07");
+            if (result)
+            {
+              activeElements.push(allElements[index].getAttribute("id"));
+            }
+          }catch(e)
+          {
+
+          }
+        }
+        ws.send(JSON.stringify({ type:"activeElements", elements: activeElements }));
+      }, 1500)
     } else if (message.lines != null) {
       for (let item of message.lines) {
         //console.log(item);
         changeLine(item.name, item.color, doc);
       }
+
+      setTimeout(() => 
+      {
+        activeLines = new Array();
+        let allLines = doc.querySelectorAll("g");
+        for (let index in allLines)
+        {
+          try{
+            let result = allLines[index].getAttribute("id").startsWith("ln");
+            if (result)
+            {
+              //"#ff0000"
+              //"#007600"
+              let id = allLines[index].getAttribute("id");
+              var lastSymb = id[id.length-1];
+              activeLines.push({name: id, color: (lastSymb == "1") ? "#ff0000" : "#007600"});
+            }
+          }catch(e)
+          {
+
+          }
+        }
+        allLines = doc.querySelectorAll("path");
+        for (let index in allLines)
+        {
+          try{
+            let result = allLines[index].getAttribute("id").startsWith("ln");
+            if (result)
+            {
+              //"#ff0000"
+              //"#007600"
+              let id = allLines[index].getAttribute("id");
+              var lastSymb = id[id.length-1];
+              activeLines.push({name: id, color: (lastSymb == "1") ? "#ff0000" : "#007600"});
+            }
+          }catch(e)
+          {
+
+          }
+        }
+        ws.send(JSON.stringify({ type:"activeLines", lines: activeLines }));
+      }, 1500)
     } else if (message.controls != null) {
       for (let item of message.controls) {
         changeControls(item.control, item.value);
@@ -183,9 +249,8 @@ function connectWs() {
         } 
       } 
     }
-
     delayChangeMode = true;
-    setTimeout(function(){delayChangeMode = false}, 200);
+    setTimeout(function(){delayChangeMode = false}, 1000);
   }
 
   ws.onclose = () => {
@@ -266,7 +331,7 @@ export function clickRect(id) {
       setTimeout((time) => {
         let doc2 = document.getElementById('svgObject2').contentDocument;
         replaceRect(id, svgUrl.id, doc2);
-      }, 100);
+      }, 1000);
     });
 
   } else {

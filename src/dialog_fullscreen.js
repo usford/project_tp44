@@ -38,11 +38,11 @@ export default function DialogFullscreen() {
             </DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button onClick={fullscreenOn} color="primary">
-              Да
-            </Button>
-            <Button onClick={handleClose} color="primary" autoFocus>
+            <Button onClick={handleClose} color="primary">
               Нет
+            </Button>
+            <Button onClick={fullscreenOn} color="primary" autoFocus>
+              Да
             </Button>
           </DialogActions>
         </Dialog>
