@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import scheme from './scheme.svg';
+import schema from './schema.svg';
 import PollingTime from './polling_time.js';
 import Line44 from './line44.js';
 
@@ -117,7 +117,7 @@ class Main extends React.Component {
         
         <Suspense fallback={<div>Загрузка...</div>}>
           <DialogFullscreen></DialogFullscreen>
-          <object id="svgObject" data={scheme} type="image/svg+xml" width="100%" height="95%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
+          <object id="svgObject" data={schema} type="image/svg+xml" width="100%" height="95%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
               Your browser doesn't support SVG
           </object>
         </Suspense>
