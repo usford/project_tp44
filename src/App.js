@@ -54,9 +54,12 @@ class Main extends React.Component {
         for (let elem of elements) {
           let desc = elem.querySelector("desc");
 
+          if (elem.id == "panelLine") continue;
+
           if (desc != null) {
             if (desc.innerHTML == "button") {
               elem.style.cursor = "pointer";
+
               elem.addEventListener('click', (e) => {
                 if (e.target.parentNode.tagName != "g") {
                   if (!delayChangeMode)
@@ -68,6 +71,13 @@ class Main extends React.Component {
                   {
                     sendButton(ws, e.target.parentNode.id);
                   }   
+                }
+
+                if (e.target.parentNode.id == "1kn04-054.1")
+                {
+                  document.location.href = "http://localhost:3001";
+                  // window.open("about:blank", "_self");
+                  // window.close();
                 }
 
               });
@@ -117,17 +127,18 @@ class Main extends React.Component {
         
         <Suspense fallback={<div>Загрузка...</div>}>
           <DialogFullscreen></DialogFullscreen>
-          <object id="svgObject" data={schema} type="image/svg+xml" width="100%" height="95%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
+          <object id="svgObject" data={schema} type="image/svg+xml" width="100%" height="92%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
               Your browser doesn't support SVG
           </object>
         </Suspense>
 
-        <p><span style={{fontSize: 10}}>Версия приложения: 0.7</span></p>
+        
         
       </div>
     );
   }
 }
+//<p><span style={{fontSize: 10}}>Версия приложения: 0.7</span></p>
 
 let delayChangeMode = false;
 
@@ -309,6 +320,8 @@ export function clickRect(id) {
   let doc = document.getElementById('svgObject').contentDocument;
   let oldElement = doc.getElementById(id);
   let svgUrl = changeRect(id, doc);
+
+  if (svgUrl == 0) return;
 
   // console.log(`oldID: ${svgUrl.id}`);
   // console.log(`id: ${id}`)

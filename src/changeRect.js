@@ -262,6 +262,16 @@ export function changeRect(id, doc)
         id
     }
 
+    //0702004220633
+    let state = false;
+    list.forEach((item) =>
+    {
+        let findID = item.toString().split('/')[3].split('.')[0];
+        if (id == findID) state = true;
+    });
+    
+    if (!state) return 0;
+
     if (doc.getElementById(id) == null)
     {
         //alert('Не найден');
