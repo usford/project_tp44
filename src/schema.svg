@@ -7752,9 +7752,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="1990.7477"
-     inkscape:cx="285.24707"
-     inkscape:zoom="0.5"
+     inkscape:cy="1632.7821"
+     inkscape:cx="2885.469"
+     inkscape:zoom="0.70710678"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -8758,12 +8758,13 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
+     inkscape:label="#ln0700904220632"
      inkscape:connector-curvature="0"
-     id="ln0700904220631"
+     id="ln0700904220632"
      d="m 1749.4657,1384.7953 v 217.1875"
      style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.956863">
     <title
-       id="title2441-3-3">Линия от KM1.1 до L1 (включено)</title>
+       id="title2441-3-3">Линия от KM1.1 до L1 (выключено)</title>
   </path>
   <g
      id="ln0700204220632"
@@ -9000,12 +9001,13 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
+     inkscape:label="#ln0701004220632"
      inkscape:connector-curvature="0"
-     id="ln0701004220631"
+     id="ln0701004220632"
      d="m 2141.0261,1377.7242 v 217.1875"
      style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.956863">
     <title
-       id="title2441-3-3-5">Линия от KM2.1 до L2 (включено)</title>
+       id="title2441-3-3-5">Линия от KM2.1 до L2 (выключено)</title>
   </path>
   <g
      id="ln0700304220632"
@@ -9045,12 +9047,13 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
+     inkscape:label="#ln0701104220632"
      inkscape:connector-curvature="0"
-     id="ln0701104220631"
+     id="ln0701104220632"
      d="m 2439.0854,1380.8906 v 224.3125"
      style="fill:none;stroke:#007600;stroke-width:3.04881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.956863">
     <title
-       id="title2441-3-3-5-1">Линия от KM3.1 до L3 (включено)</title>
+       id="title2441-3-3-5-1">Линия от KM3.1 до L3 (выключено)</title>
   </path>
   <g
      id="ln0700404220632"
@@ -10145,8 +10148,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
-       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95686275"
-       d="m 3106.146,1353.5883 v 259.4375"
+       style="fill:none;stroke:#007600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.956863"
+       d="m 3105.9853,1356.4193 v 259.4375"
        id="path25027-6-6"
        inkscape:connector-curvature="0" />
   </g>
@@ -11702,7 +11705,8 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.0552px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.986964"
        x="886.04718"
        y="1376.4963"
-       id="txtB1-4"><tspan
+       id="txt04-004.1"
+       inkscape:label="#txt04-004.1"><tspan
          style="stroke-width:0.986964"
          sodipodi:role="line"
          id="tspan2544-7"
@@ -12441,7 +12445,8 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="890.00854"
        y="1477.9197"
-       id="txtC1-4-8"><tspan
+       id="txt04-007.1"
+       inkscape:label="#txt04-007.1"><tspan
          sodipodi:role="line"
          id="tspan2544-7-2-5"
          x="890.00854"

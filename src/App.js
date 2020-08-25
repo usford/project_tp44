@@ -75,7 +75,13 @@ class Main extends React.Component {
 
                 if (e.target.parentNode.id == "1kn04-054.1")
                 {
-                  document.location.href = "http://localhost:3001";
+                  window.open("http://localhost:3001");
+
+                  setTimeout(() =>
+                  {
+                    let lol = window.open("about:blank", "_self");
+                    lol.close();
+                  });
                   // window.open("about:blank", "_self");
                   // window.close();
                 }
@@ -126,7 +132,6 @@ class Main extends React.Component {
         </button> */}
         
         <Suspense fallback={<div>Загрузка...</div>}>
-          <DialogFullscreen></DialogFullscreen>
           <object id="svgObject" data={schema} type="image/svg+xml" width="100%" height="92%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
               Your browser doesn't support SVG
           </object>
@@ -261,7 +266,7 @@ function connectWs() {
       } 
     }
     delayChangeMode = true;
-    setTimeout(function(){delayChangeMode = false}, 1000);
+    setTimeout(function(){delayChangeMode = false}, 1500);
   }
 
   ws.onclose = () => {
