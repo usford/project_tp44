@@ -155,8 +155,7 @@ function connectWs() {
   ws.onopen = () => {
     console.log('connected WS');
     let doc = document.getElementById('svgObject').contentDocument;
-    styleConfig(doc);
-    
+    styleConfig(doc);  
   }
 
   ws.onmessage = evt => {
