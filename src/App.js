@@ -258,10 +258,10 @@ function connectWs() {
         if (item.value == 1)
         {
           doc.getElementById(item.control).style.opacity = 1;
-        }else
+        }else if (item.value == 0)
         {
           doc.getElementById(item.control).style.opacity = 0.3;
-        } 
+        }
       } 
     }
     delayChangeMode = true;
