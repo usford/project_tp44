@@ -62,12 +62,14 @@ class Main extends React.Component {
 
               elem.addEventListener('click', (e) => {
                 if (e.target.parentNode.tagName != "g") {
-                  if (!delayChangeMode)
+                  let opacity = doc.getElementById(e.target.parentNode.parentNode.id).style.opacity;
+                  if (!delayChangeMode && opacity != 0.3)
                   {
                     sendButton(ws, e.target.parentNode.parentNode.id);
                   }
                 } else {
-                  if (!delayChangeMode)
+                  let opacity = doc.getElementById(e.target.parentNode.id).style.opacity;
+                  if (!delayChangeMode && opacity != 0.3)
                   {
                     sendButton(ws, e.target.parentNode.id);
                   }   
@@ -357,7 +359,7 @@ export function clickRect(id) {
 
 }
 
-//Отправка id кнопка на сервер
+//Отправка id кнопки на сервер
 function sendButton(ws, id) {
   ws.send(JSON.stringify({ type: "pressedButton", id: id }));
 }
