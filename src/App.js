@@ -61,14 +61,36 @@ class Main extends React.Component {
               elem.style.cursor = "pointer";
 
               elem.addEventListener('click', (e) => {
+                let opacity = 1;
                 if (e.target.parentNode.tagName != "g") {
-                  let opacity = doc.getElementById(e.target.parentNode.parentNode.id).style.opacity;
+                  if (doc.getElementById(e.target.parentNode.parentNode.id) != null )
+                  {
+                    opacity = doc.getElementById(e.target.parentNode.parentNode.id).style.opacity;
+                  }
+
+                  if (e.target.parentNode.parentNode.id == "1kn04-032.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-033.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-034.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-035.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-036.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-037.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-038.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-039.2"
+                  ||  e.target.parentNode.parentNode.id == "1kn04-040.2")
+                  {
+                    opacity = 1;
+                  }
+
                   if (!delayChangeMode && opacity != 0.3)
                   {
                     sendButton(ws, e.target.parentNode.parentNode.id);
                   }
                 } else {
-                  let opacity = doc.getElementById(e.target.parentNode.id).style.opacity;
+                  if (doc.getElementById(e.target.parentNode.id) != null)
+                  {
+                    opacity = doc.getElementById(e.target.parentNode.id).style.opacity;
+                  }
+                  
                   if (!delayChangeMode && opacity != 0.3)
                   {
                     sendButton(ws, e.target.parentNode.id);
