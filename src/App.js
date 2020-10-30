@@ -47,6 +47,10 @@ class Main extends React.Component {
         let ws;
         let doc = document.getElementById('svgObject').contentDocument;
 
+        doc.getElementById(`txt04-355`).innerHTML = '';
+        doc.getElementById(`txt04-366`).innerHTML = '';
+        doc.getElementById(`txt04-377`).innerHTML = '';
+
         if (!isWs) ws = connectWs();
         
         let elements = doc.querySelectorAll("g");
@@ -83,7 +87,7 @@ class Main extends React.Component {
 
                   if (!delayChangeMode && opacity != 0.3)
                   {
-                    sendButton(ws, e.target.parentNode.parentNode.id);
+                    sendButton(ws, e.target.parentNode.parentNode.id, doc);
                   }
                 } else {
                   if (doc.getElementById(e.target.parentNode.id) != null)
@@ -93,7 +97,7 @@ class Main extends React.Component {
                   
                   if (!delayChangeMode && opacity != 0.3)
                   {
-                    sendButton(ws, e.target.parentNode.id);
+                    sendButton(ws, e.target.parentNode.id, doc);
                   }   
                 }
 
@@ -159,10 +163,7 @@ class Main extends React.Component {
           <object id="svgObject" data={schema} type="image/svg+xml" width="100%" height="92%" style={{ border: "1px solid black", backgroundColor: "white", marginLeft: "15px", marginTop: "10px" }}>
               Your browser doesn't support SVG
           </object>
-        </Suspense>
-
-        
-        
+        </Suspense> 
       </div>
     );
   }
@@ -270,12 +271,16 @@ function connectWs() {
         changeControls(item.control, item.value);
       } 
     }else if (message.controlsPanels != null) {
+      let counter = 0;
       for (let item of message.controlsPanels)
       {
         if (item.value == 1)
         {
           line(item.control);
+          counter++;
         } 
+
+        if (counter == 0) line("empty");
       }
     }else if (message.controlsButtons != null) {
       for (let item of message.controlsButtons) {
@@ -287,6 +292,11 @@ function connectWs() {
           doc.getElementById(item.control).style.opacity = 0.3;
         }
       } 
+    }else if (message.stateTimers != null) {
+      message.stateTimers.forEach((timer) =>
+      {
+        doc.getElementById(timer.id).value = timer.value;
+      });
     }
     delayChangeMode = true;
     setTimeout(function(){delayChangeMode = false}, 1500);
@@ -382,7 +392,40 @@ export function clickRect(id) {
 }
 
 //Отправка id кнопки на сервер
-function sendButton(ws, id) {
+function sendButton(ws, id, doc) {
+  if (id == "1kn04-010.1"
+  ||  id == "1kn04-013.1"
+  ||  id == "1kn04-016.1"
+  ||  id == "1kn04-019.1")
+  {
+    let num008_1 = doc.getElementById("num04-008.1").value;
+    let num008_2 = doc.getElementById("num04-008.2").value;
+
+    let num009_1 = doc.getElementById("num04-009.1").value;
+    let num009_2 = doc.getElementById("num04-009.2").value;
+
+    let num010_1 = doc.getElementById("num04-010.1").value;
+    let num010_2 = doc.getElementById("num04-010.2").value;
+
+    let num011_1 = doc.getElementById("num04-011.1").value;
+    let num011_2 = doc.getElementById("num04-011.2").value;
+
+    let activeTimers = [];
+
+    activeTimers.push({id: "num04-008.1", value: num008_1});
+    activeTimers.push({id: "num04-008.2", value: num008_2});
+
+    activeTimers.push({id: "num04-009.1", value: num009_1});
+    activeTimers.push({id: "num04-009.2", value: num009_2});
+
+    activeTimers.push({id: "num04-010.1", value: num010_1});
+    activeTimers.push({id: "num04-010.2", value: num010_2});
+
+    activeTimers.push({id: "num04-011.1", value: num011_1});
+    activeTimers.push({id: "num04-011.2", value: num011_2});
+
+    ws.send(JSON.stringify({type: "stateTimers", activeTimers: activeTimers}));
+  }
   ws.send(JSON.stringify({ type: "pressedButton", id: id }));
 }
 

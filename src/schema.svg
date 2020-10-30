@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="schema.svg"
    viewBox="0 0 5767.5589 2184.567"
    height="578mm"
@@ -28,6 +29,86 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <foreignObject
+     x="600"
+     y="1580"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-008.1"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="700"
+     y="1580"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-008.2"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="600"
+     y="1620"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-009.1"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="700"
+     y="1620"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-009.2"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="600"
+     y="1665"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-010.1"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="700"
+     y="1665"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-010.2"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="600"
+     y="1700"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-011.1"
+       size="10"
+       value="20"/>
+  </foreignObject>
+  <foreignObject
+     x="700"
+     y="1700"
+     width="50"
+     height="400">
+    <xhtml:input
+       id="num04-011.2"
+       size="10"
+       value="20"/>
+  </foreignObject>
   <defs
      id="defs1392">
     <inkscape:path-effect
@@ -7748,13 +7829,13 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="svg1388"
+     inkscape:current-layer="panelLine"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:cy="849.83766"
-     inkscape:cx="483.33022"
-     inkscape:zoom="0.70710678"
+     inkscape:window-x="1912"
+     inkscape:cy="558.97121"
+     inkscape:cx="54.42219"
+     inkscape:zoom="0.5"
      units="mm"
      showgrid="false"
      id="namedview1390"
@@ -9427,8 +9508,7 @@
          height="61.871841"
          width="24.306795"
          id="rect3845" /></flowRegion><flowPara
-       id="flowPara3847" /></flowRoot>
-  <text
+       id="flowPara3847" /></flowRoot>  <text
      transform="matrix(0,-1.0004656,0.99953463,0,0,0)"
      id="text4769-3-2-1-4-9-7-21"
      y="1744.3508"
@@ -9630,8 +9710,7 @@
          height="50"
          width="214.0625"
          id="rect4077" /></flowRegion><flowPara
-       id="flowPara4079" /></flowRoot>
-  <text
+       id="flowPara4079" /></flowRoot>  <text
      transform="scale(0.95579249,1.0462522)"
      id="text4769-3-2-1-4-9-8-6-0-5-1"
      y="709.69843"
@@ -9934,8 +10013,7 @@
          height="62.5"
          width="78.125"
          id="rect4335" /></flowRegion><flowPara
-       id="flowPara4337" /></flowRoot>
-  <flowRoot
+       id="flowPara4337" /></flowRoot>  <flowRoot
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot1316"
      xml:space="preserve"><flowRegion
@@ -9945,8 +10023,7 @@
          height="104.96116"
          width="14.363106"
          id="rect1320" /></flowRegion><flowPara
-       id="flowPara1322" /></flowRoot>
-  <ellipse
+       id="flowPara1322" /></flowRoot>  <ellipse
      ry="4.2122569"
      rx="4.6265774"
      cy="300.30698"
@@ -9964,8 +10041,7 @@
          height="48.437496"
          width="42.1875"
          id="rect1946-2-1-4-0-0" /></flowRegion><flowPara
-       id="flowPara1948-1-5-2-1-4">101000</flowPara></flowRoot>
-  <ellipse
+       id="flowPara1948-1-5-2-1-4">101000</flowPara></flowRoot>  <ellipse
      ry="1.8636425"
      rx="1.4815848"
      cy="910.0177"
@@ -10629,8 +10705,7 @@
          height="211"
          width="541"
          id="rect5807" /></flowRegion><flowPara
-       id="flowPara5809" /></flowRoot>
-  <flowRoot
+       id="flowPara5809" /></flowRoot>  <flowRoot
      style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot5811"
      xml:space="preserve"><flowRegion
@@ -10640,8 +10715,7 @@
          height="123"
          width="263"
          id="rect5815" /></flowRegion><flowPara
-       id="flowPara5817" /></flowRoot>
-  <text
+       id="flowPara5817" /></flowRoot>  <text
      id="text2542"
      y="1333.8429"
      x="888.35254"
@@ -11649,8 +11723,8 @@
      id="panelLine">
     <rect
        rx="1.6826694e-15"
-       y="1132.8513"
-       x="308.99121"
+       y="1108.8513"
+       x="-425.00879"
        height="680.92938"
        width="756.76215"
        id="rect2101-5-9"
@@ -12017,190 +12091,6 @@
            x="927.9248"
            y="1629.087">Установить</tspan></text>
     </g>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-5-6)"
-       id="num04-008.3"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,272.53687,662.13286)">
-      <title
-         id="title4989">время ч включения 1 лин С</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="623.15302"
-       y="1535.0522"
-       id="txtB1-8"><tspan
-         style="stroke-width:1.70751"
-         y="1535.0522"
-         x="623.15302"
-         id="tspan2248-5"
-         sodipodi:role="line">21</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-8-2)"
-       id="num04-011.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,272.16222,698.76707)">
-      <title
-         id="title4995">время ч выключения 1 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="622.76257"
-       y="1570.207"
-       id="txtB1-11"><tspan
-         style="stroke-width:1.70751"
-         id="tspan2292-9"
-         sodipodi:role="line"
-         x="622.76257"
-         y="1570.207">3</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-3-4-3)"
-       id="num04-014.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,272.50921,742.62904)">
-      <title
-         id="title5001">время ч включения 2 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="623.12421"
-       y="1612.2981"
-       id="txtB1-14"><tspan
-         style="stroke-width:1.70751"
-         y="1612.2981"
-         x="623.12421"
-         id="tspan2248-4-2"
-         sodipodi:role="line">5</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-4-86)"
-       id="num04-009.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,379.73355,661.92305)">
-      <title
-         id="title4991">время мин включения 1 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="734.86066"
-       y="1534.8511"
-       id="txtB1-9"><tspan
-         style="stroke-width:1.70751"
-         id="tspan2360-2"
-         sodipodi:role="line"
-         x="734.86066"
-         y="1534.8511">15</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-0-9)"
-       id="num04-012.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,379.03954,697.71444)">
-      <title
-         id="title4997">время мин выключения 1 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="734.13745"
-       y="1569.1969"
-       id="txtB1-12"><tspan
-         style="stroke-width:1.70751"
-         id="tspan2404-2"
-         sodipodi:role="line"
-         x="734.13745"
-         y="1569.1969">10</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-0-9-3-7)"
-       id="num04-018.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,379.03954,778.42044)">
-      <title
-         id="title5009">время мин выключения 2 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="734.13745"
-       y="1646.644"
-       id="txtB1-18"><tspan
-         style="stroke-width:1.70751"
-         id="tspan2404-5-3"
-         sodipodi:role="line"
-         x="734.13745"
-         y="1646.644">10</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-9-6-0-2)"
-       id="num04-015.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,379.03955,742.62904)">
-      <title
-         id="title5003">время мин включения 2 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="734.13745"
-       y="1612.2981"
-       id="txtB1-15"><tspan
-         style="stroke-width:1.70751"
-         id="tspan2360-6-2"
-         sodipodi:role="line"
-         x="734.13745"
-         y="1612.2981">15</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;filter:url(#filter2538-4-5-6-6-0-3)"
-       id="num04-017.1"
-       width="159.00984"
-       height="36.795666"
-       x="869.95471"
-       y="1324.644"
-       transform="matrix(0.37355267,0,0,0.69288079,272.50921,778.42044)">
-      <title
-         id="title5007">время ч выключения 2 лин А</title>
-    </rect>
-    <text
-       transform="scale(0.95961776,1.0420816)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4233px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70751"
-       x="623.12421"
-       y="1646.644"
-       id="txtA1-17-2"><tspan
-         style="stroke-width:1.70751"
-         id="tspan2292-6-1"
-         sodipodi:role="line"
-         x="623.12421"
-         y="1646.644">7</tspan></text>
     <text
        transform="scale(0.95961776,1.0420816)"
        xml:space="preserve"
@@ -12383,13 +12273,13 @@
     <text
        transform="scale(0.98344024,1.0168386)"
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.0237px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76316"
-       x="384.37833"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.02370071px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76315999"
+       x="375.75018"
        y="1572.8628"
        id="text6-7-0"><tspan
-         style="stroke-width:1.76316"
+         style="stroke-width:1.76315999"
          y="1572.8628"
-         x="384.37833"
+         x="375.75018"
          id="tspan1913-7-2"
          sodipodi:role="line">Время включения 1</tspan></text>
     <rect
@@ -12477,4 +12367,34 @@
      height="39.59798"
      width="113.13708"
      id="rect2126-8" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="1109.1523"
+     y="765.96411"
+     id="txt04-355"><tspan
+       sodipodi:role="line"
+       id="tspan2940"
+       x="1109.1523"
+       y="765.96411">руч</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="1110.5665"
+     y="840.91742"
+     id="txt04-366"><tspan
+       sodipodi:role="line"
+       id="tspan2940-3"
+       x="1110.5665"
+       y="840.91742">руч</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="1110.5665"
+     y="918.69916"
+     id="txt04-377"><tspan
+       sodipodi:role="line"
+       id="tspan2940-37"
+       x="1110.5665"
+       y="918.69916">руч</tspan></text>
 </svg>

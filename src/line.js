@@ -18,6 +18,11 @@ export default function line(lineChar)
             nameLine = "Линия C";
             break;
         }
+        case "empty":
+        {
+            nameLine = "Пусто"
+            break;
+        }
     }
     let doc = document.getElementById('svgObject').contentDocument;
     doc.getElementById("panelLine").style.display = "block";
